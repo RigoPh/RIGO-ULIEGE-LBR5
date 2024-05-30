@@ -1,0 +1,64 @@
+1.1.4
+1								IANA = 1 (LBR-4); IANA = 2 (calcul réglementaire)
+New Project
+0  -2  1  1  1  5  0  1  0					IMPR, IMPR2, INDAIG, INDRAID ,DESSIN ,JLPH ,JLBORD ,NETO ,NDQ
+0  1.000  0.333  0.333  0.333  0.000000  0.000000  0.000000
+0  10								IOPTI (1 oui. 0 non) et ITERAM = nbre d'itération
+0								ICOUT
+1.0000  0.1050							REND, EQP(0.01<k=EQP<0.1)
+0.0080  0.0080  0.0080						Eo, Eox, Eoy  (épaisseur de référence en m)
+0.3570  0.4570  0.4290  0.0000					Prix Matér. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0920  0.0400							MdO Bordé: P10(h-h/m).DP10(variation par mm)
+0.5000  1.3400  0.0200  0.0200					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+0.0000  0.0000  0.0000  0.0000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+0.2500  1.2200  1.0000  1.0000					MdO Joints  : P6(intersect).P7(gousset).Béta-X(long.).Béta-Y(transv)
+2.1430  0.0500  1.0000  0.0000					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+20.0000  0.0000							Longueur du tronçon (WIDTH), Longueur reglementaire du navire
+0.0000  2.5000  5.0000  7.5000  10.0000			Section de calcul (DIS)
+0.0000  0.0000  0.0000  0.0000  0.0000  0.0000			Cisaillement des semelles (FAM)
+1								IPOIDS ( 1 OUI. 0 NON)
+1  1  1
+Load Case 1
+EPONTILLE     PANNEAU NO 1          ======================================================================================
+-5.000000  0.00500							Hauteur. Epaisseur. (m)
+CARRE
+2.00000 5.00000							Ecartement. Longueur effective
+0.10000  0.00000								Largeur extérieure; ép. corrosion
+210000000000  0.00  235000000  175000000  78500			E. Poisson. Sy. Sadm. Poids Specifique
+0  0  0  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							Load Case 1
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.00500  0.10000  0.00000  0.00000  2.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+BOUNDARY CONDITIONS
+2								Nbre de conditions de bords
+1  1								nbre panneau. nbre condition
+2  1								nbre panneau. nbre condition
+GRAVITY CENTER LOCATION - REPERE UTILISATEUR + RESTRICTION SUR LE CENTRE DE GRAVITE
+0.0000  0.0000						(XK.YK) Coord du centre du repere utilisateur
+0  0.0000  0.0000						IGRAV(NO:0;Min:1;MAX:2;Min et max:3).KGMIN.KGMAX
+INERTIA CONSTRAINT
+0  0
+SECTION MODULUS CONSTRAINT
+0  0  0
+WEIGHT CONSTRAINT
+0  0
+COST CONSTRAINT
+0  0  0
+MOMENTS
+0								= 0:pas de moment. = 1:avec moment
+EQUALITY CONSTRAINTS
+0								Nbre de restrictions d'égalité
+ULTIMATE STRENGTH - SHIP GIRDER
+0								IRESTR: utilisation comme restriction ; 0 = NON;1 = OUI
+0								IULT =0 No analysis. = 1 for PAIK/Caldwell. = 2 for PROCOL(Smith). = 3  for...

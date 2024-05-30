@@ -1,0 +1,11 @@
+Default Design Variables [m]
+****************************
+0.005	0.030	plate thickness
+0.350	1.200	frame web height
+0.005	0.020	frame web thickness
+0.050	0.400	frame flange width
+2.000	3.500	frame spacing
+0.080	0.300	stiffener web height
+0.005	0.020	stiffener web thickness
+0.010	0.100	stiffener flange width
+0.500	0.900	stiffener spacing

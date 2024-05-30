@@ -1,0 +1,96 @@
+A améliorer sur le tutorial
+===========================
+
+ok- Vérifier entredistance des cadres en fonction de la longueur (29m/1.2m n'est pas un entier)
+ok- Vérifier entredistance des épontilles par rapport à entredistance des cadres (5m/1.2m n'est pas un entier)
+ok- Vérifier la cohérence d'un tirant d'eau au niveau du premier pont
+ok- Placer des hiloires sous les épontilles sauf si cloison longitudinale 
+ok- Vérifier l'ordre de grandeur des moments en hogging et sagging (déformation en hogging dans les 2 cas de charge)
+ok- Restriction structurelle 12 plutôt que 11 (à voir)
+ok- Imposer des restrictions structurelles sur les lisses
+ok- Restrictions d'égalité: appuyer sur "=" avant apply
+ok- Séparer le tutorial de l'aide pour l'appel depuis l'interface
+
+Interface
+=========
+
+- Sections de calcul: imposer Xsection1=0 et Xsection5=L/2
+ok- Qd on conserve les solutions,la position de l'axe neutre est à 0 après réouverture du fichier lbr
+- Ne pas ouvrir automatiquement le fichier bug
+ok- Le fichier Final Scantlings est vide après avoir fait tourner Tutorial(opti).lbr
+ok- Tracer un diagramme de moment sur la longueur du tronçon modélisé
+ok- Changer ISEMA et ISEMR par des noms plus explicites
+ok- Colonne "contrainte admissible" dans définition des "matériaux" seulement utilisée dans restriction 4
+ok- Set de restrictions structurelles ou lignes de restrictions structurelles par défaut
+- Optimization>Cost accessible uniquement si on choisit une fonction objectif autre que le poids
+ok- Restrictions inaccessibles pour les éléments épontilles
+ok- Afficher les inerties flexionnelles globales
+ok- Restrictions d'égalité: faciliter l'introduction dépendant-indépendant
+ok- Ne pas afficher les valeurs en 31 points lorsqu'on actionne SINGLE SELECTION
+ok- Evolution du centre de gravité disponible même si la restriction sur le centre de gravité n'est pas activée
+- Changer les noms des listings "Solution 1" et "Solution 2"
+ok- Pour effacer un élément, prévoir une exécution dans "Model"
+ok- Pouvoir introduire des moments de signe différent aux 2 extrémités de la structure
+ok- Première sauvegarde via "Save" ouvrir la boîte de dialogue "Save As"
+- Dans "General Solution" ne pas pouvoir accéder aux résultats n'ayant pas été calculés suite à IMPR ("Output")
+ok- Pression positive => sens vers le panneau
+- Tests sur les restrictions géométriques (variables de conception et grandeurs fixes)
+- Message d'erreur bornes des variables de conception impossible à fermer
+ok- Afficher les restrictions violées avec l'échantillonnage initial: démarche systématique = partir d'un échantillonnage amissible
+ok- Restrictions géométriques BV: 
+PART B, Chap 7, Section 2, Par.1-4
+PART B, Chap 4, Section 3, Par.3-4
+PART B, Chap 7, Section 2, Par.2-2
+ok- Paramètres de simplified cost: mettre à la place de currency l'unité monétaire considérée
+ok- Vérifier le nom du fichier lors de l'enregistrement: pas d'espace
+ok- Afficher un message d'erreur si "error" ou "no feasible solution" apparaissent dans "optimization
+ok- Restrictions structurelles, obliger d'appuyer sur Apply avant Close => Utiliser un bouton OK
+ok- Suppression de variables de conception => suppression des restrictions d'égalité associées, idem avec restrictions structurelles et restrictions géométriques
+ok- Restrictions structurelles: copy entre cas de charge
+ok- Restrictions 15 ne peuvent pas être activées pour des panneaux ne présentant pas de lisses
+ok- Copier bornes de variables de conception: bug pour les panneaux où l'échantillonnage de départ n'est pas compris entre les bornes
+- Superposition des Options Display (épaisseur de tôle et entredistance des stiffeners par ex)
+ok- Visualiser les sensibilités des variables de conception (diagramme camembert, ...)
+
+Code
+====
+
+- Restrictions d'égalité du type: XI(J) = XI(K) + 2mm
+- Restrictions d'inégalité: XI(J) <= XI(K) + 2mm
+- Paramétrer les restrictions géométriques: Dw <= 2*Df, paramétrer le 2
+ok- Définir un set de restrictions géométriques Alstom
+ok- Restriction structurelle 12 et 13, calcul de la largeur collaborante?
+ok- Restriction 4 éventuellement à modifier ou créer une nouvelle restriction pour "coller" avec prescription réglementaire.
+- Restrictions BV à la place des restrictions LBR5
+- Ratio (coefficient de sécurité) pour les bornes des restrictions structurelles plutôt que des valeurs absolues
+ok- Restrictions sur les déplacements: considérer les valeurs absolues
+ok- Tout comme pour les lisses, modifier les restrictions sur les girders pour tenir compte de leur flexion locale entre cadres
+ok- Ne pas tenir compte des traverses dans le calcul des charges axiales à partir des moments appliqués
+ok- Calculer les réactions d'appui aux extrémités du modèle
+ok- Nombre de restrictions structurelles identique pour tous les cas de charge
+ok- Fonction objectif = inertie pour un poids donné
+ok- Ploc par cas de charge
+- Restrictions sur contraintes normales dans une direction plutôt que combinaison de Von Mises (injecter un coefficient de Poisson nul dans les restrictions)
+ok- Maille pour la vérification du voilement délimitée par les cadres primaires et non secondaires peu importe leur taille
+ok- Ajout éventuel de l'épaisseur de la semelle des cadres comme variable de conception réelle (à discuter et non urgent)
+
+
+
+Cas de chargement
+=================
+
+Bureau Veritas
+--------------
+
+Calcul poutre navire (avec flambement): moment 10-8 (hogging et sagging) sans pressions statiques (en épaisseurs brutes) => uniquement restriction 4 (voilement + plasticité) et restriction 15 (flambement des stiffeners)
+Calcul réglementaire (pl²/10): moment 10-5 (hogging et sagging) avec pressions statiques et dynamiques (en épaisseurs nettes)
+
+Lloyd's
+-------
+
+Calcul poutre navire (avec flambement): moment 10-8 (hogging et sagging) sans pressions statiques (en épaisseurs brutes)
+Calcul réglementaire (pl²/10): moment 10-5 (hogging et sagging) avec pressions statiques (modifiées) (en épaisseurs nettes)
+
+
+Première lecture du BV: limite des restrictions 22, 24, 35, 36 et 12 différentes de la limite élastique: 22, 24 (Gm.Gr=1.04), 35, 36 (Gm.Gr=1.04) et 12 (idem 35,36)
+

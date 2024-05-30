@@ -1,0 +1,163 @@
+
+<html>
+<head>
+<title>Restrictions structurelles</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Restrictions structurelles</h2>
+<p>
+
+
+    <p>Les restrictions structurelles peuvent &ecirc;tre d&eacute;termin&eacute;es dans l'onglet "structural constraints" du chapitre "optimization" de la barre de Menu. Le tableau suivant appara&icirc;t :
+    <br>
+    <img src="images/fig59.png"></p>
+
+    <p>&nbsp;</p>
+
+    <ul class="noindent">
+      <li>Panels : choisir le panneau pour lequel les restrictions structurelles sont introduites.</li>
+
+      <li>Load Cases :&nbsp;Choisir le cas de charge qui correspond aux restrictions.&nbsp;Une liste des restrictions s&eacute;lectionn&eacute;es est propre &agrave; chaque cas de charge.&nbsp;</li>
+
+      <li>References : Cliquer sur ce bouton pour obtenir la liste des restrictions structurelles disponibles.</li>
+    </ul>
+
+    <p><img src="images/fig60.png"></p>
+
+    <p>Cliquer sur "Expand List" pour obtenir la liste compl&egrave;te suivante :</p>
+
+    <p><u>D&eacute;placements absolus de la structure globale (limite positive ou n&eacute;gative)</u></p>
+
+    <p>1. V d&eacute;placement absolu selon OX</p>
+
+    <p>2. U d&eacute;placement absolu selon OY</p>
+
+    <p>3. W d&eacute;placement absolu selon OZ</p>
+
+    <p><u>Voilement</u> : Les risques de voilement (instabilit&eacute; des plaques) deviennent critiques lorsque la contrainte de Von Mises approche sa valeur admissible. Cette restriction prend en compte&nbsp;la contrainte de flexion locale des raidisseurs.</p>
+
+    <p>4. Epaisseur minimum de la plaque</p>
+
+    <p><u>D&eacute;placements relatifs de la structure globale (limite positive ou n&eacute;gative)</u></p>
+
+    <p>5. W1 fl&egrave;che relative par rapport au noeud de d&eacute;part</p>
+
+    <p>6. W2 fl&egrave;che relative par rapport au noeud d'arriv&eacute;e</p>
+
+    <p>7. W3 fl&egrave;che relative par rapport &agrave; la moyenne des d&eacute;placements des deux noeuds.</p>
+
+    <p><u>Plastification&nbsp;de la plaque (Von Mises)</u>: Les contraintes relatives &agrave; Von Mises agissant sur la plaque&nbsp;reprennent le moment de flexion global des traverses (contrainte primaire) et le moment de flexion des cadres soumis &agrave; des forces lat&eacute;rales (contrainte secondaire). Cette limite doit toujours &ecirc;tre positive.</p>
+
+    <p>11. Contrainte de Von Mises (contraintes primaires seules) &agrave; mi-&eacute;paisseur de la plaque et mi-longueur de la structure.</p>
+
+    <p>12. Contrainte de von Mises (contrainte primaire + secondaire longitudinale) &agrave; mi-&eacute;paisseur de la plaque et mi-longueur de la structure.</p>
+
+    <p>13. Contrainte de von Mises (contrainte primaire + secondaires longitudinale et transversale) &agrave; mi-&eacute;paisseur de la plaque et mi-longueur de la structure.</p>
+
+    <p><u>R&eacute;sistance&nbsp;Ultime des plaques raidies</u> : Le charge ultime est calcul&eacute;e par la formule de Paik.</p>
+
+    <p>15. Rapport de la&nbsp;charge axiale&nbsp;moyenne et la charge ultime.</p>
+
+    <p><u>Plastification&nbsp;de la plaque (Von Mises)-suite</u>:</p>
+
+    <p>16. Contrainte de von Mises (cisaillement&nbsp;primaire seul) &agrave; mi-&eacute;paisseur de la plaque et&nbsp;aux extr&eacute;mit&eacute;s&nbsp;de la structure.</p>
+
+    <p>17.Contrainte de von Mises (contrainte primaire seule)&nbsp;sur la face sup&eacute;rieure&nbsp;de la plaque et mi-longueur de la structure.</p>
+
+    <p>18. Contrainte de von Mises (contrainte primaire seule)&nbsp;sur la face inf&eacute;rieure&nbsp;de la plaque et mi-longueur de la structure.</p>
+
+    <p><u>Plastification&nbsp;des cadres (transversal) (Von Mises)</u> :</p>
+
+    <p>21. Contrainte de von Mises (cisaillement)&nbsp;dans l'&acirc;me du cadre &agrave; la jonction &acirc;me- semelle ou &acirc;me bordage et&nbsp;aux extr&eacute;mit&eacute;s&nbsp;de la structure.</p>
+
+    <p>22. Contrainte de von Mises&nbsp;dans l'&acirc;me du cadre&nbsp;&agrave; la jonction &acirc;me-semelle et mi-longueur de la structure.</p>
+
+    <p>23. Contrainte de von Mises (cisaillement)&nbsp;dans l'&acirc;me du cadre &agrave; la jonction &acirc;me- semelle ou &acirc;me bordage et&nbsp;aux extr&eacute;mit&eacute;s&nbsp;de la structure. (idem 21)</p>
+
+    <p>24. Contrainte de von Mises&nbsp;dans&nbsp;le cadre&nbsp;&agrave; la jonction &acirc;me-bordage et mi-longueur de la structure.</p>
+
+    <p>25. Contrainte de von Mises&nbsp;dans&nbsp;la semelle&nbsp;du cadre&nbsp;&agrave;&nbsp;mi-longueur de la structure.</p>
+
+    <p><u>Plastification&nbsp;des cadres et raidisseurs et fl&egrave;ches locales</u> :</p>
+
+    <p>Plastification due au moment primaire seul (peu recommand&eacute;) :</p>
+
+    <p>31. Contrainte de von Mises (cisaillement)&nbsp;dans l'&acirc;me du&nbsp;raidisseur &agrave; la jonction &acirc;me-bordage et&nbsp;aux extr&eacute;mit&eacute;s&nbsp;de la structure.&nbsp;</p>
+
+    <p>32. Contrainte de von Mises&nbsp;dans&nbsp;la semelle des&nbsp;raidisseurs&nbsp;&agrave; mi-longueur de la structure.</p>
+
+    <p>Plastification due au moment primaire et au moment local des raidisseurs (longitudinal):</p>
+
+    <p>33. Contrainte de comparaison dans l'&acirc;me du&nbsp;raidisseur &agrave; la jonction &acirc;me-bordage et&nbsp;aux extr&eacute;mit&eacute;s&nbsp;de la structure.</p>
+
+    <p>34. Contrainte de comparaison dans&nbsp;la semelle des&nbsp;raidisseurs&nbsp;&agrave; mi-longueur de la structure.</p>
+
+    <p>35. Contrainte de comparaison &agrave; la jonction &acirc;me-bordage du raidisseur &agrave; mi-longueur de la structure.</p>
+
+    <p>36. Contrainte de comparaison &agrave; la jonction &acirc;me-semelle du raidisseur &agrave; mi-longueur de la structure.</p>
+
+    <p><u>Plastification des traverses (Von Mises)</u> :</p>
+
+    <p>41. Contrainte de von Mises (cisaillement)&nbsp;dans l'&acirc;me de la traverse&nbsp;&agrave; la jonction &acirc;me- semelle&nbsp;et&nbsp;aux extr&eacute;mit&eacute;s&nbsp;de la structure.</p>
+
+    <p>42. Contrainte de von Mises (cisaillement)&nbsp;dans l'&acirc;me de la traverse&nbsp;&agrave; la jonction &acirc;me-&nbsp;bordage&nbsp;et&nbsp;aux extr&eacute;mit&eacute;s&nbsp;de la structure.</p>
+
+    <p>43. Contrainte de von Mises&nbsp;dans la semelle&nbsp;de la traverse&nbsp;&agrave; mi-longueur&nbsp;de la structure.</p>
+
+    <p><u>Fl&egrave;che des raidisseurs (flexion locale)</u> :</p>
+
+    <p>51. Fl&egrave;che des raidisseurs dans le cas d'un encastrement aux deux extr&eacute;mit&eacute;s.</p>
+
+    <p>52. Fl&egrave;che des raidisseurs dans le cas d'un appui simple aux deux extr&eacute;mit&eacute;s.</p>
+
+    <p><u>Plastification due &agrave; la flexion locale</u> :</p>
+
+    <p>La plaque et les raidisseurs qui la renforcent sont toujours consid&eacute;r&eacute;s comme solidaires&nbsp;. Ils repr&eacute;sentent une poutre. Dans ces restrictions, les contraintes admissibles sont&nbsp;relatives &agrave; la flexion locale des raidisseurs.</p>
+
+    <p>54. Contrainte maximum dans le semelle du raidisseur.</p>
+
+    <p>55. Contrainte maximum dans la t&ocirc;le renforc&eacute;e par le raidisseur.</p>
+
+    <p>56. Contrainte de cisaillement maximum dans la semelle du raidisseur.</p>
+
+    <p><u>Fl&egrave;che locale des plaques non raidies</u> :</p>
+
+    <p>La fl&egrave;che est calcul&eacute;e pour les t&ocirc;les situ&eacute;es entre 2 cadres et 2 raidisseurs.</p>
+
+    <p>57. &nbsp;Fl&egrave;che maximum de la plaque non raidie bi-encastr&eacute;e.</p>
+
+    <p>58. Fl&egrave;che maximum de la plaque non raidie bi-appuy&eacute;e.</p>
+
+    <p>&nbsp;</p>
+
+    <ul class="noindent">
+      <li>Pour ajouter une restriction &agrave; la liste des restrictions,&nbsp;cliquer sur "Add Restriction". Une nouvelle ligne appara&icirc;t dans le tableau suivant :</li>
+    </ul>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig61.png"></p>
+
+    <p>&nbsp; Pour oter une restriction s&eacute;lectionn&eacute;e dans ce tableau, cliquer sur Remove Restriction.</p>
+
+    <p>&nbsp;D&eacute;finition des restrictions:</p>
+
+    <p>1&deg; Introduire le num&eacute;ro de r&eacute;f&eacute;rence (Reference) de la restriction souhait&eacute;e. Ce num&eacute;ro peut &ecirc;tre relev&eacute; dans la liste reprise sous le bouton "references".</p>
+
+    <p>2&deg; Introduire la valeur limite maximum (Limit). Elle sera exprim&eacute;e en millim&egrave;tres s'il s'agit de d&eacute;placements ou en Newton par millim&egrave;tres s'il s'agit de contraintes.</p>
+
+    <p>3&deg; Introduire le sens de l'in&eacute;galit&eacute; (Bound): Pour une restriction de type&nbsp;"variable plus petite que la&nbsp;valeur maximale", indiquer 1. Pour une restriction de type&nbsp;"variable plus&nbsp;grande que la&nbsp;valeur maximale", indiquer -1. Ce dernier cas intervient lorsque la variable est n&eacute;gative.</p>
+
+    <p>4&deg; Introduire le point o&ugrave; cette restriction sera &eacute;valu&eacute;e (Points for constraint assessment). Le 1er point , soit indiquer "1", est situ&eacute; au noeud de d&eacute;part du panneau. Le 3&egrave; point , soit indiquer "3", est situ&eacute; au point d'arriv&eacute;e du panneau. Le 2&egrave; point, soit indiquer "2" est choisi &agrave; l'aide de l'&eacute;chelle suivante. Un seul point interm&eacute;diaire ne peut &ecirc;tre choisi par panneau.</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig62.png"></p>
+
+    <p>&nbsp;</p>
+
+    <p>Cliquer sur Apply pour enregistrer toute modification.</p>
+
+    <p>&nbsp;</p>
+
+
+<p>
+</body>
+</html>

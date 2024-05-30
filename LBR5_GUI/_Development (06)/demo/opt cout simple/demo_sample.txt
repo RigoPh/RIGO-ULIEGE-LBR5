@@ -1,0 +1,900 @@
+1.1.4
+1								IANA = 1 (LBR-4); IANA = 2 (calcul réglementaire)
+New Project
+0  -2  1  1  1  -5  0  20  0					IMPR, IMPR2, INDAIG, INDRAID ,DESSIN ,JLPH ,JLBORD ,NETO ,NDQ
+0  1.000  0.333  0.333  0.333  0.000000  0.000000  0.000000
+1  10								IOPTI (1 oui. 0 non) et ITERAM = nbre d'itération
+1								ICOUT
+1.0000  0.1050							REND, EQP(0.01<k=EQP<0.1)
+0.0080  0.0080  0.0080						Eo, Eox, Eoy  (épaisseur de référence en m)
+0.3570  0.4570  0.4290  0.0000					Prix Matér. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0920  0.0400							MdO Bordé: P10(h-h/m).DP10(variation par mm)
+0.5000  1.3400  0.0200  0.0200					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+0.0000  0.0000  0.0000  0.0000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+0.2500  1.2200  1.0000  1.0000					MdO Joints  : P6(intersect).P7(gousset).Béta-X(long.).Béta-Y(transv)
+2.1430  0.0500  1.0000  0.0000					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+29.0000  0.0000							Longueur du tronçon (WIDTH), Longueur reglementaire du navire
+0.0000  3.6250  7.2500  10.8750  14.5000			Section de calcul (DIS)
+0.0000  0.0000  0.0000  0.0000  0.0000  0.0000			Cisaillement des semelles (FAM)
+1								IPOIDS ( 1 OUI. 0 NON)
+2  2  1  2
+HOGGING
+SAGGING
+PLAQUE     PANNEAU NO 1          ======================================================================================
+-2.000000  0.00700							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.40000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.09000  0.00600  0.03000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+3.00000  3.00000							HOGGING
+2.00000  2.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+2  17  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 2          ======================================================================================
+-4.000000  0.00700							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.40000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.09000  0.00600  0.03000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+3.00000  3.00000							HOGGING
+2.00000  2.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+3  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 3          ======================================================================================
+-2.828427  0.00700							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.40000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.09000  0.00600  0.03000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+315.000000								Angle
+3.00000  2.00000							HOGGING
+2.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+4  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 4          ======================================================================================
+-1.000000  0.00700							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.40000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.09000  0.00600  0.03000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+2.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+5  11  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 5          ======================================================================================
+-4.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+6  13  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 6          ======================================================================================
+-2.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+7  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 7          ======================================================================================
+-1.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+8  15  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 8          ======================================================================================
+-3.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+9  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 9          ======================================================================================
+-5.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.35000  0.35000							HOGGING
+0.35000  0.35000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+10  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 10          ======================================================================================
+-2.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.35000  0.35000							HOGGING
+0.35000  0.35000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 11          ======================================================================================
+-6.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.50000  0.50000							HOGGING
+0.50000  0.50000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+12  18  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 12          ======================================================================================
+-2.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.50000  0.50000							HOGGING
+0.50000  0.50000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 13          ======================================================================================
+-6.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.35000  0.35000							HOGGING
+0.35000  0.35000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+14  19  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 14          ======================================================================================
+-2.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.35000  0.35000							HOGGING
+0.35000  0.35000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 15          ======================================================================================
+-5.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.35000  0.35000							HOGGING
+0.35000  0.35000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+16  20  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 16          ======================================================================================
+-2.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.35000  0.35000							HOGGING
+0.35000  0.35000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 17          ======================================================================================
+-3.000000  0.00500							Hauteur. Epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.10000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05000  0.00500  0.02000  0.01000  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+70000000000  0.33  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+12  18  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.10000  0.00500  0.05000  0.50000  0.05000  0.00500  0.01000  0.10000
+0.03000  1.00000  0.02000  0.50000  2.00000  0.30000  0.02000  0.25000  0.50000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+HOGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+SAGGING
+5								Nbre de restrictions structurelles
+1  11  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  24  800.00E+05  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+5  15  550.00E-03  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99								M2=Nbre de restrictions geometriques
+1
+0  0								ISEMA. ISEMR
+EPONTILLE     PANNEAU NO 18          ======================================================================================
+-4.000000  0.01000							Hauteur. Epaisseur. (m)
+CARRE
+4.83330 4.00000							Ecartement. Longueur effective
+0.20000  0.00000								Largeur extérieure; ép. corrosion
+70000000000  0.00  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  0  0  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+14  19  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.00500  0.10000  0.00000  0.00000  2.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+EPONTILLE     PANNEAU NO 19          ======================================================================================
+-2.000000  0.01000							Hauteur. Epaisseur. (m)
+CARRE
+4.83330 2.00000							Ecartement. Longueur effective
+0.20000  0.00000								Largeur extérieure; ép. corrosion
+70000000000  0.00  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  0  0  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+16  20  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.00500  0.10000  0.00000  0.00000  2.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+EPONTILLE     PANNEAU NO 20          ======================================================================================
+-3.000000  0.01000							Hauteur. Epaisseur. (m)
+CARRE
+4.83330 3.00000							Ecartement. Longueur effective
+0.20000  0.00000								Largeur extérieure; ép. corrosion
+70000000000  0.00  100000000  80000000  27500			E. Poisson. Sy. Sadm. Poids Specifique
+0  0  0  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							HOGGING
+0.00000  0.00000							SAGGING
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+10  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.00500  0.10000  0.00000  0.00000  2.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+BOUNDARY CONDITIONS
+5								Nbre de conditions de bords
+1  7								nbre panneau. nbre condition
+10  7								nbre panneau. nbre condition
+12  7								nbre panneau. nbre condition
+14  7								nbre panneau. nbre condition
+16  7								nbre panneau. nbre condition
+GRAVITY CENTER LOCATION - REPERE UTILISATEUR + RESTRICTION SUR LE CENTRE DE GRAVITE
+-2.0000  0.0000						(XK.YK) Coord du centre du repere utilisateur
+0  0.0000  0.0000						IGRAV(NO:0;Min:1;MAX:2;Min et max:3).KGMIN.KGMAX
+INERTIA CONSTRAINT
+0  0
+SECTION MODULUS CONSTRAINT
+0  0  0
+WEIGHT CONSTRAINT
+0  0
+COST CONSTRAINT
+0  0  0
+MOMENTS
+1								= 0:pas de moment. = 1:avec moment
+1								Coeff. de réduction 1.24 pour Sig. et 1.04 pour W
+7.5000E+07  0.0000E+00  0.0000E+00  0.0000E+00			HOGGING
+-4.5000E+07  0.0000E+00  0.0000E+00  0.0000E+00			SAGGING
+EQUALITY CONSTRAINTS
+72								Nbre de restrictions d'égalité
+1  2  1  1  1.000
+2  2  2  1  1.000
+3  2  3  1  1.000
+4  2  4  1  1.000
+5  2  5  1  1.000
+6  2  6  1  1.000
+7  2  7  1  1.000
+8  2  8  1  1.000
+9  2  9  1  1.000
+5  3  5  1  1.000
+1  4  1  3  1.000
+2  4  2  3  1.000
+3  4  3  3  1.000
+4  4  4  3  1.000
+5  4  5  1  1.000
+6  4  6  3  1.000
+7  4  7  3  1.000
+8  4  8  3  1.000
+9  4  9  3  1.000
+5  5  5  1  1.000
+1  6  1  5  1.000
+2  6  2  5  1.000
+3  6  3  5  1.000
+4  6  4  5  1.000
+5  6  5  1  1.000
+6  6  6  5  1.000
+7  6  7  5  1.000
+8  6  8  5  1.000
+9  6  9  5  1.000
+5  7  5  1  1.000
+5  8  5  1  1.000
+5  9  5  1  1.000
+1  10  1  9  1.000
+2  10  2  9  1.000
+3  10  3  9  1.000
+4  10  4  9  1.000
+5  10  5  1  1.000
+6  10  6  9  1.000
+7  10  7  9  1.000
+8  10  8  9  1.000
+9  10  9  9  1.000
+5  11  5  1  1.000
+1  12  1  11  1.000
+2  12  2  11  1.000
+3  12  3  11  1.000
+4  12  4  11  1.000
+5  12  5  1  1.000
+6  12  6  11  1.000
+7  12  7  11  1.000
+8  12  8  11  1.000
+9  12  9  11  1.000
+5  13  5  1  1.000
+1  14  1  13  1.000
+2  14  2  13  1.000
+3  14  3  13  1.000
+4  14  4  13  1.000
+5  14  5  1  1.000
+6  14  6  13  1.000
+7  14  7  13  1.000
+8  14  8  13  1.000
+9  14  9  13  1.000
+5  15  5  1  1.000
+1  16  1  15  1.000
+2  16  2  15  1.000
+3  16  3  15  1.000
+4  16  4  15  1.000
+5  16  5  1  1.000
+6  16  6  15  1.000
+7  16  7  15  1.000
+8  16  8  15  1.000
+9  16  9  15  1.000
+5  17  5  1  1.000
+ULTIMATE STRENGTH - SHIP GIRDER
+0								IRESTR: utilisation comme restriction ; 0 = NON;1 = OUI
+0								IULT =0 No analysis. = 1 for PAIK/Caldwell. = 2 for PROCOL(Smith). = 3  for...

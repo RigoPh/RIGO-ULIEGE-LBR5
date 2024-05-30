@@ -1,0 +1,4 @@
+ iteration 0
+ =====================================================
+  
+ le cout est calculé par un modèle simplifié 

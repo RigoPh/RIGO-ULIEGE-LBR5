@@ -1,0 +1,16 @@
+1 **********************************************************************
+  *    Ferr
+variables de conception et restrictions geometriques
+====================================================
+ neto          19
+ iana           1
+ icout           0
+ iredress           0
+ iteram          10
+ imulti           0
+weights   0.3330   0.3330   0.3330
+
+ le cout est calculé par un modèle simplifié 
+
+ la fonction objectif est le poids
+ -----------------------------------

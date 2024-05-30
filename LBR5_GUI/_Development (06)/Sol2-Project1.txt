@@ -1,0 +1,101 @@
+1 **********************************************************************
+  *    New Project                                                     *
+  *    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    *
+  *                                                                    *
+  **********************************************************************
+
+
+
+
+                              ITERATION nø 0
+                              ====================
+
+ Le cout est calculé par un modèle simplifié 
+Panel#:   Cost =    Fmat   +    Fsou +   FMdO (Euro,$ or..) - Gross Weight and Corrosion weight(N)
+--------------------------------------------------------------------------------------------------
+    1  0.3261E+03  0.3261E+03  0.0000E+00  0.0000E+00  0.7458E+04  0.0000E+00
+ Total Weight: Complete structure (girders and
+ secondary members excluded)
+ -------------------------------------------------
+    Weight (net   thickness)       =    7457.50000000000      N
+    Weight (corrosion thickness)   =   0.000000000000000E+000 N
+    Weight (Gross thickness)       =    7457.50000000000      N
+ 
+ *** TOTAL COST  (1+2+3)        =    326.123074735302      Euro,$
+       !!! Using the simplified LBR5 model !!! 
+  This result will differ using a detailled database
+ 
+
+ LE POIDS TOTAL DE LA STRUCTURE EST =  0.7457500E+04 N.
+Ce poids reprend la structure principale, secondaire,les traverses et la corrosion.
+Avant itération d'optimisation.
+ (!!1/2 structure si symétrique et structure déjaugéesi IPA= 1)
+
+
+
+******************************
+ *** CAS DE CHARGE Nø 1 ***
+******************************
+
+ Epaisseur minimale de bordé: Plastification et voilement
+--------------------------------------------------------------
+      SR1 = Ratio of Applied stress/Yield Stress (?<? 1.0)
+      SR2 = Global Interaction Ratio: Applied Stress/Critical Stress (?<? 1.0)
+
+      For Yielding (Global stresses(Sx,Sy) are combined with the stress induced by the stiff bending)
+      For Buckling (Global stresses(Sx,Sy) are considered alone)
+
+Panel <-- Panel Dimensions -->  Minimum Thickness <- Collapse Scenario & applied stress --->  YIELDING   BUCKLING  Elast.Crit.Stress
+      L(long) B(trans) d(thick)  d(min)  d/d(min)   Mode  Section   Sx    Sy     Tau    Plat  (S/So <1) (S/Scr<1) Sx(cr) Sy(cr) T(cr)
+         (m)     (m)    (mm)      (mm)   (> 1 ??)           Y/Yo   N/mm2  N/mm2  N/mm2  (m)   Von-Mises Interact  N/mm2  N/mm2  N/mm2
+                                                                                                SR1     Form(SR2)
+
+
+ Resist Ultime panneau (PAIK)
+----------------------------------------
+NEL,  Sig Ult (N/mm2) > ? > Contrainte moyenne axiale en compression (Nx)
+  1 EPONTILLE                  EPONTILLE
+
+RECAPITULATIFS DE VALEURS EXTREMES CALCULEES (Deplac. et Contraintes de Comparaison
+----------------------------------------------------------------------
+(PAR ORDRE DECROISSANT ; unités = m et N/m2)
+ Valeurs         Panneaux              Positions (X,Y)
+
+ Les valeurs extrêmes de V sont:
+-0.9800E+00         1                       ( 5, 1)
+ Les valeurs extrêmes de U sont:
+ Les valeurs extrêmes de W sont:
+-0.1433E-02         1                       ( 5, 1)
+ 
+ Les valeurs extrêmes de Sx BORDAGE (z=0) sont:
+ Les valeurs extrêmes de Sy BORDAGE (z=0) sont:
+ Les valeurs extrêmes de Txy BORDAGE (z=0) sont:
+ Les valeurs extrêmes de SIG COMP BORDAGE (z=0) sont:
+ 
+ Les valeurs extrêmes de Sy JAS Cadre sont:
+ Les valeurs extrêmes de Tau JAS Cadre sont:
+ Les valeurs extrêmes de Sy JAB Cadre sont:
+ Les valeurs extrêmes de Tau JAB Cadre sont:
+ Les valeurs extrêmes de SIGMA COMP JAS CADRE sont:
+ Les valeurs extrêmes de SIGMA COMP JAB CADRE sont:
+ Les valeurs extrêmes de SIGMA COMP SEM CADRE sont:
+ Les valeurs extrêmes de Sy supérieure épon sont:
+ 0.2322E+05         1                       ( 5, 7)
+-0.2322E+05         1                       ( 5, 5)
+ Les valeurs extrêmes de Sy inférieur épon sont:
+ 0.2177E+05         1                       ( 5, 7)
+-0.2177E+05         1                       ( 5, 5)
+ Les valeurs extrêmes de Tau sommet épon sont:
+ 0.5339E-02         1                       ( 1,16)
+ Les valeurs extrêmes de Tau axe neutre épon sont:
+ 0.1031E+03         1                       ( 5,31)
+ Les valeurs extrêmes de SIG COMP sup épon sont:
+ 0.2322E+05         1                       ( 5, 7)
+ Les valeurs extrêmes de SIG COMP inf épon sont:
+ 0.2177E+05         1                       ( 5,25)
+ Les valeurs extrêmes de SIG COMP axe n. épon sont:
+ 0.2250E+05         1                       ( 5, 7)
+ 
+ Les valeurs extrêmes de SIGMA COMP JAS RAID sont:
+ Les valeurs extrêmes de SIGMA COMP JAB RAID sont:
+ Les valeurs extrêmes de SIGMA COMP SEM RAID sont:

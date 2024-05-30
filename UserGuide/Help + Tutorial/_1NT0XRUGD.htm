@@ -1,0 +1,79 @@
+
+<html>
+<head>
+<title>Géométrie</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Géométrie</h2>
+<p>
+
+<P>Cet exemple permet de guider l'utilisateur lors de la création d'un modèle sur l'interface de LBR5. <BR>Nous allons tout d'abord construire la géométrie du modèle. Nous pourrons ainsi observer les résultats en fonction de l'échantillonage que nous avons choisi.</P>
+<P>&nbsp;<U>Avant-Propos :</U></P>
+<LI>
+<P>Ouvrir l'interface LBR5, on obtient&nbsp;une fenêtre dont la barre des menus est la suivante:</P></LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut1.png"></P>
+<LI>Cliquer sur "File" et choisir si on utilise un nouveau modèle ou un modèle déjà existant.
+<LI>Nous avons ainsi la barre de menu suivante :</LI>
+<P><IMG src="tutorial/tut2.png"></P>
+<LI>
+<P>&nbsp;Cliquer sur "project" puis sur title pour introduire le nom du modèle. introduire le <a href="_1k50q2u6i.htm" >nom</a> dans l'espace prévu puis cliquer sur "OK".</P></LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut3.png"></P>
+<P>&nbsp;</P>
+<P><U>Généralités de la structure:</U></P>
+<LI>Cliquer sur "project", "options" puis "optimization" pour vérifier que l'optimisation de la structure ne sera pas effectuée. Pour avoir une simple analyse, décocher "perform optimisation".</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut5.png"></P>
+<LI>Cliquer sur "project", "options"&nbsp;puis sur "DeadWeight". Cocher "Consider Deadweight" pour que le <a href="_1k50kijom.htm" >poids propre</a> de la structure intervienne dans le calcul.</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut6.png"></P>
+<LI>Cliquer sur "project", "options"&nbsp;puis sur "Fourier Series" pour déterminer le nombre de <a href="_1k50ki67h.htm" >termes de fourier</a>&nbsp;désirés lors du calcul. Nous choississons "-7" dû à la symétrie de la coupe.</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut7.png"><a href="_1k41fan0o.htm" >Géométrie</a></P>
+<P>&nbsp;</P>
+<P><U>Création de la géométrie </U>:</P>
+<LI>Cliquer sur "project", "options"&nbsp;puis sur "overall span" pour déterminer la <a href="_1k50q4l7b.htm" >longueur</a> totale (selon OX)&nbsp;et les <a href="_1k50q63w9.htm" >sections de calcul</a>&nbsp;de la structure. Puis "OK" pour enregistrer les données.</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut29.png"></P>
+<P>&nbsp;</P>
+<LI>Cliquer sur "Model" puis sur "nodes" pour entrer les <a href="_1k50qlv34.htm" >coordonnées des noeuds</a>. </LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut8.png"></P>
+<P>On obtient alors le modèle fait uniquement de noeuds. (si les noeuds ne sont pas visibles, cliquer sur&nbsp;<IMG src="images/fig91.png">&nbsp; ou vérifier leur impression dans "<a href="_1k50q9o24.htm" >Display Options</a>".)</P>
+<P><IMG src="tutorial/tut9.png"></P>
+<LI>Cliquer sur "Model", puis "add plate(s)" pour ajouter une <a href="_1k50iv3dc.htm" >plaque</a> entre deux noeuds (add beam pour ajouter une <a href="_1k50ivebq.htm" >épontille</a>, add double hull pour ajouter une <a href="_1k50ixwjg.htm" >double coque</a>). Dans la barre des messages, il est indiqué "Function mode = add plate: First Node", cliquer sur le noeud origine du panneau. Dans la barre des messages, il est maintenant indiqué "Function mode = add plate:&nbsp;Second Node", cliquer sur le noeud&nbsp;arrivée du panneau. </LI>
+<P>Lorsque tous les panneaux sont définis, cliquer sur escape si nécessaire&nbsp;pour sortir du mode "add plate".</P>
+<P><IMG src="tutorial/tut10.png"></P>
+<LI>
+<P>&nbsp;Pour entrer la géométrie détaillée relative à chaque panneau, cliquer sur "panels" puis "plate scantlings" dans le cas d'une plaque ("beam scantling" pour une épontille et "double hull scantling" pour une double coque ). Le tableau suivant apparaît:</P></LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;<IMG src="tutorial/tut11.png"></P>
+<P>La géométrie ( geometry) est donnée par défaut en fonction des coordonnées des noeuds. </P>
+<LI><a href="_1k50qnart.htm" >Caractéristiques des plaques</a>: Entrer les épaisseurs des tôles (thickness), les dimensions et positions&nbsp;des raidisseurs (stiffeners set 1), des cadres (frames set 1), des raidisseurs et cadres secondaires, des traverses (girders) , les caractéristiques des matériaux utilisés (materials) ainsi que le coefficient de participation à la flexion&nbsp;globale (participation).&nbsp;Dans cet exemple nous n'avons ni raidisseurs et cadres secondaires,&nbsp;ni traverses. </LI>
+<P>&nbsp;</P>
+<LI><a href="_1k50ivebq.htm" >Caractéristiques des épontilles</a> : Entrer le type de section de l'épontille (sections) et les caractéristiques des matériaux utilisés (materials).</LI>
+<P>remarque 1: nous n'avons pas de <a href="_1k50ixwjg.htm" >doubles coques</a> dans cet exemple.</P>
+<P>remarque 2: pour accélérer l'entrée des données les caractéristiques d'un panneau peut-être copiée puis collée sur différents panneaux.</P>
+<P>On obtient le modèle suivant :</P>
+<P><IMG src="tutorial/tut12.png"></P>
+<P>&nbsp;</P>
+<LI>Pour introduire les <a href="_1k50j4qfx.htm" >conditions d'appui</a>, cliquer sur "boundary conditions" dans "panels". Le tableau suivant apparaît :</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut13.png"></P>
+<P>Seuls les panneaux ayant une extrémité non liée à un autre panneau peuvent avoir des conditions d'appui. Double cliquer sur "free edge" pour obtenir la liste des conditions d'appui possibles.</P>
+<P>Dans le cas de cet exemple, les conditions de bord des 5 panneaux sont choisies égales à des conditions de symétrie. (Symmetry axis 1).</P>
+<P><U>Cas de charge</U> :</P>
+<P>Nous avons 2 <a href="_1k50ioyya.htm" >cas de charges</a>&nbsp;à envisager. Cliquer sur "Loads" et "load cases". Cliquer 2 fois sur "add", donner un nom aux différents cas de charge et vérifier s'ils sont pris en compte ou pas dans le calcul (state).</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut14.png"></P>
+<P>&nbsp;Ensuite cliquer sur "loads" dans "loads" pour détailler le chargement. Déterminer les <a href="_1k50jkaaz.htm" >pressions uniformément distribuées</a>, les <a href="_1k50jlcoz.htm" >pressions distribuées par pas</a>, les <a href="_1k50jmdv1.htm" >pressions localisées</a> et les <a href="_1k50j3xn5.htm" >moments d'extrémité</a>.</P>
+<P>Dans le cas de cet exemple, les pressions uniformément réparties sont les mêmes dans les 2 cas de charge. Il n'y a pas de pressions distribuées par pas ni de pressions localisées. Le cas de chargement 1 comprend des moments d'extrémité en hogging, le cas de charge 2 en sagging.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut15.png"></P>
+<P><U>Niveau de détails&nbsp;des résultats</U> :</P>
+<P>Pour choisir le niveau de <a href="_1k50kjep7.htm" >détails des résultats</a>, cliquer sur "project", puis "options" et enfin "output". Dans cet exemple nous choisissons un niveau 4 de résultats.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut16.png"></P>
+<P><U>&nbsp;Résolution</U> :</P>
+<LI>Avant de résoudre le modèle donné, nous allons le sauver. Cliquer sur "file" puis "save as" et sauver le fichier dans le répertoire choisi. Ce fichier a une extension .lbr. Dans le coin supérieur gauche de l'interface LBR5, le fichier ne s'appelle plus "projet1.lbr" mais bien le nom donné lors du sauvetage.
+<LI>Certaines options sont vérifiées par "tools", "<a href="_1nu0tbtr8.htm" >check model</a>".&nbsp;
+<LI>Cliquer sur "Analysis" puis "solve" pour lancer la résolution. Le message suivant apparaît, il permet de vérifier que le modèle a bien été sauvé. cliquer sur "oui".</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut17.png"></P>
+<P>LBR5 résoud le modèle. Il n'est pas possible d'avoir accès à l'interface pendant que LBR5 tourne. Lorsque la fenêtre DOS a disparu, les résultats sont accessibles.</P>
+<P><U>Résultats</U> :</P>
+<P>Les résultats sont disponibles sous forme de <a href="_1k50pnuoo.htm" >graphe</a> ou de fichier <a href="_1k50pneea.htm" >texte</a>. Cliquer sur "Analysis" puis respectivement sur "output graphs" ou "output files".</P>
+<P>Les fichiers sol- et&nbsp;sol2- sont automatiquement enregistrés sous format texte dans le dossier relatif au fichier de données.&nbsp;</P>
+
+<p>
+</body>
+</html>

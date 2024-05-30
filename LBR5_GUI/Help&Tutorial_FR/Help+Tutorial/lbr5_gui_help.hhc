@@ -1,0 +1,663 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LBR5 Aide">
+		<param name="Local" value="INDEXPAGE.htm">
+		<param name="ImageNumber" value="3">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Présentation">
+		<param name="Local" value="_1K41B613L.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unités de mesure">
+		<param name="Local" value="_1K50RO48M.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Généralités">
+		<param name="Local" value="_1K41DT127.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Interface graphique">
+		<param name="Local" value="_1K41BNHI6.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Clavier et souris">
+		<param name="Local" value="_1K41CW3TB.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Modèle">
+		<param name="Local" value="_1K41EJI4B.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Paramètres Généraux">
+		<param name="Local" value="_1K50IRP2A.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Titre du projet">
+		<param name="Local" value="_1K50Q2U6I.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Longueur du modèle">
+		<param name="Local" value="_1K50Q4L7B.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Propriétés du graphe">
+		<param name="Local" value="_1K50Q9O24.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Géométrie">
+		<param name="Local" value="_1K41FAN0O.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Importer une géométrie">
+		<param name="Local" value="_1K41EXUNY.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LBR5 Text Data">
+		<param name="Local" value="_1K50PVO4R.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AVPRO">
+		<param name="Local" value="_1K50PWCYK.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MARS2000">
+		<param name="Local" value="_1K50PWTYT.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Editer la géométrie">
+		<param name="Local" value="_1K41EWLRQ.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Coordonnées des noeuds">
+		<param name="Local" value="_1K50QLV34.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Inversion du sens">
+		<param name="Local" value="_1K50QKQ9R.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Propriétés semblables">
+		<param name="Local" value="_1M90PM688.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ordre des panneaux">
+		<param name="Local" value="_1M90PYXR3.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Origine des axes">
+		<param name="Local" value="_1LK0WMI2G.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Diviser un panneau">
+		<param name="Local" value="_1KQ0U21RQ.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Diviser une double coque">
+		<param name="Local" value="_1M90UOXJI.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Créer une géométrie">
+		<param name="Local" value="_1K41EM3BZ.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Noeuds">
+		<param name="Local" value="_1K41ERMNV.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Plaques">
+		<param name="Local" value="_1K50IV3DC.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poutres">
+		<param name="Local" value="_1K50IVEBQ.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Doubles coques">
+		<param name="Local" value="_1K50IXWJG.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Echantillonnage">
+		<param name="Local" value="_1K50QK6NF.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Plaques">
+		<param name="Local" value="_1K50QNART.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poutres">
+		<param name="Local" value="_1K50QNJYK.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Doubles coques">
+		<param name="Local" value="_1K50QNV5Z.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Charges">
+		<param name="Local" value="_1K50IFSS9.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cas de charges">
+		<param name="Local" value="_1K50IOYYA.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pressions uniformement distribuées">
+		<param name="Local" value="_1K50JKAAZ.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pressions distribuées par pas">
+		<param name="Local" value="_1K50JLCOZ.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pressions localisées">
+		<param name="Local" value="_1K50JMDV1.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Moments d'extrémités">
+		<param name="Local" value="_1K50J3XN5.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Conditions de bord">
+		<param name="Local" value="_1K50J4QFX.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Optimisation">
+		<param name="Local" value="_1K50IHT54.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Coût des materiaux">
+		<param name="Local" value="_1VK0XHQQX.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Module coût simplifié">
+		<param name="Local" value="_1K50JQL10.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Module coût développé">
+		<param name="Local" value="_1LE0XKT21.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variables de dimmensionnement">
+		<param name="Local" value="_1K50JSDDE.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Restrictions structurelles">
+		<param name="Local" value="_1K50JT6BT.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Restrictions géométriques">
+		<param name="Local" value="_1K50JTJRH.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Restrictions d'égalité">
+		<param name="Local" value="_1K50JUS6R.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Restrictions globales">
+		<param name="Local" value="_1K50JW9XG.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Solveur">
+		<param name="Local" value="_1K5001E5O.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Paramètres du solveur">
+		<param name="Local" value="_1K50KG8QX.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poids propre">
+		<param name="Local" value="_1K50KIJOM.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Séries de Fourier">
+		<param name="Local" value="_1K50KI67H.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Paramètres d'optimisation">
+		<param name="Local" value="_1K50KHN76.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sections de calcul">
+		<param name="Local" value="_1K50Q63W9.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Détails des résultats">
+		<param name="Local" value="_1K50KJEP7.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Analyse des modèles">
+		<param name="Local" value="_1K50RJ77S.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Analyse simple">
+		<param name="Local" value="_1K50RLF1N.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Analyse Multiple">
+		<param name="Local" value="_1K50RLRWK.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Outils">
+		<param name="Local" value="_1NU0SNA5L.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Entredistance des noeuds">
+		<param name="Local" value="_1NU0TBC09.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Vérification du modèle">
+		<param name="Local" value="_1NU0TBTR8.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poutre navire">
+		<param name="Local" value="_1VN0VLS2O.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Calculatrice">
+		<param name="Local" value="_1NU0TCASM.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Solution">
+		<param name="Local" value="_1K50KN4N5.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Fichiers résultats">
+		<param name="Local" value="_1K50PNEEA.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Solution 1">
+		<param name="Local" value="_1K50POZSV.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Solution 2">
+		<param name="Local" value="_1K50PPCP6.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Fichier d'optimisation">
+		<param name="Local" value="_1K50PPOKG.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Graphes résultats">
+		<param name="Local" value="_1K50PNUOO.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Solution Générale">
+		<param name="Local" value="_1K50PQAVU.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variation de la fonction objectif">
+		<param name="Local" value="_1K50PQRJB.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variation du C.G.">
+		<param name="Local" value="_1K50PR4LO.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variation des variables de conception">
+		<param name="Local" value="_1K50PRSP7.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+</UL>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tutorial">
+		<param name="Local" value="_1O019LIMG.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tutorial 1">
+		<param name="Local" value="_1NT0XR77W.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Description du problème (1)">
+		<param name="Local" value="_1NV0SQJ17.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Généralités">
+		<param name="Local" value="_1NW0MMOVO.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Définition du titre du projet">
+		<param name="Local" value="_1NW0MT9S1.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction de la longueur de la structure">
+		<param name="Local" value="_1NW0NY0JH.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Activation de l'analyse structurelle">
+		<param name="Local" value="_1NW0NYZ2D.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Prise en compte du poids propre">
+		<param name="Local" value="_1NW0NZZTX.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction du nombre de termes de Fourier">
+		<param name="Local" value="_1NW0O0IAI.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Choix des résultats disponibles">
+		<param name="Local" value="_1NW0O0TKN.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Géométrie">
+		<param name="Local" value="_1NW0VMER1.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Définition des noeuds">
+		<param name="Local" value="_1NW0VQZ8W.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ajout des éléments plaques">
+		<param name="Local" value="_1NW0VRFSR.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ajout des éléments épontilles">
+		<param name="Local" value="_1NW0VRXC7.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Echantillonnage">
+		<param name="Local" value="_1NW0VYAT9.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Caractérisation des éléments plaques">
+		<param name="Local" value="_1NW0W0J75.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Caractérisation des éléments épontilles">
+		<param name="Local" value="_1NW0W13N7.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Conditions limites">
+		<param name="Local" value="_1NW0WQ8N4.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Prise en compte de la symétrie">
+		<param name="Local" value="_1NW0WRBS2.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Charges">
+		<param name="Local" value="_1NW0WRM22.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Définition des cas de charge">
+		<param name="Local" value="_1NW0WS4JG.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction des charges">
+		<param name="Local" value="_1NW0WSLCH.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Résolution">
+		<param name="Local" value="_1NW0WT4M9.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Vérification avant analyse structurelle">
+		<param name="Local" value="_1NW0WTMIT.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lancement de l'analyse structurelle">
+		<param name="Local" value="_1NW0WU7FA.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Visualisation des résultats">
+		<param name="Local" value="_1NW0WUVO7.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lecture des listings">
+		<param name="Local" value="_1NW0WV7S3.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lecture des graphiques">
+		<param name="Local" value="_1NW0WVIEB.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tutorial 2">
+		<param name="Local" value="_1O019S8MZ.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Description du problème (2)">
+		<param name="Local" value="_1O019UJYK.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Généralités">
+		<param name="Local" value="_1O01DMJRK.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Activation de l'optimisation">
+		<param name="Local" value="_1O01DYKDC.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variables de conception">
+		<param name="Local" value="_1O10JWU2R.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction des bornes">
+		<param name="Local" value="_1O10JYM1I.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Restrictions">
+		<param name="Local" value="_1O10LXDM7.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction des restrictions structurelles">
+		<param name="Local" value="_1O10LY553.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction des restrictions géométriques">
+		<param name="Local" value="_1O10LYG93.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction des restrictions d'égalité">
+		<param name="Local" value="_1O10LZ60J.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Résolution">
+		<param name="Local" value="_1O10TGEFM.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Vérification avant optimisation">
+		<param name="Local" value="_1O10TK3FM.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lancement de l'optimisation">
+		<param name="Local" value="_1O10TPAOE.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Visualisation des résultats">
+		<param name="Local" value="_1O10UD04V.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lecture des listings">
+		<param name="Local" value="_1O10UE7XV.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lecture des graphiques">
+		<param name="Local" value="_1O10UEY88.htm">
+		<param name="ImageNumber" value="11">
+		</OBJECT>
+</UL>
+</UL>
+</UL>
+</UL>
+</BODY></HTML>

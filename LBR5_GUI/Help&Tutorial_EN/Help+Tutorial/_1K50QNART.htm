@@ -1,0 +1,73 @@
+
+<html>
+<head>
+<title>Plaques</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Plaques</h2>
+<p>
+
+Pour déterminer l'échantillonnage des plaques, cliquer sur "panels" dans la barre de Menu puis sur "plate scantlings". La fenêtre suivante apparaît:
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig19.png"></P>
+<P>Plusieurs onglets permettent de choisir les dimensions des plaques raidies :</P>
+<P>&nbsp;&nbsp;</P>
+<UL class=noindent>
+<LI>Géometrie : L'onglet "Geometry" reprend les dimensions principales de la plaque : Sa largeur en mètres (width), L'angle d'inclinaison (Angle), le noeud de départ (In node) et d'arrivée (Out node). Ces informations sont&nbsp;automatiquement reprises&nbsp;lors de la création/édition de la géométrie.</LI></ul>
+
+<P>L'angle est déterminé à partir de l'horizontale à droite du noeud de départ, positif dans le sens horlogique.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig20.png"></P>
+<P>&nbsp;</P>
+<UL class=noindent>
+<LI>Epaisseurs : L'onglet "Thickness" reprend l'épaisseur nette (Net thickness en mm) et l'épaisseur de corrosion (Corrosion thickness en mm). L'épaisseur de corrosion est l'épaisseur à ajouter à l'épaisseur nette pour obtenir l'épaisseur réelle (brute) de la tôle. Cette épaisseur de corrosion ne doit être appliquée qu'aux tôles exposées à l'eau de mer ou à un chargement liquide.</LI></ul>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG src="images/fig21.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </P>
+<P>&nbsp;</P>
+<UL class=noindent>
+<LI>Raidisseurs Principaux : L'onglet "Stiffeners Set 1" permet de choisir leur distribution (EE1 ou EE2),&nbsp;les dimensions de l'âme : Hauteur (Web Height en mm) et épaisseur (Web Thickness en mm), les dimensions de la semelle&nbsp;: Largeur (Flange Width en mm) et épaisseur (Flange Thickness en mm), l'espacement entre les raidisseurs (Spacing en mm), l'épaisseur de Corrosion à appliquer (Corrosion Thickness en mm), ainsique le côté de la tôle où les raidisseurs sont positionnés.</LI></ul>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig22.png"></P>
+<P>La distribution des raidisseurs peut être déterminée de 2 façons :</P>
+<P>Soit EE1 : Le premier espacement est compté comme entier à partir du noeud de départ.</P>
+<P><IMG src="images/fig23.png"></P>
+<P>Soit EE2 : Le premier espacement vaut la moitié de l'espacement entre raidisseurs à partir du noeud de départ.</P>
+<P><IMG src="images/fig24.png"></P>
+<P>Le côté où se trouve les raidisseurs est déterminé suivant le sens de parcours du panneau. Il ne peut y avoir des raidisseurs sur les 2 côtés du panneau.</P>
+<UL class=noindent>
+<LI>Cadres Principaux : Ils (Frames set 1) sont déterminés comme les raidisseurs principaux. La distribution est automatiquement de type EE2.</LI></ul>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig26.png"></P>
+<P>&nbsp;</P>
+<UL class=noindent>
+<LI>Raidisseurs Secondaires : Ils (Stiffeners Set 2) sont déterminés comme les raidisseurs principaux. La distribution est automatiquement de type EE2.</LI></ul>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig27.png"></P>
+<P>&nbsp;</P>
+<UL class=noindent>
+<LI>Cadres Secondaires :Ils (Frames set 2) sont déterminés comme les raidisseurs principaux. La distribution est automatiquement de type EE2.</LI></ul>
+
+<P><IMG src="images/fig28.png"></P>
+<P>&nbsp;</P>
+<UL class=noindent>
+<LI>Traverses : Le nombre maximum de traverses (Girders)&nbsp;par panneau est de 10. Les traverses sont définies par&nbsp;leurs positions par rapport au point de départ du panneau (Distance From In Node en m), leurs hauteurs d'âme (Web Height en mm), leurs épaisseurs d'âme (Web Thickness en mm), leurs largeurs de semelle (Flange Width en mm), leurs épaisseurs de semelle (Flange Thickness en mm). En sélectionnant le panneau auquel les traverses sont rapportées, la longueur de ce panneau apparait (Panel Length en m) et permet de placer les traverses à une position inclue dans le panneau. Le côté du panneau où se trouvent les traverses est déterminé suivant le sens de parcours du panneau.</LI></ul>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig29.png"></P>
+<P>&nbsp;</P>
+<UL class=noindent>
+<LI>Matériaux : Les caractéristiques des matériaux peuvent être introduites dans l'onglet "Materials". Les caractéristiques sont les suivantes : Module de Young (Young Modulus en N/mm²), Coefficient de poisson (Poisson Coefficient), Limite élastique (Yield Stress en N/mm²), Contrainte admissible utilisée dans le set de restriction de Hughes (Allowable Stress en N/mm²), Poids Spécifique (Specific Weight en t/m³). Par défaut, le matériau est l'acier.</LI></ul>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig30.png"></P>
+<UL class=noindent>
+<LI>Participation : Le niveau de participation du panneau intervenant dans le moment de flexion global autour de l'axe horizontal se situe entre 0 et 1. Ceci n'est pas envisageable si un moment de flexion global vertical est appliqué.&nbsp;</LI></ul>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig31.png"></P>
+<UL class=noindent>
+<LI><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: FR; mso-fareast-language: FR; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'">Redressage : L'estimation des coûts de redressage est prise en compte avec les paramètres&nbsp;Famille&nbsp;et Lot. Le paramètre Famille se détermine en fonction de l’emplacement du panneau en question dans la structure.&nbsp;Le paramètre Lot correspond<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>au numéro du pont auquel le panneau appartient. Un lot reprend les panneaux horizontaux d’un pont et les panneaux verticaux situés juste sous le pont à l’exception des épontilles.</SPAN></LI></ul>
+
+<P><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: FR; mso-fareast-language: FR; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig106.PNG"></SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: FR; mso-fareast-language: FR; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'"></SPAN>&nbsp;</P>
+<P>Presser Apply pour visionner et enregistrer les modifications tout en gardant la fenêtre ouverte, OK pour que les données soient enregistrées et la fenêtre fermée.</P>
+
+<p>
+</body>
+</html>

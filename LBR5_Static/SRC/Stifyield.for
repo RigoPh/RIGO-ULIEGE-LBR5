@@ -1,0 +1,74 @@
+      SUBROUTINE STIFYIELD(NEL,NETO,COEFK,NVAR,NXIT,SIG,dSIG,		!r&d15
+     *					 SIGSTIF,dSIGSTIF,NTOT,SIGA,dSIGA)
+
+
+      IMPLICIT REAL*8 (A-H,O-Z)
+
+	DIMENSION NVAR(NETO),NXIT(9,NETO)
+
+	DIMENSION dSIGA(NTOT)
+	
+	DIMENSION SIG(2),dSIG(2,9,NETO)
+	DIMENSION dSIGSTIF(9)	
+
+c	*****************************************************************************************************
+	
+	CALL ANNULD(dSIGA,NTOT)
+	
+	COEF=1.
+	IF(DABS(SIG(1)).GE.DABS(SIG(2))) THEN
+	  IF(DABS(SIG(1)).LT.(60.E6/COEFK)) THEN
+	    SIGA=60.E6/COEFK+SIGSTIF
+	    L1=0
+	    DO IPAN=1,NETO
+	      NBRXI=NVAR(IPAN)
+		  DO L=1,NBRXI
+	        LL=NXIT(L,IPAN)
+	        IF(NEL.EQ.IPAN) dSIGA(L1+L)=dSIGSTIF(LL)
+		  ENDDO
+	      L1=L1+NBRXI
+	    ENDDO
+	  ELSE
+	    SIGA=DABS(SIG(1))+SIGSTIF
+	    IF(SIG(1).LT.0.) COEF=-1.
+	    L1=0
+	    DO IPAN=1,NETO
+	      NBRXI=NVAR(IPAN)
+		  DO L=1,NBRXI
+	        LL=NXIT(L,IPAN)
+		    dSIGA(L1+L)=COEF*dSIG(1,LL,IPAN)
+	        IF(NEL.EQ.IPAN) dSIGA(L1+L)=dSIGA(L1+L)+dSIGSTIF(LL)
+		  ENDDO
+	      L1=L1+NBRXI
+	    ENDDO
+	  ENDIF
+	ELSE
+	  IF(DABS(SIG(2)).LT.(60.E6/COEFK)) THEN
+	    SIGA=60.E6/COEFK+SIGSTIF
+	    L1=0
+	    DO IPAN=1,NETO
+	      NBRXI=NVAR(IPAN)
+		  DO L=1,NBRXI
+	        LL=NXIT(L,IPAN)
+	        IF(NEL.EQ.IPAN) dSIGA(L1+L)=dSIGSTIF(LL)
+		  ENDDO
+	      L1=L1+NBRXI
+	    ENDDO
+	  ELSE
+	    SIGA=DABS(SIG(2))+SIGSTIF
+	    IF(SIG(2).LT.0.) COEF=-1.
+	    L1=0
+	    DO IPAN=1,NETO
+	      NBRXI=NVAR(IPAN)
+		  DO L=1,NBRXI
+	        LL=NXIT(L,IPAN)
+		    dSIGA(L1+L)=COEF*dSIG(2,LL,IPAN)
+	        IF(NEL.EQ.IPAN) dSIGA(L1+L)=dSIGA(L1+L)+dSIGSTIF(LL)
+		  ENDDO
+	      L1=L1+NBRXI
+	    ENDDO
+	  ENDIF
+	ENDIF	  
+
+      RETURN
+      END

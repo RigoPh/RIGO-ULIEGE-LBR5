@@ -1,0 +1,76 @@
+
+<html>
+<head>
+<title>Optimisation</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Optimisation</h2>
+<p>
+
+Cet exemple permet de guider l'utilisateur lors de la création d'un modèle sur l'interface de LBR5. <BR>Tout d'abord il faut construire la géométrie. Pour ce faire, suivre l'élaboration de la <a href="_1k41fan0o.htm" >géométrie</a> dans l'exemple.<BR>Nous allons ensuite entrer les caractéristiques liées à l'optimisation du modèle.
+<P>
+<P>Dans cet exemple, la fonction objectif est le coût. On y trouve des restrictions structurelles, géométriques et d'égalité.
+<P>&nbsp;<U><a href="_1k50khn76.htm" ><U>Généralités de l'optimisation</U></a></U> :</P>
+<P>Cliquer dans "project" sur "options" puis "optimization", la fenêtre suivante apparaît :</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut18.png"></P>
+<LI>Pour optimiser l'échantillonnage du modèle, cocher "perform optimization".
+<LI>Choisir le nombre d'itérations désirées pour le calcul.&nbsp; Nous choisissons 5 itérations.
+<LI>Choisir le type de fonction objectif. Nous choisissons la fonction objectif poids minimum simplifié (Minimal Cost Simplified).</LI>
+<P><U>Données et variables&nbsp;de l'optimisation</U>&nbsp;:</P>
+<P>Si la fonction à minimiser est le coût, certaines données relatives aux coûts sont à introduire. Néanmoins, les valeurs affichées par défaut sont tout à fait valable.</P>
+<LI>
+<P>&nbsp;Cliquer sur "optimization" puis "cost" puis "<a href="_1k50jql10.htm" >Simplified</a>" dans le cas d'une fonction objectif de coût simplifié (sinon utiliser "<a href="_1le0xkt21.htm" >Developped</a>")&nbsp;</P></LI>
+<LI>
+<P>Entrer les différentes valeurs de coût.</P></LI>
+<P>&nbsp;<IMG src="images/fig53.png"></P>
+<P>&nbsp;</P>
+<LI>Cliquer ensuite sur "optimization", puis "design variables" pour déterminer les <a href="_1k50jsdde.htm" >variables de dimensionnement</a> propres à chaque panneau.</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut19.png"></P>
+<P>Remplir les limites inférieures et supérieures des variables de dimensionnement choisies pour le panneau. Dans cet exemple, il y a 9 variables de dimensionnement par panneau.</P>
+<P>Pour faciliter l'écriture des variables, choisir les variables à copier en les sélectionnant (elles deviennent soulignées), click droit sur la souris et "copier la sélection" puis choisir le ou les&nbsp;panneaux qui&nbsp;ont les mêmes&nbsp;limites de variable et&nbsp;cliquer droit sur la souris et "paste la sélection".</P>
+<P>Cliquer sur "apply" pour enregistrer les limites des variables.</P>
+<P>Par exemple, le panneau 10 :</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut20.png"></P>
+<P>&nbsp;</P>
+<P><U>Restrictions</U> :</P>
+<LI>Restrictions Structurelles : Pour définir les <a href="_1k50jt6bt.htm" >restrictions structurelles</a> à appliquer, cliquer sur "optimization", puis "structural constraints".</LI>
+<P><IMG src="tutorial/tut21.png"></P>
+<P>Les restrictions structurelles sont a entrer pour chaque cas de charge. Le point non extrème&nbsp;où peuvent être appliquées les restrictions sont à définir pour chaque panneau.</P>
+<P>Pour ajouter une restriction, cliquer sur "add restriction". Pour oter une restriction sélectionnée&nbsp;, cliquer sur "remove restriction". Pour accélérer l'entrée des restrictions, cliquer droit sur la case "restrictions" puis cliquer sur "copy" ou "copy all restrictions to other panels" (coller ou coller toutes les restrictions aux autres panneaux). Sélectionner les panneaux qui comportent les mêmes restrictions que le panneau de référence et coller (click droit "paste"). De même cliquer droit sur le cas de charge dont les restrictions sont déjà définies et cliquer sur "copy paste to all load cases" pour que toutes les restrictions soient appliquées également dans&nbsp;tous les cas de charge.</P>
+<P>Le logiciel LBR5 ne comporte pas de restrictions liées aux épontilles. Dans notre exemple, les panneaux 18, 19 et 20 sont des épontilles et ne possèdent donc pas de restrictions.</P>
+<P>Pour connaitre le numéro de référence de la restriction à imposer, cliquer sur "references".</P>
+<P><IMG src="tutorial/tut23.png"></P>
+<P>Cliquer sur "apply" pour enregistrer toutes les données.</P>
+<LI>Restrictions Géométriques : Pour définir les <a href="_1k50jtjrh.htm" >restrictions&nbsp;géométriques</a> à appliquer, cliquer sur "optimization", puis "geometrical constraints".</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut22.png"></P>
+<P>Définir les restrictions en cochant les cases adéquates. Pour obtenir une phrase explicative des différentes restrictions possibles, cliquer sur "references". Les différentes variables utilisées sont illustrées dans "show figure".</P>
+<P>Pour accélérer l'édition des restrictions, cliquer droit dans la case des restrictions et cliquer sur "copy", puis choisir les panneaux qui recevront les mêmes restrictions et cliquer droit sur "paste".</P>
+<P>Dans notre cas nous utiliserons un set de restriction (Hughes). </P>
+<P>&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut24.png"></P>
+<P>Cliquer sur le panneau qui comporte des restrictions, cocher les restrictions , cliquer sur "apply" puis remplir ISEMA et ISEMR. </P>
+<P>Cliquer sur "apply" pour enregistrer les données.</P>
+<LI>Restrictions d'égalité : Pour définir les <a href="_1k50jus6r.htm" >restrictions&nbsp;d'égalité</a> à appliquer, cliquer sur "optimization", puis "equality constraints".</LI>
+<P>&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut25.png"></P>
+<P>&nbsp;Sélectionner le panneau dépendant et le panneau indépendant, cliquer sur les variables communes&nbsp;semblables (elles se soulignent), choisir la proportion entre les panneaux, cliquer sur "=".</P>
+<P>Cliquer sur "apply" pour prendre en compte les données, le nombre total de restrictions entrées est indiqué, une liste énumère les restrictions souhaitées.</P>
+<P>Dans notre cas le ratio est toujours égal à 1. Il y a 69 restrictions au total.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut26.png"></P>
+<P>&nbsp;</P>
+<LI>Restrictions sur la position du centre de gravité : Pour définir les <a href="_1k50jw9xg.htm" >restrictions&nbsp;sur le centre de gravité</a>, cliquer sur "optimization", puis "Gravity center".</LI>
+<P>Dans cet exemple, il n'y a pas de restrictions concernant le centre de garvité.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut27.png"></P>
+<P>&nbsp;</P>
+<P><U>Résolution</U> :&nbsp;</P>
+<LI>Avant de résoudre le modèle donné, nous allons le sauver. Cliquer sur "file" puis "save as" et sauver le fichier dans le répertoire choisi. Ce fichier a une extension .lbr. Dans le coin supérieur gauche de l'interface LBR5, le fichier ne s'appelle plus "projet1.lbr" mais bien le nom donné lors du sauvetage.
+<LI>Certaines options sont vérifiées par "tools", "<a href="_1nu0tbtr8.htm" >check model</a>".&nbsp;
+<LI>Cliquer sur "Analysis" puis "solve" pour lancer la résolution. Le message suivant apparaît, il permet de vérifier que le modèle a bien été sauvé. cliquer sur "oui".</LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="tutorial/tut17.png"></P>
+<P>LBR5 résoud le modèle. Il n'est pas possible d'avoir accès à l'interface pendant que LBR5 tourne. Lorsque la fenêtre DOS a disparu, les résultats sont accessibles.</P>
+<P><U>Résultats</U> :</P>
+<P>Les résultats sont disponibles sous forme de <a href="_1k50pnuoo.htm" >graphe</a> ou de fichier <a href="_1k50pneea.htm" >texte</a>. Cliquer sur "Analysis" puis respectivement sur "output graphs" ou "output files".</P>
+<P>Les fichiers sol-,&nbsp;sol2- et opt-&nbsp;sont automatiquement enregistrés sous format texte dans le dossier relatif au fichier de données.&nbsp;</P>
+
+<p>
+</body>
+</html>

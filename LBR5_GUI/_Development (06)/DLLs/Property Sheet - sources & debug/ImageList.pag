@@ -1,0 +1,121 @@
+VERSION 5.00
+Begin VB.PropertyPage ImageList 
+   Caption         =   "ImageList"
+   ClientHeight    =   3492
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5928
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3492
+   ScaleWidth      =   5928
+   Begin VB.ComboBox cmbImageList 
+      Height          =   288
+      Left            =   144
+      Style           =   2  'Dropdown List
+      TabIndex        =   4
+      Top             =   480
+      Width           =   2532
+   End
+   Begin VB.TextBox txtCollapsedImage 
+      Height          =   300
+      Left            =   1776
+      TabIndex        =   3
+      Top             =   1320
+      Width           =   900
+   End
+   Begin VB.TextBox txtExpandedImage 
+      Height          =   300
+      Left            =   1776
+      TabIndex        =   1
+      Top             =   930
+      Width           =   900
+   End
+   Begin VB.Label Label1 
+      Caption         =   "Image List:"
+      Height          =   252
+      Left            =   120
+      TabIndex        =   5
+      Top             =   240
+      Width           =   2532
+   End
+   Begin VB.Label lblCollapsedIconIndex 
+      Caption         =   "Collapsed Image:"
+      Height          =   240
+      Left            =   120
+      TabIndex        =   2
+      Top             =   1356
+      Width           =   1356
+   End
+   Begin VB.Label lblExpandedIconIndex 
+      Caption         =   "Expanded Image:"
+      Height          =   240
+      Left            =   120
+      TabIndex        =   0
+      Top             =   960
+      Width           =   1356
+   End
+End
+Attribute VB_Name = "ImageList"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+
+Private mobjForm As Object
+
+Private Sub cmbImageList_Change()
+    Changed = True
+End Sub
+
+Private Sub cmbImageList_Click()
+    Changed = True
+End Sub
+
+Private Sub txtCollapsedImage_Change()
+    Changed = True
+End Sub
+
+Private Sub txtExpandedImage_Change()
+    Changed = True
+End Sub
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).CollapsedImage = txtCollapsedImage.Text
+    SelectedControls(0).ExpandedImage = txtExpandedImage.Text
+    If cmbImageList.ListIndex > 0 Then
+        Set SelectedControls(0).ImageList = SelectedControls(0).Parent.Controls(cmbImageList.Text)
+    Else
+        Set SelectedControls(0).ImageList = Nothing
+    End If
+End Sub
+
+Private Sub PropertyPage_SelectionChanged()
+    Dim i As Integer
+    Dim ctls As Object
+    Dim objImageList As Variant
+    On Error Resume Next
+    txtCollapsedImage.Text = SelectedControls(0).CollapsedImage
+    txtExpandedImage.Text = SelectedControls(0).ExpandedImage
+    
+    If IsObject(SelectedControls(0).ImageList) Then
+        Set objImageList = SelectedControls(0).ImageList
+    End If
+    cmbImageList.Clear
+    cmbImageList.AddItem "(None)"
+    cmbImageList.ListIndex = 0
+    Set mobjForm = SelectedControls(0).Parent
+    Set ctls = mobjForm.Controls
+    For i = 0 To ctls.Count - 1
+        If TypeName(ctls(i)) = "ImageList" Then
+            cmbImageList.AddItem ctls(i).Name
+            If IsObject(objImageList) Then
+                If Not objImageList Is Nothing Then
+                    If objImageList.Name = ctls(i).Name Then
+                        cmbImageList.ListIndex = cmbImageList.NewIndex
+                    End If
+                End If
+            End If
+        End If
+    Next
+End Sub

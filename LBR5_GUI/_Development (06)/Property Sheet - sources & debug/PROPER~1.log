@@ -1,0 +1,62 @@
+Line 14: Class MSComctlLib.ImageList of control tbrImages was not a loaded control class.
+Line 36: Class MSComctlLib.Toolbar of control tbrSort was not a loaded control class.
+Line 126: Class MSComctlLib.ImageList of control StdImages was not a loaded control class.
+Line 189: Class MSComCtl2.MonthView of control monthView was not a loaded control class.
+Line 208: Class MSComCtl2.UpDown of control UpDown was not a loaded control class.
+Line 255: Class MSComctlLib.ImageList of control StdImages2 was not a loaded control class.
+Line 313: Class MSHierarchicalFlexGridLib.MSHFlexGrid of control fGrid was not a loaded control class.
+Line 17: The property name _ExtentX in tbrImages is invalid.
+Line 18: The property name _ExtentY in tbrImages is invalid.
+Line 20: The property name ImageWidth in tbrImages is invalid.
+Line 21: The property name ImageHeight in tbrImages is invalid.
+Line 22: The property name MaskColor in tbrImages is invalid.
+Line 23: The property name _Version in tbrImages is invalid.
+Line 34: The property name Images in tbrImages is invalid.
+Line 43: The property name _ExtentX in tbrSort is invalid.
+Line 44: The property name _ExtentY in tbrSort is invalid.
+Line 45: The property name ButtonWidth in tbrSort is invalid.
+Line 46: The property name ButtonHeight in tbrSort is invalid.
+Line 47: The property name Style in tbrSort is invalid.
+Line 48: The property name ImageList in tbrSort is invalid.
+Line 49: The property name _Version in tbrSort is invalid.
+Line 62: The property name Buttons in tbrSort is invalid.
+Line 129: The property name _ExtentX in StdImages is invalid.
+Line 130: The property name _ExtentY in StdImages is invalid.
+Line 132: The property name ImageWidth in StdImages is invalid.
+Line 133: The property name ImageHeight in StdImages is invalid.
+Line 134: The property name MaskColor in StdImages is invalid.
+Line 135: The property name _Version in StdImages is invalid.
+Line 166: The property name Images in StdImages is invalid.
+Line 196: The property name _ExtentX in monthView is invalid.
+Line 197: The property name _ExtentY in monthView is invalid.
+Line 198: The property name _Version in monthView is invalid.
+Line 203: The property name StartOfWeek in monthView is invalid.
+Line 204: The property name TitleBackColor in monthView is invalid.
+Line 205: The property name TitleForeColor in monthView is invalid.
+Line 206: The property name CurrentDate in monthView is invalid.
+Line 215: The property name _ExtentX in UpDown is invalid.
+Line 216: The property name _ExtentY in UpDown is invalid.
+Line 217: The property name _Version in UpDown is invalid.
+Line 218: The property name OrigLeft in UpDown is invalid.
+Line 219: The property name OrigTop in UpDown is invalid.
+Line 220: The property name OrigRight in UpDown is invalid.
+Line 221: The property name OrigBottom in UpDown is invalid.
+Line 258: The property name _ExtentX in StdImages2 is invalid.
+Line 259: The property name _ExtentY in StdImages2 is invalid.
+Line 261: The property name ImageWidth in StdImages2 is invalid.
+Line 262: The property name ImageHeight in StdImages2 is invalid.
+Line 263: The property name MaskColor in StdImages2 is invalid.
+Line 264: The property name _Version in StdImages2 is invalid.
+Line 311: The property name Images in StdImages2 is invalid.
+Line 319: The property name _ExtentX in fGrid is invalid.
+Line 320: The property name _ExtentY in fGrid is invalid.
+Line 321: The property name _Version in fGrid is invalid.
+Line 322: The property name GridColor in fGrid is invalid.
+Line 323: The property name ScrollTrack in fGrid is invalid.
+Line 324: The property name FocusRect in fGrid is invalid.
+Line 325: The property name GridLinesUnpopulated in fGrid is invalid.
+Line 326: The property name ScrollBars in fGrid is invalid.
+Line 328: The property name BandDisplay in fGrid is invalid.
+Line 338: The property name _NumberOfBands in fGrid is invalid.
+Line 339: The property name _Band(0).Cols in fGrid is invalid.
+Line 340: The property name _Band(0).TextStyleBand in fGrid is invalid.

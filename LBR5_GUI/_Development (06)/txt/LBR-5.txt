@@ -1,0 +1,13 @@
+
+ - de ce numarul de cazuri de incarcare trebuie sa fie > 0 cand se poate face o analiza doar pentru
+   greutatea proprie a structurii 
+
+ - cand am un panou si 2 seturi de raisisseuri si cadre astfel incat axa neutra sa se confunde cu fibra
+   mislocie a tolei, eroare de calcul
+
+ - in fisierele sol si sol 2, nu vreau sa apara versiunea programului - sau sa apara in alta forma
+
+
+ - putem folosi incarcarile variabile in pasi pentru un calcul cu optimizare? (pt ca DIS1 = 0, DIS5 = L/2)
+
+ - traversele aplicate in y = l dau gherle la calcul ==> de revazut codul in LBR5

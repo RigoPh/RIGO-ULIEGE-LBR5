@@ -1,0 +1,17 @@
+ ITERATION 0
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<        <<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau            1
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=   5.00000000000000     
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=   5.00000000000000      et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!

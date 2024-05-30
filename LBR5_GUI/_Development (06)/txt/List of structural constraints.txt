@@ -1,0 +1,37 @@
+1.	V absolute displacement
+2.	U absolute displacement
+3.	W absolute displacement
+
+5.	W1 deflection relative to panel in node
+6.	w2 deflection relative to panel out node
+7.	w3 deflection relative to (w1 + w2) / 2
+
+4.	Plate Buckling/Yielding
+15.	Ultimate strenght (Paik beam-column formulation)
+
+11.	von-Mises mid-plate (Sx, Sy), x = L/2
+17.	von-Mises plate upper face (Sx, Sy), x = L/2
+18.	von-Mises plate lower face (Sx, Sy), x = L/2
+12.	von-Mises mid-plate (Sx+Sx_stiff, Sy), x = L/2
+13.	von-Mises mid-plate (Sx+Sx_plate+Sx_stiff, Sy), x = L/2
+16.	von-Mises mid-plate (Txy), x = 0
+
+21.	von-Mises frame (Tweb), in WFJ & WPJ, x = 0
+22.	von-Mises frame (Sy,Txy) in WFJ, x = L/2
+24.	von-Mises frame (Sy, Txy) in WPJ, x = L/2
+25.	von-Mises frame (Sy, Txy) in flange, x = L/2
+
+31.	von-Mises stiff (Tweb) in WPJ, x = 0
+32.	von-Mises stiff (Sx) in flange, x = L/2
+33.	von-Mises stiff (Txy_web_global+Txy_web_local), x = 0
+34.	von-Mises stiff (Sx+Sx_stiff), x = L/2
+35.	von-Mises stiff (Sx+Sx_stiff(pl2/12), Txy_web_global+Txy_web_local) in WPJ, x = L/2)
+36.	von-Mises stiff (Sx+Sx_stiff, Txy_web_global) in WFJ, x = L/2
+
+41.	von-Mises girder (Tweb) in WFJ, x = 0
+42.	von-Mises girder (Tweb) in WPJ, x = 0
+43.	von-Mises girder (Sx) in flange, x = L/2
+
+51.	Stiffener deflection (clamped ends)
+52.	stiffener deflection (simply supported ends)
+54.	

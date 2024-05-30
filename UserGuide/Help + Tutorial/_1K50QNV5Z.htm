@@ -1,0 +1,98 @@
+
+<html>
+<head>
+<title>Doubles coques</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Doubles coques</h2>
+<p>
+
+
+    <p>Pour d&eacute;terminer l'&eacute;chantillonnage des doubles coques, cliquer sur "panels" dans la barre de Menu puis sur "Double Hull&nbsp;Scantlings". La fen&ecirc;tre suivante appara&icirc;t:</p>
+
+    <p><br>
+    <img src="images/fig35.png"></p>
+
+    <p>&nbsp;</p>
+
+    <p>Plusieurs onglets permettent de choisir les dimensions des plaques raidies :</p>
+
+    <p>&nbsp;&nbsp;</p>
+
+    <ul class="noindent">
+      <li>G&eacute;ometrie : L'onglet "Geometry" reprend automatiquement les num&eacute;ros des deux panneaux qui composent la double coque (panels) et ses dimensions principales : Sa largeur&nbsp;en m&egrave;tres (width), sa hauteur en m&egrave;tres (Height),&nbsp;l'angle d'inclinaison&nbsp; en degr&eacute;s (Angle), le&nbsp;premier panneau (First panel) et le deuxi&egrave;me panneau (Second panel)&nbsp;qui la forment. Ces informations sont&nbsp;automatiquement reprises&nbsp;lors de la cr&eacute;ation/&eacute;dition de la g&eacute;om&eacute;trie.</li>
+    </ul>
+
+    <p>L'angle est le m&ecirc;me que celui des deux panneaux qui composent la double coque et est d&eacute;termin&eacute; &agrave; partir de l'horizontale &agrave; droite du noeud de d&eacute;part, positif dans le sens horlogique.</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig20.png"></p>
+
+    <p>&nbsp;</p>
+
+    <ul class="noindent">
+      <li>
+        Epaisseurs : L'onglet "Thickness" reprend l'&eacute;paisseur longitudinale nette (Net thickness en mm) et l'&eacute;paisseur longitudinale de corrosion (Corrosion thickness en mm) de chaque panneau formant la double coque. L'&eacute;paisseur de corrosion est l'&eacute;paisseur &agrave; ajouter &agrave; l'&eacute;paisseur nette pour obtenir l'&eacute;paisseur r&eacute;elle (brute) de la t&ocirc;le. Cette &eacute;paisseur de corrosion ne doit &ecirc;tre appliqu&eacute;e qu'aux t&ocirc;les expos&eacute;es &agrave; l'eau de mer ou &agrave; un chargement liquide.
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig36.png">&nbsp;</p>
+      </li>
+
+      <li>Raidisseurs Principaux : L'onglet "Stiffeners Set 1" permet de choisir leur distribution (EE1 ou EE2),&nbsp;les dimensions de l'&acirc;me : Hauteur (Web Height en mm) et &eacute;paisseur (Web Thickness en mm), les dimensions de la semelle&nbsp;: Largeur (Flange Width en mm) et &eacute;paisseur (Flange Thickness en mm), l'espacement entre les raidisseurs (Spacing en mm), l'&eacute;paisseur de Corrosion &agrave; appliquer (Corrosion Thickness en mm), ainsi que le c&ocirc;t&eacute; de la t&ocirc;le o&ugrave; les raidisseurs sont positionn&eacute;s.&nbsp;<img src="images/fig37.png"></li>
+    </ul>
+
+    <p>La distribution des raidisseurs peut &ecirc;tre d&eacute;termin&eacute;e de 2 fa&ccedil;ons :</p>
+
+    <p>Soit EE1 : Le premier espacement est compt&eacute; comme entier &agrave; partir du noeud de d&eacute;part.&nbsp; <img src="images/fig23.png"></p>
+
+    <p>Soit EE2 : Le premier espacement vaut la moiti&eacute; de l'espacement entre raidisseurs &agrave; partir du noeud de d&eacute;part.</p>
+
+    <p><img src="images/fig24.png"></p>
+
+    <p>Le c&ocirc;t&eacute; o&ugrave; se trouve les raidisseurs est d&eacute;termin&eacute; suivant le sens de parcours du panneau. Il ne peut y avoir des raidisseurs sur les 2 c&ocirc;t&eacute;s du panneau.</p>
+
+    <ul class="noindent">
+      <li>Cloisons&nbsp;: Les cloisons transversales (Floors) des doubles coques sont d&eacute;termin&eacute;es par leurs hauteurs&nbsp;c'est &agrave; dire la distance entre les deux panneaux (Floor Height en mm), leurs &eacute;paisseurs (Floor Thickness en mm), l'entredistance entre les cloisons transversales (Spacing en mm), leurs &eacute;paisseurs de corrosion (Corrosion Thickness en mm). La hauteur de cloison est automatiquement introduite par la cr&eacute;ation/edition de la g&eacute;om&eacute;trie.</li>
+    </ul>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig38.png"></p>
+
+    <ul class="noindent">
+      <li>
+        <p>Raidisseurs Secondaires : Ils (Stiffeners Set 2) sont d&eacute;termin&eacute;s comme les raidisseurs principaux. La distribution est automatiquement de type EE2.</p>
+
+        <p><img src="images/fig39.png"></p>
+      </li>
+
+      <li>
+        <p>Cadres Secondaires :Ils (Frames set 2) sont d&eacute;termin&eacute;s comme les raidisseurs principaux. La distribution est automatiquement de type EE2.</p>
+
+        <p><img src="images/fig40.png"></p>
+      </li>
+
+      <li>
+        <p>Traverses : Le nombre maximum de traverses (Girders)&nbsp;par panneau est de 10. Les traverses sont d&eacute;finies par&nbsp;leurs positions par rapport au point de d&eacute;part du panneau (Distance From In Node en m), leurs hauteurs d'&acirc;me (Web Height en mm), leurs &eacute;paisseurs d'&acirc;me (Web Thickness en mm), leurs largeurs de semelle (Flange Width en mm), leurs &eacute;paisseurs de semelle (Flange Thickness en mm). En s&eacute;lectionnant le panneau auquel les traverses sont rapport&eacute;es, la longueur de ce panneau appara&icirc;t (Panel Length en m) et permet de placer les traverses &agrave; une position inclue dans le panneau. Le c&ocirc;t&eacute; du panneau o&ugrave; se trouvent les traverses est d&eacute;termin&eacute; suivant le sens de parcours du panneau.<img src="images/fig41.png"></p>
+      </li>
+
+      <li>
+        <p>Mat&eacute;riaux : Les caract&eacute;ristiques des mat&eacute;riaux peuvent &ecirc;tre introduites dans l'onglet "Materials". Les caract&eacute;ristiques sont les suivantes : Module de Young (Young Modulus en N/mm&sup2;), Coefficient de poisson (Poisson Coefficient), Limite &eacute;lastique (Yield Stress en N/mm&sup2;), Contrainte admissible (Allowable Stress en N/mm&sup2;), Poids Sp&eacute;cifique (Specific Weight en t/m&sup3;). Par d&eacute;faut, le mat&eacute;riau est l'acier.</p>
+
+        <p><img src="images/fig42.png"></p>
+
+        <p>&nbsp;</p>
+      </li>
+
+      <li>
+        <p>Participation : Le niveau de participation du panneau intervenant dans le moment de flexion global autour de l'axe horizontal se situe entre 0 et 1. Ceci n'est pas envisageable si un moment de flexion global vertical est appliqu&eacute;.&nbsp;</p>
+
+        <p><img src="images/fig43.png"></p>
+
+        <p>&nbsp;</p>
+
+        <p>Presser OK pour que les donn&eacute;es soient enregistr&eacute;es.</p>
+      </li>
+    </ul>
+
+
+<p>
+</body>
+</html>

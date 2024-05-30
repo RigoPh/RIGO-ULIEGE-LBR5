@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<wwhelptopics>
+	<topic text="LBR5 Aide" filename="INDEXPAGE" image="images/INDEX.gif" keywords="LBR5 Aide;">
+		<topic text="Présentation" filename="_1K41B613L" image="images/HEADER.gif" keywords="Présentation;">
+			<topic text="Unités de mesure" filename="_1K50RO48M" image="images/TOPIC.gif" keywords="Unités de mesure;">
+			</topic>
+			<topic text="Généralités" filename="_1K41DT127" image="images/TOPIC.gif" keywords="Généralités;">
+			</topic>
+			<topic text="Interface graphique" filename="_1K41BNHI6" image="images/TOPIC.gif" keywords="Interface graphique;">
+			</topic>
+			<topic text="Clavier et souris" filename="_1K41CW3TB" image="images/TOPIC.gif" keywords="Clavier et souris;">
+			</topic>
+		</topic>
+		<topic text="Modèle" filename="_1K41EJI4B" image="images/HEADER.gif" keywords="Modèle;">
+			<topic text="Paramètres Généraux" filename="_1K50IRP2A" image="images/HEADER.gif" keywords="Paramètres Généraux;">
+				<topic text="Titre du projet" filename="_1K50Q2U6I" image="images/TOPIC.gif" keywords="Titre du projet;">
+				</topic>
+				<topic text="Longueur du modèle" filename="_1K50Q4L7B" image="images/TOPIC.gif" keywords="Longueur du modèle;">
+				</topic>
+				<topic text="Propriétés du graphe" filename="_1K50Q9O24" image="images/TOPIC.gif" keywords="Propriétés du graphe;">
+				</topic>
+			</topic>
+			<topic text="Géométrie" filename="_1K41FAN0O" image="images/HEADER.gif" keywords="Géométrie;">
+				<topic text="Importer une géométrie" filename="_1K41EXUNY" image="images/HEADER.gif" keywords="Importer une géométrie;">
+					<topic text="LBR5 Text Data" filename="_1K50PVO4R" image="images/TOPIC.gif" keywords="LBR5 Text Data;">
+					</topic>
+					<topic text="AVPRO" filename="_1K50PWCYK" image="images/TOPIC.gif" keywords="AVPRO;">
+					</topic>
+					<topic text="MARS2000" filename="_1K50PWTYT" image="images/TOPIC.gif" keywords="MARS2000;">
+					</topic>
+				</topic>
+				<topic text="Editer la géométrie" filename="_1K41EWLRQ" image="images/HEADER.gif" keywords="Editer la géométrie;">
+					<topic text="Coordonnées des noeuds" filename="_1K50QLV34" image="images/TOPIC.gif" keywords="Coordonnées des noeuds;">
+					</topic>
+					<topic text="Inversion du sens" filename="_1K50QKQ9R" image="images/TOPIC.gif" keywords="Inversion du sens;">
+					</topic>
+					<topic text="Propriétés semblables" filename="_1M90PM688" image="images/TOPIC.gif" keywords="Propriétés semblables;">
+					</topic>
+					<topic text="Ordre des panneaux" filename="_1M90PYXR3" image="images/TOPIC.gif" keywords="Ordre des panneaux;">
+					</topic>
+					<topic text="Origine des axes" filename="_1LK0WMI2G" image="images/TOPIC.gif" keywords="Origine des axes;">
+					</topic>
+					<topic text="Diviser un panneau" filename="_1KQ0U21RQ" image="images/TOPIC.gif" keywords="Diviser un panneau;">
+					</topic>
+					<topic text="Diviser une double coque" filename="_1M90UOXJI" image="images/TOPIC.gif" keywords="Diviser une double coque;">
+					</topic>
+				</topic>
+				<topic text="Créer une géométrie" filename="_1K41EM3BZ" image="images/HEADER.gif" keywords="Créer une géométrie;">
+					<topic text="Noeuds" filename="_1K41ERMNV" image="images/TOPIC.gif" keywords="Noeuds;">
+					</topic>
+					<topic text="Plaques" filename="_1K50IV3DC" image="images/TOPIC.gif" keywords="Plaques;">
+					</topic>
+					<topic text="Poutres" filename="_1K50IVEBQ" image="images/TOPIC.gif" keywords="Poutres;">
+					</topic>
+					<topic text="Doubles coques" filename="_1K50IXWJG" image="images/TOPIC.gif" keywords="Doubles coques;">
+					</topic>
+				</topic>
+			</topic>
+			<topic text="Echantillonnage" filename="_1K50QK6NF" image="images/HEADER.gif" keywords="Echantillonnage;">
+				<topic text="plaques" filename="_1K50QNART" image="images/TOPIC.gif" keywords="plaques;">
+				</topic>
+				<topic text="Poutres" filename="_1K50QNJYK" image="images/TOPIC.gif" keywords="Poutres;">
+				</topic>
+				<topic text="Doubles coques" filename="_1K50QNV5Z" image="images/TOPIC.gif" keywords="Doubles coques;">
+				</topic>
+			</topic>
+			<topic text="Charges" filename="_1K50IFSS9" image="images/HEADER.gif" keywords="Charges;">
+				<topic text="Cas de charges" filename="_1K50IOYYA" image="images/TOPIC.gif" keywords="Cas de charges;">
+				</topic>
+				<topic text="Pressions uniformement distribuées" filename="_1K50JKAAZ" image="images/TOPIC.gif" keywords="Pressions uniformement distribuées;">
+				</topic>
+				<topic text="Pressions distribuées par pas" filename="_1K50JLCOZ" image="images/TOPIC.gif" keywords="Pressions distribuées par pas;">
+				</topic>
+				<topic text="Pressions localisées" filename="_1K50JMDV1" image="images/TOPIC.gif" keywords="Pressions localisées;">
+				</topic>
+				<topic text="Moments d'extrémités" filename="_1K50J3XN5" image="images/TOPIC.gif" keywords="Moments d'extrémités;">
+				</topic>
+				<topic text="Conditions de bord" filename="_1K50J4QFX" image="images/TOPIC.gif" keywords="Conditions de bord;">
+				</topic>
+			</topic>
+			<topic text="Optimisation" filename="_1K50IHT54" image="images/HEADER.gif" keywords="Optimisation;">
+				<topic text="Module coût simplifié" filename="_1K50JQL10" image="images/TOPIC.gif" keywords="Module coût simplifié;">
+				</topic>
+				<topic text="Module coût développé" filename="_1LE0XKT21" image="images/TOPIC.gif" keywords="Module coût développé;">
+				</topic>
+				<topic text="Variables de dimmensionnement" filename="_1K50JSDDE" image="images/TOPIC.gif" keywords="Variables de dimmensionnement;">
+				</topic>
+				<topic text="Restrictions structurelles" filename="_1K50JT6BT" image="images/TOPIC.gif" keywords="Restrictions structurelles;">
+				</topic>
+				<topic text="Restrictions géométriques" filename="_1K50JTJRH" image="images/TOPIC.gif" keywords="Restrictions géométriques;">
+				</topic>
+				<topic text="Restrictions d'égalité" filename="_1K50JUS6R" image="images/TOPIC.gif" keywords="Restrictions d'égalité;">
+				</topic>
+				<topic text="Restrictions sur le C.G." filename="_1K50JW9XG" image="images/TOPIC.gif" keywords="Restrictions sur le C.G.;">
+				</topic>
+			</topic>
+		</topic>
+		<topic text="Solveur" filename="_1K5001E5O" image="images/HEADER.gif" keywords="Solveur;">
+			<topic text="Paramètres du solveur" filename="_1K50KG8QX" image="images/HEADER.gif" keywords="Paramètres du solveur;">
+				<topic text="Poids propre" filename="_1K50KIJOM" image="images/TOPIC.gif" keywords="Poids propre;">
+				</topic>
+				<topic text="Séries de Fourier" filename="_1K50KI67H" image="images/TOPIC.gif" keywords="Séries de Fourier;">
+				</topic>
+				<topic text="Paramètres d'optimisation" filename="_1K50KHN76" image="images/TOPIC.gif" keywords="Paramètres d'optimisation;">
+				</topic>
+				<topic text="Sections de calcul" filename="_1K50Q63W9" image="images/TOPIC.gif" keywords="Sections de calcul;">
+				</topic>
+				<topic text="Détails des résultats" filename="_1K50KJEP7" image="images/TOPIC.gif" keywords="Détails des résultats;">
+				</topic>
+			</topic>
+			<topic text="Analyse des modèles" filename="_1K50RJ77S" image="images/HEADER.gif" keywords="Analyse des modèles;">
+				<topic text="Analyse simple" filename="_1K50RLF1N" image="images/TOPIC.gif" keywords="Analyse simple;">
+				</topic>
+				<topic text="Analyse Multiple" filename="_1K50RLRWK" image="images/TOPIC.gif" keywords="Analyse Multiple;">
+				</topic>
+			</topic>
+		</topic>
+		<topic text="Outils" filename="_1NU0SNA5L" image="images/HEADER.gif" keywords="Outils;">
+			<topic text="Entredistance des noeuds" filename="_1NU0TBC09" image="images/TOPIC.gif" keywords="Entredistance des noeuds;">
+			</topic>
+			<topic text="Vérification du modèle" filename="_1NU0TBTR8" image="images/TOPIC.gif" keywords="Vérification du modèle;">
+			</topic>
+			<topic text="calculatrice" filename="_1NU0TCASM" image="images/TOPIC.gif" keywords="calculatrice;">
+			</topic>
+		</topic>
+		<topic text="Solution" filename="_1K50KN4N5" image="images/HEADER.gif" keywords="Solution;">
+			<topic text="Fichiers résultats" filename="_1K50PNEEA" image="images/HEADER.gif" keywords="Fichiers résultats;">
+				<topic text="Solution 1" filename="_1K50POZSV" image="images/TOPIC.gif" keywords="Solution 1;">
+				</topic>
+				<topic text="Solution 2" filename="_1K50PPCP6" image="images/TOPIC.gif" keywords="Solution 2;">
+				</topic>
+				<topic text="Fichier d'optimisation" filename="_1K50PPOKG" image="images/TOPIC.gif" keywords="Fichier d'optimisation;">
+				</topic>
+			</topic>
+			<topic text="Graphes résultats" filename="_1K50PNUOO" image="images/HEADER.gif" keywords="Graphes résultats;">
+				<topic text="Solution Générale" filename="_1K50PQAVU" image="images/TOPIC.gif" keywords="Solution Générale;">
+				</topic>
+				<topic text="Variation de la fonction objectif" filename="_1K50PQRJB" image="images/TOPIC.gif" keywords="Variation de la fonction objectif;">
+				</topic>
+				<topic text="Variation du C.G." filename="_1K50PR4LO" image="images/TOPIC.gif" keywords="Variation du C.G.;">
+				</topic>
+				<topic text="Variation des variables de conception" filename="_1K50PRSP7" image="images/TOPIC.gif" keywords="Variation des variables de conception;">
+				</topic>
+			</topic>
+		</topic>
+	</topic>
+</wwhelptopics>

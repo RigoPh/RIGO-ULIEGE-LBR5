@@ -1,0 +1,30 @@
+
+
+Detalii:
+
+Bugs:
+
+- selectie panouri - daca schimb scala panoului, selectia nu mai e proportionala cu scala acestuia
+- dublu fund - nu trebuie sa pot genera dublu funduri daca exista un panou intre cele 2 panouri vizate
+- match properties - nu face test la hiloire --> ies din panou
+Developement: 
+
+- Optimizare
+- Undo/ Redo
+- Modul cost ALSTOM
+- vizualizare grafica in coltul ecranului a itemurilor afisate (in culorile corespondente)
+
+Opti:
+
+
+
+
+De adaugat in modulul Check Model: 
+
+
+
+
+
+
+
+

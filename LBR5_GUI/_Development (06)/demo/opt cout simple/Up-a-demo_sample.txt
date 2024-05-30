@@ -1,0 +1,900 @@
+1.1.4                                                                                               
+ 1
+New Project                                                                                         
+ 0 -2  1  1  1  -5  0  20                     Commentaire
+ 0   1.0000   0.3330   0.3330   0.3330      IMULTI,RHO,W1,W2,W3
+ 1  10                                 IOPTI (1 oui, 0 non) et ITEMAX = nbre d'itération
+ 1                                          ICOUT
+  1.0000   0.1050                           REND,EQP(0.01<k=EQP<0.1)
+ 0.00800  0.00800  0.00800                  Eo, Eox, Eoy  (épaisseur de référence en m)
+   0.357    0.457    0.429    0.000         Prix Matér. : C1,C2,C3(tole,Euro/kg), DC1(tole,variation par mm)
+   0.000    0.000                           Extra weight: DW2(long,variation sur C2),DW3(trans,variation sur C3)
+   0.092    0.040                           MdO Bordé   : P10(h-h/m),  PC10(variation par mm) 
+   0.500    1.340    0.020    0.020         MdO Assembl.: P4x(Long,h-h/m),P5y(trans,h-h/m),DP4x(long),DP5y(trans)
+     0.000    0.000    0.000    0.000       MdO Membr.  : P9x(long,h-h/m),P9y(trans,h-h/m),DP9x(long),DP9y(trans)
+   0.250    1.220    1.000    1.000         MdO Joints  : P6(intersect),P7(gousset),Béta-X(long.),Béta-Y(transv), 
+   2.143    0.050  1       0                Consommables: C8(Euro/m),DC8(variation par mm),Alpha-X(long.),Alpha-Y(transv)
+    29.00000                                                         Longueur de la structure (WIDTH)
+     0.00000      3.62500      7.25000     10.87500     14.50000     Section de calcul (DIS)
+ 0.000  0.000  0.000  0.000  0.000  0.000                            Cisaillement des semelles (FAM)
+ 1                           IPOIDS ( 1 OUI, 0 NON)
+  2  2  1  2
+HOGGING                                                                                             
+SAGGING                                                                                             
+PLAQUE        PANNEAU nø   1
+    -2.00000   0.01737                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.440040  0.009890  0.415665  0.010000          Cadres Transversaux (m)
+ 0.125582  0.005183  0.092235  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+   0.0000000                                Angle (degré))
+      3.0000       3.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      2.0000       2.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  2  17   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø   2
+    -4.00000   0.01737                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.440040  0.009890  0.415665  0.010000          Cadres Transversaux (m)
+ 0.125582  0.005183  0.092235  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+   0.0000000                                Angle (degré))
+      3.0000       3.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      2.0000       2.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  3   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø   3
+    -2.82843   0.01004                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.427849  0.008095  0.346193  0.010000          Cadres Transversaux (m)
+ 0.092765  0.005000  0.039304  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 315.0000000                                Angle (degré))
+      3.0000       2.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      2.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  4   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø   4
+    -1.00000   0.01004                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.427849  0.008095  0.346193  0.010000          Cadres Transversaux (m)
+ 0.092765  0.005000  0.039304  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 270.0000000                                Angle (degré))
+      2.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  5  11   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø   5
+    -4.00000   0.01059                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.311091  0.005894  0.213240  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.019998  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 270.0000000                                Angle (degré))
+      0.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  6  13   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø   6
+    -2.00000   0.01059                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.311091  0.005894  0.213240  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.019998  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 270.0000000                                Angle (degré))
+      0.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  7   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø   7
+    -1.00000   0.00718                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.337367  0.011564  0.191768  0.010000          Cadres Transversaux (m)
+ 0.059851  0.005000  0.024955  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  8  15   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø   8
+    -3.00000   0.00835                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.392588  0.005000  0.233133  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.020000  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 270.0000000                                Angle (degré))
+      0.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  9   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø   9
+    -5.00000   0.00695                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.221991  0.005000  0.089925  0.010000          Cadres Transversaux (m)
+ 0.068780  0.005000  0.032054  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.3500       0.3500                   XI, XF  cas nø 1 (Ivaria=1)
+      0.3500       0.3500                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+ 10   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø  10
+    -2.00000   0.00695                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.221991  0.005000  0.089925  0.010000          Cadres Transversaux (m)
+ 0.068780  0.005000  0.032054  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.3500       0.3500                   XI, XF  cas nø 1 (Ivaria=1)
+      0.3500       0.3500                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  0   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø  11
+    -6.00000   0.00588                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.315732  0.005000  0.135684  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.020007  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.5000       0.5000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.5000       0.5000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+ 12  18   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø  12
+    -2.00000   0.00588                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.315732  0.005000  0.135684  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.020007  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.5000       0.5000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.5000       0.5000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  0   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø  13
+    -6.00000   0.00502                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.254844  0.005000  0.102512  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.020004  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.3500       0.3500                   XI, XF  cas nø 1 (Ivaria=1)
+      0.3500       0.3500                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+ 14  19   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   1  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø  14
+    -2.00000   0.00502                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.254844  0.005000  0.102512  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.020004  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.3500       0.3500                   XI, XF  cas nø 1 (Ivaria=1)
+      0.3500       0.3500                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  0   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø  15
+    -5.00000   0.00591                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.394933  0.005000  0.238439  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.019993  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.3500       0.3500                   XI, XF  cas nø 1 (Ivaria=1)
+      0.3500       0.3500                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+ 16  20   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   3  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø  16
+    -2.00000   0.00591                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.394933  0.005000  0.238439  0.010000          Cadres Transversaux (m)
+ 0.050000  0.005000  0.019993  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 180.0000000                                Angle (degré))
+      0.3500       0.3500                   XI, XF  cas nø 1 (Ivaria=1)
+      0.3500       0.3500                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+  0   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+PLAQUE        PANNEAU nø  17
+    -3.00000   0.01506                           Haut.,Epaiss.(m)
+ 2.000000  0.500000  0.000000  0.000000          Entr. aig. et raid, idem raid. compl. (m)
+ 0.132049  0.005000  0.067944  0.010000          Cadres Transversaux (m)
+ 0.058160  0.005000  0.023898  0.010000          Raidisseurs  Long.  (m)
+EE2                                              Code : répartition raid. long.
+   1.0000000                                Coeff. de participation
+ 0.7000000E+11  0.330  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    1  1  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 270.0000000                                Angle (degré))
+      0.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+ 12  18   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 9       Nbre de var. de conception
+ 1  2  3  4  5  6  7  8  9   Nø des var. de conception
+0.005000 0.100000 0.005000 0.050000 0.500000 0.050000 0.005000 0.010000 0.100000
+0.030000 1.000000 0.020000 0.500000 2.000000 0.300000 0.020000 0.250000 0.500000
+STRUCTURAL CONSTRAINTS
+ 1       (0 without structural constraints, 1 with structural constraints)
+    3                                  Nbre de pts pour le calcul des sensibilités
+   0.0000    0.5000    1.0000
+HOGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+SAGGING                                                                                             
+ 5       Nbre de restrictions structurelles
+    1   11    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    2   22    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    3   24    0.8000000E+08   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    4    4    0.0000000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+    5   15    0.5500000E+00   1   2  (#	Constraint Type		CJmax	INV   IPT)
+GEOMETRICAL CONSTRAINTS
+99       M2=Nbre de restrictions geometriques
+  1                IBM2= nø du set de Restr. géom.)
+  0    0           ISEMA,ISEMR
+EPONTILLE     PANNEAU nø  18
+    -4.00000   0.01000                           Haut.(m),Epaiss.(m)
+CARRE
+ 4.833300 4.000000                           Ecartement, hauteur sans hiloire
+ 0.200000
+ 0.7000000E+11  0.000  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    0  0  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 270.0000000                                Angle (degré))
+      0.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+ 14  19   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 0       Nbre de var. de conception
+0.005000 0.100000 0.000000 0.000000 2.000000 0.000000 0.000000 0.000000 0.000000
+0.030000 1.200000 0.020000 0.400000 3.500000 0.300000 0.020000 0.100000 0.900000
+STRUCTURAL CONSTRAINTS
+ 0       (0 without structural constraints, 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+ 0       M2=Nbre de restrictions geometriques
+EPONTILLE     PANNEAU nø  19
+    -2.00000   0.01000                           Haut.(m),Epaiss.(m)
+CARRE
+ 4.833300 2.000000                           Ecartement, hauteur sans hiloire
+ 0.200000
+ 0.7000000E+11  0.000  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    0  0  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 270.0000000                                Angle (degré))
+      0.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+ 16  20   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 0       Nbre de var. de conception
+0.005000 0.100000 0.000000 0.000000 2.000000 0.000000 0.000000 0.000000 0.000000
+0.030000 1.200000 0.020000 0.400000 3.500000 0.300000 0.020000 0.100000 0.900000
+STRUCTURAL CONSTRAINTS
+ 0       (0 without structural constraints, 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+ 0       M2=Nbre de restrictions geometriques
+EPONTILLE     PANNEAU nø  20
+    -3.00000   0.01000                           Haut.(m),Epaiss.(m)
+CARRE
+ 4.833300 3.000000                           Ecartement, hauteur sans hiloire
+ 0.200000
+ 0.7000000E+11  0.000  0.1000000E+09  0.8000000E+08  0.2750000E+05   E, Poisson, Sy, Sadm, Poids Spec
+ 0    0  0  0  2      0    1                MT,KSR,KSA,KST,KSE,IPA,IVARIA
+ 270.0000000                                Angle (degré))
+      0.0000       0.0000                   XI, XF  cas nø 1 (Ivaria=1)
+      0.0000       0.0000                   XI, XF  cas nø 2 (Ivaria=1)
+      0.0000                                PLoc = Pression max locale (lisse et maille)
+ 0                                          Charge variable selon X (= 0 pas de surcharges, =1 avec surcharge)
+ 10   0   0   0   0   0   0   0   0   0     Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+ 0       Nbre de var. de conception
+0.005000 0.100000 0.000000 0.000000 2.000000 0.000000 0.000000 0.000000 0.000000
+0.030000 1.200000 0.020000 0.400000 3.500000 0.300000 0.020000 0.100000 0.900000
+STRUCTURAL CONSTRAINTS
+ 0       (0 without structural constraints, 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+ 0       M2=Nbre de restrictions geometriques
+BOUNDARY CONDITIONS; Y=0, Y=H
+  5                          Nbre de conditions de bords
+  1    7                     Cond nø  1,  Panel   1
+ 10    7                     Cond nø  2,  Panel  10
+ 12    7                     Cond nø  3,  Panel  12
+ 14    7                     Cond nø  4,  Panel  14
+ 16    7                     Cond nø  5,  Panel  16
+GRAVITY REPERE UTILISATEUR + RESTRICTION SUR LE CENTRE DE GRAVITE
+   -2.000000      0.000000   (XK,YK) Coord du centre du repere utilisateur
+ 0   0.000000   0.000000          IGRAV(NO:0;Min:1;MAX:2;Min et max:3),KGMIN,KGMAX
+INERTIA CONSTRAINT
+ 0   0.0000000E+00           INERT,IMIN
+SECTION MODULUS CONSTRAINT
+ 0   0.0000000E+00   0                 IMOD,MODMIN,IPAN
+WEIGHT CONSTRAINT
+ 0   0.0000000E+00           IWEIGHT,WMAX
+COST CONSTRAINT
+ 0   0.0000000E+00   0       IPRICE,PRICEMAX,ICOST
+MOMENT
+ 1                           (= 0:pas de moment, = 1:avec moment)
+ 1.00000                     Coeff. de réduction 1.24 pour Sig. et 1.04 pour W
+  0.7500000E+08  0.0000000E+00  0.0000000E+00  0.0000000E+00  Mx> 0 en Hogging = pont tendu (N.m); My
+ -0.4500000E+08  0.0000000E+00  0.0000000E+00  0.0000000E+00  Mx> 0 en Hogging = pont tendu (N.m); My
+EQUALITY RESTRICTIONS
+  72                         Nbre de restrictions d'égalité
+  1    2        1    1        1.0000
+  2    2        2    1        1.0000
+  3    2        3    1        1.0000
+  4    2        4    1        1.0000
+  5    2        5    1        1.0000
+  6    2        6    1        1.0000
+  7    2        7    1        1.0000
+  8    2        8    1        1.0000
+  9    2        9    1        1.0000
+  5    3        5    1        1.0000
+  1    4        1    3        1.0000
+  2    4        2    3        1.0000
+  3    4        3    3        1.0000
+  4    4        4    3        1.0000
+  5    4        5    1        1.0000
+  6    4        6    3        1.0000
+  7    4        7    3        1.0000
+  8    4        8    3        1.0000
+  9    4        9    3        1.0000
+  5    5        5    1        1.0000
+  1    6        1    5        1.0000
+  2    6        2    5        1.0000
+  3    6        3    5        1.0000
+  4    6        4    5        1.0000
+  5    6        5    1        1.0000
+  6    6        6    5        1.0000
+  7    6        7    5        1.0000
+  8    6        8    5        1.0000
+  9    6        9    5        1.0000
+  5    7        5    1        1.0000
+  5    8        5    1        1.0000
+  5    9        5    1        1.0000
+  1   10        1    9        1.0000
+  2   10        2    9        1.0000
+  3   10        3    9        1.0000
+  4   10        4    9        1.0000
+  5   10        5    1        1.0000
+  6   10        6    9        1.0000
+  7   10        7    9        1.0000
+  8   10        8    9        1.0000
+  9   10        9    9        1.0000
+  5   11        5    1        1.0000
+  1   12        1   11        1.0000
+  2   12        2   11        1.0000
+  3   12        3   11        1.0000
+  4   12        4   11        1.0000
+  5   12        5    1        1.0000
+  6   12        6   11        1.0000
+  7   12        7   11        1.0000
+  8   12        8   11        1.0000
+  9   12        9   11        1.0000
+  5   13        5    1        1.0000
+  1   14        1   13        1.0000
+  2   14        2   13        1.0000
+  3   14        3   13        1.0000
+  4   14        4   13        1.0000
+  5   14        5    1        1.0000
+  6   14        6   13        1.0000
+  7   14        7   13        1.0000
+  8   14        8   13        1.0000
+  9   14        9   13        1.0000
+  5   15        5    1        1.0000
+  1   16        1   15        1.0000
+  2   16        2   15        1.0000
+  3   16        3   15        1.0000
+  4   16        4   15        1.0000
+  5   16        5    1        1.0000
+  6   16        6   15        1.0000
+  7   16        7   15        1.0000
+  8   16        8   15        1.0000
+  9   16        9   15        1.0000
+  5   17        5    1        1.0000
+ULTIMATE STRENGHT
+ 0            (IRESTR: utilisation comme restriction ; 0 = NON;1 = OUI)
+ 0            (IULT =0 No analysis, = 1 for PAIK/Caldwell, =2 for PROCOL(Smith), = 3  for...)

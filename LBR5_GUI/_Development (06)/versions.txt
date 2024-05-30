@@ -1,0 +1,17 @@
+Data File Version History
+
+verLBR5.7(24/03/04) [...]
+
+version 1.1.0 [...]
+
+version 1.1.1
+	- changement dans les variables de conception (proprieté Active = false, true)
+        les coefficients d'attelier et d'accessibilité ne sont plus definis par panneau
+        - mais dans cHeader.cCostCAtMain (globalement)
+
+version 1.1.2
+	- simplified analysis module
+
+version 1.1.3
+	- bv rule still water shear
+

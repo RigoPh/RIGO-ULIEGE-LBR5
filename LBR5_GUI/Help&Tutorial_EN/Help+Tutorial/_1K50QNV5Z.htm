@@ -1,0 +1,58 @@
+
+<html>
+<head>
+<title>Doubles coques</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Doubles coques</h2>
+<p>
+
+<P>Pour déterminer l'échantillonnage des doubles coques, cliquer sur "panels" dans la barre de Menu puis sur "Double Hull&nbsp;Scantlings". La fenêtre suivante apparaît:</P>
+<P><BR><IMG src="images/fig35.png"></P>
+<P>&nbsp;</P>
+<P>Plusieurs onglets permettent de choisir les dimensions des plaques raidies :</P>
+<P>&nbsp;&nbsp;</P>
+<UL class=noindent>
+<LI>Géometrie : L'onglet "Geometry" reprend automatiquement les numéros des deux panneaux qui composent la double coque (panels) et ses dimensions principales : Sa largeur&nbsp;en mètres (width), sa hauteur en mètres (Height),&nbsp;l'angle d'inclinaison&nbsp; en degrés (Angle), le&nbsp;premier panneau (First panel) et le deuxième panneau (Second panel)&nbsp;qui la forment. Ces informations sont&nbsp;automatiquement reprises&nbsp;lors de la création/édition de la géométrie.</LI></ul>
+
+<P>L'angle est le même que celui des deux panneaux qui composent la double coque et est déterminé à partir de l'horizontale à droite du noeud de départ, positif dans le sens horlogique.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig20.png"></P>
+<P>&nbsp;</P>
+<UL class=noindent>
+<LI>Epaisseurs : L'onglet "Thickness" reprend l'épaisseur longitudinale nette (Net thickness en mm) et l'épaisseur longitudinale de corrosion (Corrosion thickness en mm) de chaque panneau formant la double coque. L'épaisseur de corrosion est l'épaisseur à ajouter à l'épaisseur nette pour obtenir l'épaisseur réelle (brute) de la tôle. Cette épaisseur de corrosion ne doit être appliquée qu'aux tôles exposées à l'eau de mer ou à un chargement liquide.
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig36.png">&nbsp;</P></LI>
+<LI>Raidisseurs Principaux : L'onglet "Stiffeners Set 1" permet de choisir leur distribution (EE1 ou EE2),&nbsp;les dimensions de l'âme : Hauteur (Web Height en mm) et épaisseur (Web Thickness en mm), les dimensions de la semelle&nbsp;: Largeur (Flange Width en mm) et épaisseur (Flange Thickness en mm), l'espacement entre les raidisseurs (Spacing en mm), l'épaisseur de Corrosion à appliquer (Corrosion Thickness en mm), ainsi que le côté de la tôle où les raidisseurs sont positionnés.&nbsp;<IMG src="images/fig37.png"></LI></ul>
+
+<P>La distribution des raidisseurs peut être déterminée de 2 façons :</P>
+<P>Soit EE1 : Le premier espacement est compté comme entier à partir du noeud de départ.&nbsp; <IMG src="images/fig23.png"></P>
+<P>Soit EE2 : Le premier espacement vaut la moitié de l'espacement entre raidisseurs à partir du noeud de départ.</P>
+<P><IMG src="images/fig24.png"></P>
+<P>Le côté où se trouve les raidisseurs est déterminé suivant le sens de parcours du panneau. Il ne peut y avoir des raidisseurs sur les 2 côtés du panneau.</P>
+<UL class=noindent>
+<LI>Cloisons&nbsp;: Les cloisons transversales (Floors) des doubles coques sont déterminées par leurs hauteurs&nbsp;c'est à dire la distance entre les deux panneaux (Floor Height en mm), leurs épaisseurs (Floor Thickness en mm), l'entredistance entre les cloisons transversales (Spacing en mm), leurs épaisseurs de corrosion (Corrosion Thickness en mm). La hauteur de cloison est automatiquement introduite par la création/edition de la géométrie.</LI></ul>
+
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig38.png"></P>
+<UL class=noindent>
+<LI>
+<P>Raidisseurs Secondaires : Ils (Stiffeners Set 2) sont déterminés comme les raidisseurs principaux. La distribution est automatiquement de type EE2.</P>
+<P><IMG src="images/fig39.png"></P></LI>
+<LI>
+<P>Cadres Secondaires :Ils (Frames set 2) sont déterminés comme les raidisseurs principaux. La distribution est automatiquement de type EE2.</P>
+<P><IMG src="images/fig40.png"></P></LI>
+<LI>
+<P>Traverses : Le nombre maximum de traverses (Girders)&nbsp;par panneau est de 10. Les traverses sont définies par&nbsp;leurs positions par rapport au point de départ du panneau (Distance From In Node en m), leurs hauteurs d'âme (Web Height en mm), leurs épaisseurs d'âme (Web Thickness en mm), leurs largeurs de semelle (Flange Width en mm), leurs épaisseurs de semelle (Flange Thickness en mm). En sélectionnant le panneau auquel les traverses sont rapportées, la longueur de ce panneau apparaît (Panel Length en m) et permet de placer les traverses à une position inclue dans le panneau. Le côté du panneau où se trouvent les traverses est déterminé suivant le sens de parcours du panneau.<IMG src="images/fig41.png"></P></LI>
+<LI>
+<P>Matériaux : Les caractéristiques des matériaux peuvent être introduites dans l'onglet "Materials". Les caractéristiques sont les suivantes : Module de Young (Young Modulus en N/mm²), Coefficient de poisson (Poisson Coefficient), Limite élastique (Yield Stress en N/mm²), Contrainte admissible (Allowable Stress en N/mm²), Poids Spécifique (Specific Weight en t/m³). Par défaut, le matériau est l'acier.</P>
+<P><IMG src="images/fig42.png"></P>
+<P>&nbsp;</P></LI>
+<LI>
+<P>Participation : Le niveau de participation du panneau intervenant dans le moment de flexion global autour de l'axe horizontal se situe entre 0 et 1. Ceci n'est pas envisageable si un moment de flexion global vertical est appliqué.&nbsp;</P>
+<P><IMG src="images/fig43.png"></P>
+<P>&nbsp;</P>
+<P>Presser OK pour que les données soient enregistrées.</P></LI></ul>
+
+
+<p>
+</body>
+</html>

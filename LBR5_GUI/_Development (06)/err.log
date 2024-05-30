@@ -1,0 +1,2015 @@
+27/04/2006	12:01:07	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+27/04/2006	14:21:47	Error: Overflow.
+Error Location: modFileOpenMars: Function OpenTxtVer100
+27/04/2006	14:21:50	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+27/04/2006	14:21:51	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+27/04/2006	14:21:51	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+27/04/2006	14:21:52	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+27/04/2006	15:45:10	Error: Overflow.
+Error Location: modFileOpenMars: Function OpenTxtVer100
+27/04/2006	15:45:11	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+27/04/2006	15:45:12	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+27/04/2006	15:45:12	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+27/04/2006	15:45:13	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+27/04/2006	16:39:27	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+28/04/2006	12:52:26	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	12:52:31	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	12:52:32	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	12:52:33	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	12:52:34	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	12:52:34	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	12:52:35	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	12:52:36	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	12:52:36	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	12:52:36	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	12:58:01	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	12:58:29	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	12:58:35	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	12:58:36	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	12:58:37	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	13:03:52	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	13:20:31	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	13:20:38	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	13:20:39	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	13:20:39	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	13:20:40	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	13:20:51	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	13:20:53	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	13:20:53	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	13:20:54	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	13:20:54	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	13:21:33	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	13:22:29	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	13:23:00	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	13:54:01	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	13:54:03	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	13:54:04	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	13:54:04	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/04/2006	13:54:05	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/04/2006	14:03:49	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	14:04:08	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	14:04:10	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	14:04:10	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	14:04:11	Error: This key is already associated with an element of this collection.
+Error Location: colCostCAtOperations: Function Add
+28/04/2006	14:13:01	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenAsciiFile
+29/04/2006	9:47:22	Error: Object doesn't support this property or method.
+Error Location: modFileOpenASCII: Function OpenAsciiFile
+29/04/2006	9:48:13	Error: Object doesn't support this property or method.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+29/04/2006	9:48:58	Error: Object doesn't support this property or method.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+29/04/2006	9:49:42	Error: Object doesn't support this property or method.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+29/04/2006	9:51:43	Error: Object doesn't support this property or method.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+29/04/2006	14:51:06	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:51:09	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:51:10	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:51:11	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:51:11	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:51:58	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:51:59	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:51:59	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:52:00	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:52:00	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:52:19	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:52:21	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:52:21	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:52:22	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:52:22	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:52:40	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:52:40	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:52:41	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:52:41	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:52:42	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:54:15	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:54:18	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:54:18	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	14:54:19	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	14:54:19	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:11:10	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:11:13	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	15:11:13	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:11:14	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	15:11:14	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:13:26	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:13:27	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	15:13:27	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:13:28	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	15:13:28	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:15:11	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:15:13	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	15:15:13	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:15:14	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	15:15:14	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:40:44	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenTxtVer110
+29/04/2006	15:40:59	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:41:00	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+29/04/2006	15:41:00	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+29/04/2006	15:41:01	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+1/05/2006	9:16:58	Error: Permission denied.
+Error Location: cProject: Function SaveAsLBR5TextFile
+1/05/2006	11:03:19	Error: .
+Error Location: colStrakes: Item Property Get
+2/05/2006	12:44:01	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	12:48:30	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	12:49:43	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	12:50:00	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	12:50:17	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	12:51:18	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	12:58:20	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:18:58	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:19:27	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:25:24	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:25:31	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:26:38	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:26:46	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:27:06	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:27:17	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:27:27	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+2/05/2006	13:28:16	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+3/05/2006	8:26:28	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+3/05/2006	8:26:37	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+3/05/2006	17:01:33	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+4/05/2006	7:48:53	Error: Object variable or With block variable not set.
+Error Location: frmCostCAt: Function OpenFormAddNappe
+4/05/2006	7:51:13	Error: Subscript out of range.
+Error Location: modNodeGenerator: Sub NodeGenerator
+4/05/2006	7:51:15	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+4/05/2006	7:51:16	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function DetectColinearity
+4/05/2006	7:51:16	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+4/05/2006	15:12:20	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsFile
+4/05/2006	15:21:51	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+4/05/2006	15:21:52	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+4/05/2006	15:21:53	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+4/05/2006	15:21:53	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+4/05/2006	15:21:54	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+4/05/2006	16:46:13	Error: Invalid procedure call or argument.
+Error Location: colLoadCase: Item Property Get
+4/05/2006	16:46:15	Error: Object variable or With block variable not set.
+Error Location: modFileOpenMars: Function OpenTxtVer110
+4/05/2006	16:46:17	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+4/05/2006	16:46:17	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+4/05/2006	16:46:18	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+5/05/2006	14:23:12	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolution
+5/05/2006	14:25:33	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolution
+5/05/2006	14:37:33	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolution
+23/06/2006	19:06:27	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+6/07/2006	12:17:28	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:17:38	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:17:38	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:17:39	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:17:39	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:20:44	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:20:45	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:20:46	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:20:46	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:20:47	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:21:42	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:21:43	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:21:44	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:21:45	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:21:45	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:23:22	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:23:32	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:23:35	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:23:36	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:23:36	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:06	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:25:07	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:25:09	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:10	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:11	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:21	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:25:24	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:25:25	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:26	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:26	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:27	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:25:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:26:47	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:33:15	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:33:17	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:33:17	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:33:18	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:33:18	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:36:09	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:36:10	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:36:11	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:36:11	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:36:11	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:11	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:38:12	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:38:13	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:13	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:13	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:18	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:38:19	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:38:19	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:19	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:20	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:20	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:20	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:21	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:21	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:38:21	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:52:46	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:52:48	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	12:52:56	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:52:57	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	12:52:57	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:10:03	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:10:05	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:10:06	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:10:06	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:10:07	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:11:25	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:11:27	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:11:27	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:11:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:11:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:12:58	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:12:59	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:13:00	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:13:00	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:13:01	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:14:55	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:15:23	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:16:51	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:16:52	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:16:53	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:16:53	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:16:54	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:18:16	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:18:17	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:18:18	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:18:18	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:18:19	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:18:49	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:18:50	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:18:50	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:18:51	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:18:51	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:29:37	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:29:39	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+6/07/2006	14:29:39	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:29:39	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+6/07/2006	14:29:40	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+7/07/2006	9:17:24	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer110
+7/07/2006	9:18:10	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+7/07/2006	9:18:11	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+7/07/2006	9:18:11	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+7/07/2006	9:18:12	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+7/07/2006	9:18:16	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer110
+7/07/2006	9:18:25	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer110
+7/07/2006	9:19:03	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenAsciiFile
+7/07/2006	9:19:13	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer110
+7/07/2006	9:19:28	Error: Overflow.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+7/07/2006	9:21:36	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer110
+7/07/2006	9:24:21	Error: Object doesn't support this property or method.
+Error Location: colUpdatedScantlings: Function WriteASCII
+7/07/2006	9:24:24	Error: Object doesn't support this property or method.
+Error Location: colUpdatedScantlings: Function WriteASCII
+7/07/2006	9:24:24	Error: Object doesn't support this property or method.
+Error Location: colUpdatedScantlings: Function WriteASCII
+7/07/2006	9:24:25	Error: Object doesn't support this property or method.
+Error Location: colUpdatedScantlings: Function WriteASCII
+7/07/2006	9:24:25	Error: Object doesn't support this property or method.
+Error Location: colUpdatedScantlings: Function WriteASCII
+7/07/2006	13:26:26	Error: Invalid procedure call or argument.
+Error Location: colMarsLoadCase: Item Property Get
+7/07/2006	13:27:18	Error: Object variable or With block variable not set.
+Error Location: frmMarsLoads: Sub ComputeLocalLoads
+7/07/2006	13:27:49	Error: Invalid procedure call or argument.
+Error Location: colMarsLoadCase: Item Property Get
+7/07/2006	13:27:50	Error: Object variable or With block variable not set.
+Error Location: frmMarsLoads: Sub ComputeLocalLoads
+7/07/2006	13:35:42	Error: Invalid procedure call or argument.
+Error Location: colMarsLoadCase: Item Property Get
+7/07/2006	13:35:48	Error: Object variable or With block variable not set.
+Error Location: frmMarsLoads: Sub ComputeLocalLoads
+10/07/2006	10:06:21	Error: Invalid procedure call or argument.
+Error Location: colMarsLoadCase: Item Property Get
+10/07/2006	10:06:28	Error: Object variable or With block variable not set.
+Error Location: frmMarsLoads: Sub ComputeLocalLoads
+10/07/2006	10:07:22	Error: Invalid procedure call or argument.
+Error Location: colMarsLoadCase: Item Property Get
+10/07/2006	10:07:23	Error: Object variable or With block variable not set.
+Error Location: frmMarsLoads: Sub ComputeLocalLoads
+10/07/2006	10:07:28	Error: Invalid procedure call or argument.
+Error Location: colMarsLoadCase: Item Property Get
+10/07/2006	10:07:31	Error: Object variable or With block variable not set.
+Error Location: frmMarsLoads: Sub ComputeLocalLoads
+10/07/2006	10:07:45	Error: Invalid procedure call or argument.
+Error Location: colMarsLoadCase: Item Property Get
+10/07/2006	10:07:50	Error: Object variable or With block variable not set.
+Error Location: frmMarsLoads: Sub ComputeLocalLoads
+10/07/2006	11:10:53	Error: Object doesn't support this property or method.
+Error Location: cPanel: Function Reverse
+10/07/2006	11:10:58	Error: Object doesn't support this property or method.
+Error Location: cPanel: Function Reverse
+10/07/2006	11:30:49	Error: Overflow.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+17/07/2006	11:59:31	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	11:59:32	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	11:59:33	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	11:59:34	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	11:59:34	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:00:38	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:00:41	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:00:41	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:00:42	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:00:42	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:00:47	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:02:12	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:02:15	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:02:15	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:02:15	Error: Overflow.
+Error Location: modPanelFunctions: Function GetSectionModulus
+17/07/2006	12:02:25	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer110
+17/07/2006	12:07:05	Error: Object variable or With block variable not set.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+26/07/2006	9:27:58	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+26/07/2006	10:08:26	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	14:43:11	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	14:44:09	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+26/07/2006	14:54:34	Error: .
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	14:54:35	Error: .
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	14:54:43	Error: .
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	14:54:45	Error: .
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	15:00:47	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	15:07:37	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	15:07:39	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+26/07/2006	15:13:38	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	15:13:41	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+26/07/2006	15:16:26	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	15:16:27	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+26/07/2006	15:17:06	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+26/07/2006	15:17:07	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+26/07/2006	16:05:32	Error: Subscript out of range.
+Error Location: modNodeGenerator: Sub NodeGenerator
+26/07/2006	16:05:34	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+26/07/2006	16:05:35	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function DetectColinearity
+26/07/2006	16:05:37	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+26/07/2006	16:05:37	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function DetectColinearity
+26/07/2006	16:08:03	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenTxtVer110
+26/07/2006	16:08:07	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	10:04:38	Error: Object variable or With block variable not set.
+Error Location: modFileOpenMars: Function OpenTxtVer10
+27/07/2006	10:04:38	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	10:06:23	Error: Object variable or With block variable not set.
+Error Location: modFileOpenMars: Function OpenTxtVer10
+27/07/2006	10:06:24	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	10:15:32	Error: .
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	10:15:53	Error: .
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	10:16:58	Error: .
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	10:17:47	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer10
+27/07/2006	10:17:48	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	10:19:42	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer10
+27/07/2006	10:19:44	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	10:23:27	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer10
+27/07/2006	10:23:28	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	11:53:08	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	11:53:16	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	11:56:49	Error: .
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	11:58:48	Error: .
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	11:59:31	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	11:59:33	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:00:22	Error: .
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	12:07:53	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:07:54	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:08:04	Error: .
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	12:08:10	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:08:11	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:08:22	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:08:22	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:08:38	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:08:40	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:09:03	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:09:05	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:12:36	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	12:12:37	Error: Object variable or With block variable not set.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:12:38	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:12:47	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	12:12:48	Error: Object variable or With block variable not set.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:12:49	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:13:25	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	12:13:26	Error: Object variable or With block variable not set.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:13:26	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	12:14:24	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+27/07/2006	12:14:26	Error: Object variable or With block variable not set.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+27/07/2006	12:14:26	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+27/07/2006	14:44:39	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+3/08/2006	16:31:49	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+3/08/2006	16:31:51	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer10
+3/08/2006	16:56:51	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+4/08/2006	15:10:35	Error: Subscript out of range.
+Error Location: frmDesignVariables: Sub SetData
+4/08/2006	15:10:39	Error: Subscript out of range.
+Error Location: frmDesignVariables: Sub SetData
+4/08/2006	15:19:28	Error: Out of stack space.
+Error Location: frmDesignVariables: Sub SetData
+4/08/2006	15:19:29	Error: Out of stack space.
+Error Location: frmDesignVariables: Sub SetData
+4/08/2006	15:19:30	Error: Out of stack space.
+Error Location: frmDesignVariables: Sub SetData
+4/08/2006	15:19:30	Error: Out of stack space.
+Error Location: frmDesignVariables: Sub SetData
+4/08/2006	15:19:30	Error: Out of stack space.
+Error Location: frmDesignVariables: Sub SetData
+7/08/2006	10:24:49	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+8/08/2006	13:21:19	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+8/08/2006	13:35:48	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+8/08/2006	13:35:50	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+8/08/2006	14:36:17	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+9/08/2006	11:52:49	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	11:52:51	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	11:52:54	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	11:52:55	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:20:45	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:20:52	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:29:12	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:29:14	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:33:43	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:33:45	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:34:37	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:34:38	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:34:40	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:34:41	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:34:46	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:35:18	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:35:19	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:35:35	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:35:39	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:39:42	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:39:45	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:39:52	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:39:54	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:45:16	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:45:28	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:50:41	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:50:43	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:50:53	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:50:55	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:50:56	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:50:58	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:51:00	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:51:01	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	12:51:12	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+9/08/2006	12:51:16	Error: Object variable or With block variable not set.
+Error Location: modPanelFunctions: Function AddBoundary
+9/08/2006	13:57:51	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+9/08/2006	14:12:10	Error: Invalid procedure call or argument.
+Error Location: cNode: FileVersionNumber Property Get
+9/08/2006	14:12:44	Error: Invalid procedure call or argument.
+Error Location: cNode: FileVersionNumber Property Get
+9/08/2006	14:13:14	Error: Invalid procedure call or argument.
+Error Location: cNode: FileVersionNumber Property Get
+17/08/2006	10:48:08	Error: .
+Error Location: colDesignVariables: Item Property Get
+17/08/2006	10:49:15	Error: .
+Error Location: colDesignVariables: Item Property Get
+17/08/2006	11:01:27	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+17/08/2006	11:01:29	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:02:48	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+17/08/2006	11:02:49	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:05:12	Error: .
+Error Location: colDesignVariables: Item Property Get
+17/08/2006	11:11:54	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+17/08/2006	11:11:55	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:13:48	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+17/08/2006	11:13:49	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:23:38	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+17/08/2006	11:23:39	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:31:09	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer10
+17/08/2006	11:31:11	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:38:29	Error: .
+Error Location: colDesignVariables: Item Property Get
+17/08/2006	11:39:03	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer10
+17/08/2006	11:39:05	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:39:06	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:39:07	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+17/08/2006	11:39:10	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:39:10	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+17/08/2006	11:39:11	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:39:11	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawSecondaryFrames
+17/08/2006	11:39:12	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:39:13	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawSecondaryFrames
+17/08/2006	11:39:13	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:39:14	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawSecondaryFrames
+17/08/2006	11:39:14	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:39:14	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPlates
+17/08/2006	11:39:15	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:39:15	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPlates
+17/08/2006	11:39:16	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:39:16	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawBeams
+17/08/2006	11:39:16	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:42:10	Error: Subscript out of range.
+Error Location: modFileOpenMars: Function OpenTxtVer10
+17/08/2006	11:42:12	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:43:10	Error: .
+Error Location: colDesignVariables: Item Property Get
+17/08/2006	11:47:40	Error: Subscript out of range.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	11:47:42	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:47:48	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	11:47:49	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+17/08/2006	11:49:04	Error: Subscript out of range.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	11:49:05	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	11:50:37	Error: Subscript out of range.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	11:50:39	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:00:49	Error: Type mismatch.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	12:01:03	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:03:20	Error: Type mismatch.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	12:03:21	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:04:40	Error: Type mismatch.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	12:04:42	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:06:13	Error: Type mismatch.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	12:06:16	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:06:47	Error: Type mismatch.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	12:06:47	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:19:37	Error: Type mismatch.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	12:19:38	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:22:04	Error: Type mismatch.
+Error Location: OpenTxtVer10: Function OpenTxtVer10
+17/08/2006	12:22:05	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:23:26	Error: This key is already associated with an element of this collection.
+Error Location: colStepWiseLateralPressure: Function Add
+17/08/2006	12:23:28	Error: This key is already associated with an element of this collection.
+Error Location: colStepWiseLateralPressure: Function Add
+17/08/2006	12:23:29	Error: This key is already associated with an element of this collection.
+Error Location: colStepWiseLateralPressure: Function Add
+17/08/2006	12:23:29	Error: This key is already associated with an element of this collection.
+Error Location: colStepWiseLateralPressure: Function Add
+17/08/2006	12:23:30	Error: This key is already associated with an element of this collection.
+Error Location: colStepWiseLateralPressure: Function Add
+17/08/2006	12:32:39	Error: Overflow.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+17/08/2006	12:32:51	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:33:08	Error: Overflow.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+17/08/2006	12:33:09	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:33:28	Error: Overflow.
+Error Location: modFileOpenMars: Function OpenTxtVer11
+17/08/2006	12:35:42	Error: Overflow.
+Error Location: modFileOpenTxt: Function OpenTxtVer11
+17/08/2006	12:35:45	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+17/08/2006	12:35:56	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	12:35:58	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+17/08/2006	12:35:58	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+17/08/2006	12:41:41	Error: .
+Error Location: colLoadCase: Item Property Get
+17/08/2006	12:48:22	Error: .
+Error Location: colDesignVariables: Item Property Get
+18/08/2006	10:34:01	Error: This key is already associated with an element of this collection.
+Error Location: colProject: Function Add
+18/08/2006	10:35:46	Error: Object variable or With block variable not set.
+Error Location: modUndoRedo: Function ChangeMaps
+18/08/2006	10:41:16	Error: Object variable or With block variable not set.
+Error Location: modUndoRedo: Function ChangeMaps
+29/08/2006	12:51:07	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+29/08/2006	12:53:15	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+14/09/2006	16:03:28	Error: Invalid picture.
+Error Location: modDraw: Sub DrawScreen
+14/09/2006	16:03:32	Error: Invalid picture.
+Error Location: modDraw: Sub DrawScreen
+14/09/2006	16:03:33	Error: Invalid picture.
+Error Location: modDraw: Sub DrawScreen
+14/09/2006	16:23:06	Error: Invalid picture.
+Error Location: modDraw: Sub DrawScreen
+14/09/2006	16:23:08	Error: Invalid picture.
+Error Location: modDraw: Sub DrawScreen
+14/09/2006	16:23:09	Error: Invalid picture.
+Error Location: modDraw: Sub DrawScreen
+15/09/2006	11:16:10	Error: .
+Error Location: colDesignVariables: Item Property Get
+15/09/2006	11:19:23	Error: .
+Error Location: colDesignVariables: Item Property Get
+15/09/2006	11:19:32	Error: .
+Error Location: colDesignVariables: Item Property Get
+19/09/2006	11:43:12	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolution
+21/11/2006	19:25:14	Error: .
+Error Location: colPanel: Item Property Get
+22/11/2006	13:43:50	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+22/11/2006	13:43:55	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+22/11/2006	13:44:45	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+27/11/2006	9:32:54	Error: Input past end of file.
+Error Location: modFileOpenMars: Function OpenMarsVer100
+30/11/2006	16:49:29	Error: Out of memory.
+Error Location: modStrings: Function GetValues.
+30/11/2006	16:49:31	Error: Out of memory.
+Error Location: modStrings: Function GetValues.
+30/11/2006	16:49:31	Error: Out of memory.
+Error Location: modStrings: Function GetValues.
+30/11/2006	16:49:32	Error: Out of memory.
+Error Location: modStrings: Function GetValues.
+30/11/2006	16:49:32	Error: Out of memory.
+Error Location: modStrings: Function GetValues.
+18/12/2006	11:56:29	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+18/12/2006	12:03:00	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+18/12/2006	16:51:14	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+18/12/2006	16:52:02	Error: .
+Error Location: colProject: Item Property Get
+18/12/2006	18:13:55	Error: System Error &H80004005 (-2147467259).   Erreur non spécifiée .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+19/12/2006	17:47:23	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionBeamTheory
+19/12/2006	17:53:08	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionBeamTheory
+19/12/2006	18:03:42	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionBeamTheory
+19/12/2006	18:11:16	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionBeamTheory
+19/12/2006	18:12:30	Error: .
+Error Location: colPanel: Item Property Get
+19/12/2006	18:12:36	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionBeamTheory
+19/12/2006	18:12:56	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionBeamTheory
+19/12/2006	18:16:14	Error: .
+Error Location: colPanel: Item Property Get
+19/12/2006	18:50:24	Error: System Error &H80004005 (-2147467259).   Erreur non spécifiée .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+19/12/2006	18:50:41	Error: System Error &H80004005 (-2147467259).   Erreur non spécifiée .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+19/12/2006	18:50:54	Error: System Error &H80004005 (-2147467259).   Erreur non spécifiée .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+19/12/2006	18:51:14	Error: System Error &H80004005 (-2147467259).   Erreur non spécifiée .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+10/01/2007	12:01:51	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:02:11	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:02:54	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:07:45	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:08:05	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenAsciiFile
+10/01/2007	12:08:22	Error: Subscript out of range.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+10/01/2007	12:09:06	Error: Subscript out of range.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+10/01/2007	12:11:26	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:13:53	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:19:55	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:20:22	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:20:36	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:20:42	Error: Subscript out of range.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:22:55	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+10/01/2007	12:22:56	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+10/01/2007	12:35:25	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+10/01/2007	12:36:21	Error: .
+Error Location: colProject: Item Property Get
+10/01/2007	12:36:24	Error: .
+Error Location: colProject: Item Property Get
+10/01/2007	12:37:59	Error: System Error &H80004005 (-2147467259).   Erreur non spécifiée .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+10/01/2007	12:38:58	Error: System Error &H80004005 (-2147467259).   Erreur non spécifiée .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+14/01/2007	18:33:13	Error: Out of memory.
+Error Location: modStrings: Function GetValues.
+14/01/2007	18:33:14	Error: Out of memory.
+Error Location: modStrings: Function GetValues.
+14/01/2007	18:33:15	Error: Input past end of file.
+Error Location: modFileOpenTxt: Function OpenTxtVer11
+14/01/2007	18:33:15	Error: Object variable or With block variable not set.
+Error Location: cohhlProject: Function OpenLBR5TextFile
+15/01/2007	9:26:03	Error: Control array element '4' doesn't exist.
+Error Location: frmOptimization: Sub GetData
+2/04/2007	12:37:41	Error: File not found.
+Error Location: cProject: Function SaveAsLBR5TextFile
+2/04/2007	12:41:53	Error: Object variable or With block variable not set.
+Error Location: cProject: Function SaveAsLBR5TextFile
+14/05/2007	10:44:49	Error: Object required.
+Error Location: frmMarsLoads: Sub GetData
+28/06/2007	12:09:08	Error: File not found.
+Error Location: cProject: Function SaveAsLBR5TextFile
+28/06/2007	12:09:28	Error: File not found.
+Error Location: cProject: Function SaveAsLBR5TextFile
+28/06/2007	12:10:01	Error: File not found.
+Error Location: cProject: Function SaveAsLBR5TextFile
+28/06/2007	12:10:31	Error: File not found.
+Error Location: cProject: Function SaveAsLBR5TextFile
+28/06/2007	14:17:19	Error: Invalid procedure call or argument.
+Error Location: cProject: Function SaveAsLBR5TextFile
+28/06/2007	16:47:42	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:47:47	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:47:50	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:47:51	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:47:52	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:47:54	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:47:55	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:47:56	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:47:57	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:47:58	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:51:09	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:51:10	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:51:11	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:51:12	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:51:13	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:51:15	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:51:16	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:51:17	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+28/06/2007	16:51:19	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/06/2007	16:51:20	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawPrimaryFrames
+4/07/2007	8:45:16	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:17	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:18	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:18	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:19	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:20	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:21	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:22	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:22	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:23	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:24	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:25	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:26	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:27	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:27	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:29	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:30	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:30	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:31	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:45:31	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:48:01	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:48:02	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:48:03	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:48:03	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	8:48:04	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:07:34	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	9:07:37	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:07:38	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:07:38	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:07:39	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:08:30	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	9:08:32	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	9:08:33	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	9:08:33	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	9:08:34	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	9:14:07	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:09	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:10	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:10	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:11	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:12	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:12	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:12	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:13	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:14:13	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	9:36:34	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	9:38:23	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+4/07/2007	9:38:25	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+4/07/2007	9:40:22	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+4/07/2007	9:40:25	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+4/07/2007	9:43:29	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+4/07/2007	9:43:31	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+4/07/2007	9:43:50	Error: .
+Error Location: colPanel: Item Property Get
+4/07/2007	9:44:30	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+4/07/2007	9:44:31	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+4/07/2007	9:46:04	Error: .
+Error Location: colPanel: Item Property Get
+4/07/2007	9:49:06	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	10:00:28	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	10:00:29	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	10:00:30	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	10:00:30	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	10:00:32	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	10:18:59	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:19:01	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:19:02	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:19:02	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:19:03	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:25:52	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	10:28:15	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	10:52:20	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:52:21	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:52:22	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:52:22	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	10:52:23	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:09:10	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:09:11	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:09:12	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:09:14	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:09:15	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:09	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:10:10	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:10:11	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:10:11	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:10:12	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:10:26	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:29	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:30	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:31	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:31	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:31	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:10:31	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	12:38:59	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:39:02	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:39:03	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:39:04	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	12:39:04	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	13:04:01	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:03	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:03	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:04	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:04	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:28	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:33	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:33	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:34	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:04:35	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:05:19	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	13:05:21	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	13:05:22	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	13:05:23	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	13:05:23	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	13:05:58	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+4/07/2007	13:09:43	Error: Overflow.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+4/07/2007	13:21:15	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:21:16	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:21:16	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:21:17	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	13:21:17	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	14:05:30	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	14:05:38	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	14:05:39	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	14:05:40	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	14:05:40	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:34:50	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:34:52	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:34:53	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:34:53	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:34:54	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:36:43	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:36:49	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:36:50	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:36:50	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:36:51	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:40:45	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:40:46	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:40:46	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:40:47	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:40:47	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:41:02	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:41:04	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:41:05	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:41:06	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:41:06	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:49:25	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:49:35	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:49:36	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:49:37	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:49:37	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:51:26	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	15:51:31	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+4/07/2007	15:51:31	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:51:32	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:51:32	Error: This key is already associated with an element of this collection.
+Error Location: colBoundaryConditions: Function Add
+4/07/2007	15:52:14	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:52:15	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:52:15	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:52:16	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	15:52:16	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:05	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:06	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:07	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:07	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:08	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:29	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:45	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:46	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:46	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:05:47	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:07:47	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:07:49	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:07:49	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:07:50	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:07:50	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:07:59	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:00	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:00	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:01	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:01	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:02	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:03	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:04	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:04	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+4/07/2007	16:08:05	Error: This key is already associated with an element of this collection.
+Error Location: colGirder: Function Add
+9/07/2007	17:34:29	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+9/07/2007	17:34:38	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+9/07/2007	17:34:59	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+9/07/2007	17:36:02	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+10/07/2007	11:07:34	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+Sring: 'Valeur max = 0.0000E+00'
+10/07/2007	11:08:30	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+10/07/2007	15:17:41	Error: Overflow.
+Error Location: modFunctions: Function getGravityCenter
+17/07/2007	14:28:45	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+17/07/2007	14:28:46	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+17/07/2007	14:28:55	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+17/07/2007	14:28:57	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+17/07/2007	15:43:04	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+17/07/2007	15:43:07	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+17/07/2007	15:43:14	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+17/07/2007	15:43:16	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+17/07/2007	15:43:54	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+17/07/2007	15:43:55	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+17/07/2007	15:46:29	Error: .
+Error Location: colDesignVariables: Item Property Get
+17/07/2007	15:48:11	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+17/07/2007	15:48:15	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+17/07/2007	15:48:54	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+17/07/2007	15:48:58	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+17/07/2007	15:54:21	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+17/07/2007	15:54:24	Error: Object variable or With block variable not set.
+Error Location: modFileOpenASCII: Function OpenASCIIVer11
+17/07/2007	16:05:22	Error: Invalid procedure call or argument.
+Error Location: colPanel: Function Remove
+17/07/2007	16:05:30	Error: Invalid procedure call or argument.
+Error Location: colPanel: Function Remove
+23/07/2007	13:24:36	Error: Invalid procedure call or argument.
+Error Location: colLoadCase: Item Property Get
+23/07/2007	13:24:56	Error: .
+Error Location: colLoadCase: Item Property Get
+23/07/2007	14:09:01	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionBeamTheory
+23/07/2007	16:22:20	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+23/07/2007	16:22:26	Error: .
+Error Location: colPanel: Item Property Get
+23/07/2007	16:22:43	Error: Invalid procedure call or argument.
+Error Location: colPanel: Item Property Get
+23/07/2007	16:22:48	Error: .
+Error Location: colPanel: Item Property Get
+23/07/2007	16:22:51	Error: .
+Error Location: colPanel: Item Property Get
+25/07/2007	13:46:36	Error: Object doesn't support this property or method.
+Error Location: frmOptimization: Sub GetData
+25/07/2007	13:48:18	Error: Object doesn't support this property or method.
+Error Location: frmOptimization: Sub GetData
+25/07/2007	16:31:44	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionBeamTheory
+28/07/2007	13:02:17	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+28/07/2007	13:17:26	Error: .
+Error Location: colNodes: Item Property Get
+30/07/2007	18:20:37	Error: System Error &H80004005 (-2147467259).  .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+31/07/2007	22:40:45	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+31/07/2007	22:40:51	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+2/08/2007	13:19:13	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+2/08/2007	13:22:08	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	11:18:58	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	11:19:06	Error: .
+Error Location: colProject: Item Property Get
+3/08/2007	11:19:10	Error: .
+Error Location: colProject: Item Property Get
+3/08/2007	11:19:23	Error: .
+Error Location: colProject: Item Property Get
+3/08/2007	22:03:24	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	22:03:58	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	22:04:54	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	22:16:18	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	22:25:28	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	22:40:19	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	22:45:23	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	22:45:52	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	22:50:02	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:25:27	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:26:53	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:31:27	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:31:54	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:36:06	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:37:26	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:45:36	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:47:16	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+3/08/2007	23:59:35	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+4/08/2007	0:00:38	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+4/08/2007	0:30:10	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+4/08/2007	0:47:42	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+4/08/2007	0:56:08	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+4/08/2007	1:39:57	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+4/08/2007	1:41:00	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+4/08/2007	1:48:10	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+4/08/2007	10:53:01	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+5/08/2007	0:20:15	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+5/08/2007	11:51:20	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+5/08/2007	11:57:51	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+5/08/2007	12:03:28	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+5/08/2007	12:54:57	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+7/08/2007	8:55:47	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+7/08/2007	8:55:56	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	8:55:58	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	8:56:06	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	8:56:10	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	8:56:54	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+7/08/2007	8:57:00	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	8:57:02	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	8:57:04	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	8:57:05	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	8:57:29	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+7/08/2007	8:57:56	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+7/08/2007	8:59:58	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	9:00:43	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+7/08/2007	9:21:53	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+7/08/2007	9:24:02	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+7/08/2007	9:25:21	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	9:27:17	Error: .
+Error Location: colProject: Item Property Get
+7/08/2007	9:30:47	Error: .
+Error Location: colProject: Item Property Get
+21/08/2007	14:49:14	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	14:49:28	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	14:49:41	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	14:51:31	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	14:53:37	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	14:56:53	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	14:59:06	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	15:00:58	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	15:01:58	Error: Path not found.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	15:04:57	Error: File already exists.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	15:05:31	Error: File already exists.
+Error Location: cProject: Function SaveConfigurationFile
+21/08/2007	15:06:10	Error: File already exists.
+Error Location: cProject: Function SaveConfigurationFile
+22/08/2007	8:42:13	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+22/08/2007	8:42:23	Error: .
+Error Location: colProject: Item Property Get
+22/08/2007	8:43:17	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+22/08/2007	8:43:57	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+22/08/2007	8:44:10	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+22/08/2007	14:18:40	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+24/08/2007	17:12:27	Error: System Error &H80004005 (-2147467259).  .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+24/08/2007	17:12:41	Error: System Error &H80004005 (-2147467259).  .
+Error Location: colProject: Function OpenLBR5ASCIIFile
+24/08/2007	17:47:27	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+24/08/2007	17:47:40	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+24/08/2007	18:01:43	Error: This key is already associated with an element of this collection.
+Error Location: colProject: Function Add
+24/08/2007	18:01:45	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+24/08/2007	18:01:46	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+24/08/2007	18:01:47	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+24/08/2007	18:01:48	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+27/08/2007	21:37:44	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+27/08/2007	21:37:59	Error: .
+Error Location: colProject: Item Property Get
+27/08/2007	23:32:22	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+27/08/2007	23:35:31	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+27/08/2007	23:46:40	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+27/08/2007	23:46:51	Error: .
+Error Location: colProject: Item Property Get
+27/08/2007	23:49:15	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+30/08/2007	11:49:48	Error: Invalid procedure call or argument.
+Error Location: colBoundaryConditions: Item Property Get
+30/08/2007	11:49:52	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawBoundaryConditions
+30/08/2007	11:49:54	Error: Invalid procedure call or argument.
+Error Location: colBoundaryConditions: Item Property Get
+30/08/2007	11:49:55	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawBoundaryConditions
+30/08/2007	14:14:20	Error: Invalid procedure call or argument.
+Error Location: colBoundaryConditions: Item Property Get
+30/08/2007	14:14:22	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawBoundaryConditions
+30/08/2007	14:15:08	Error: Invalid procedure call or argument.
+Error Location: colBoundaryConditions: Item Property Get
+30/08/2007	14:15:11	Error: Object variable or With block variable not set.
+Error Location: modDraw: Sub DrawBoundaryConditions
+30/08/2007	14:24:38	Error: Invalid procedure call or argument.
+Error Location: colNodes: Item Property Get
+30/08/2007	14:24:49	Error: .
+Error Location: colNodes: Item Property Get
+30/08/2007	14:24:59	Error: .
+Error Location: colNodes: Item Property Get
+30/08/2007	14:25:32	Error: .
+Error Location: colNodes: Item Property Get
+30/08/2007	14:25:38	Error: .
+Error Location: colNodes: Item Property Get
+30/08/2007	14:25:42	Error: .
+Error Location: colNodes: Item Property Get
+30/08/2007	14:25:47	Error: .
+Error Location: colNodes: Item Property Get
+30/08/2007	14:25:55	Error: .
+Error Location: colNodes: Item Property Get
+30/08/2007	15:23:36	Error: This key is already associated with an element of this collection.
+Error Location: colNodes: Function Add
+30/08/2007	15:23:44	Error: This key is already associated with an element of this collection.
+Error Location: colNodes: Function Add
+30/08/2007	15:23:45	Error: This key is already associated with an element of this collection.
+Error Location: colNodes: Function Add
+31/08/2007	14:04:52	Error: Invalid procedure call or argument.
+Error Location: colBoundaryConditions: Item Property Get
+31/08/2007	14:05:22	Error: Invalid procedure call or argument.
+Error Location: colBoundaryConditions: Item Property Get
+31/08/2007	14:16:00	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:01	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:02	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:03	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:03	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:04	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:05	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:05	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:05	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:06	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:37	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:38	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:39	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:40	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:40	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:41	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:43	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:43	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:43	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:16:43	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:18:10	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:18:12	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:18:13	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:18:14	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:18:14	Error: This key is already associated with an element of this collection.
+Error Location: colDesignVariables: Function Add
+31/08/2007	14:44:24	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+31/08/2007	14:45:35	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+3/09/2007	10:30:24	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+3/09/2007	10:30:26	Error: Object variable or With block variable not set.
+Error Location: modFileOpenTxt: Function OpenTxtVer11
+3/09/2007	11:19:25	Error: This key is already associated with an element of this collection.
+Error Location: colStructuralConstraints: Function Add
+3/09/2007	11:19:29	Error: This key is already associated with an element of this collection.
+Error Location: colStructuralConstraints: Function Add
+3/09/2007	11:19:29	Error: Invalid procedure call or argument.
+Error Location: colLoadCase: Item Property Get
+3/09/2007	11:47:38	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+3/09/2007	11:47:48	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+3/09/2007	11:49:10	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+3/09/2007	11:53:35	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+3/09/2007	11:54:27	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+4/09/2007	11:56:56	Error: Subscript out of range.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+4/09/2007	11:57:42	Error: Subscript out of range.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+4/09/2007	12:00:12	Error: Subscript out of range.
+Error Location: colProject: Function OpenLBR5ASCIIFile
+4/09/2007	14:20:17	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+4/09/2007	14:23:05	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+5/09/2007	11:20:39	Error: Invalid procedure call or argument.
+Error Location: colStructuralConstraints: Item Property Get
+5/09/2007	11:21:13	Error: Invalid procedure call or argument.
+Error Location: colStructuralConstraints: Item Property Get
+5/09/2007	11:44:28	Error: Invalid procedure call or argument.
+Error Location: colLoadCase: Item Property Get
+7/09/2007	18:48:23	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+7/09/2007	18:48:52	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+7/09/2007	18:49:52	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+7/09/2007	18:51:20	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+7/09/2007	18:53:59	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+10/09/2007	10:25:31	Error: This key is already associated with an element of this collection.
+Error Location: colPanel: Function Add
+10/09/2007	10:27:33	Error: .
+Error Location: colPanel: Item Property Get
+10/09/2007	10:28:33	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+10/09/2007	10:28:41	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+10/09/2007	11:24:32	Error: Input past end of file.
+Error Location: modPostProcessor: Function ReadSolutionLBR4
+10/09/2007	11:24:47	Error: Permission denied.
+Error Location: cProject: Sub DeleteOldSolution
+16/09/2007	15:39:26	Error: Invalid procedure call or argument.
+Error Location: colProject: Item Property Get
+17/09/2007	10:25:10	Error: Printer error
+17/09/2007	10:26:26	Error: 
+17/09/2007	10:41:21	Error: Printer error
+17/09/2007	10:43:17	Error: 
+17/09/2007	10:45:19	Error: 
+17/09/2007	10:47:40	Error: 
+17/09/2007	10:48:10	Error: 
+17/09/2007	10:49:53	Error: 
+17/09/2007	11:15:20	Error: 
+17/09/2007	11:48:22	Error: Invalid picture
+17/09/2007	11:50:49	Error: 
+17/09/2007	12:16:47	Error: Printer error
+17/09/2007	12:16:54	Error: Printer error
+17/09/2007	12:17:07	Error: Printer error
+17/09/2007	12:17:14	Error: Printer error
+17/09/2007	12:17:54	Error: Printer error
+17/09/2007	12:18:00	Error: Printer error
+17/09/2007	12:25:45	Error: Printer error
+17/09/2007	12:25:49	Error: Printer error
+17/09/2007	12:26:00	Error: Printer error
+28/09/2007	17:52:03	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+28/09/2007	17:52:21	Error: .
+Error Location: colDesignVariables: Item Property Get
+28/09/2007	17:59:39	Error: Invalid procedure call or argument.
+Error Location: colDesignVariables: Item Property Get
+28/09/2007	18:03:04	Error: .
+Error Location: colDesignVariables: Item Property Get
+28/09/2007	18:03:59	Error: .
+Error Location: colDesignVariables: Item Property Get
+28/09/2007	18:04:01	Error: .
+Error Location: colDesignVariables: Item Property Get
+28/09/2007	18:06:38	Error: .
+Error Location: colProject: Item Property Get
+30/10/2007	13:11:50	Error: Object doesn't support this property or method.
+Error Location: cProject: DataChanged Property Let
+30/10/2007	13:27:08	Error: Out of stack space.
+Error Location: modCheckModel: Function CheckBendingMoments
+30/10/2007	13:28:16	Error: Out of stack space.
+Error Location: modCheckModel: Function CheckBendingMoments

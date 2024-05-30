@@ -1,0 +1,50 @@
+
+<html>
+<head>
+<title>Module coût simplifié</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Module coût simplifié</h2>
+<p>
+
+<P>L'onglet "Simplified" dans l'onglet "Cost" de "Optimization' de la barre de Menu, donne le tableau suivant:</P>
+<P><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig53.png"></P>
+<P>Les valeurs entrées par défaut correspondent à une structure en acier à 550 euros par tonne.</P>
+<P>Le calcul du coût par le module simplifié est établi comme suit:</P>
+<P>FC = F(mat) + F(const) + F(Mnp)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; en euros.</P>
+<P>où FC : Le&nbsp;coût de construction global.</P>
+<P>&nbsp;&nbsp;&nbsp; F(mat) : Le&nbsp;coût de base des matériaux.</P>
+<P>&nbsp;&nbsp;&nbsp; F(const) : Le&nbsp;coût des consommables nécessaires à la construction.</P>
+<P>&nbsp;&nbsp;&nbsp; F(Mnp) : Le coût de la main d'oeuvre pour la structure entière.</P>
+<P>&nbsp;</P>
+<P>Certains paramètres peuvent être modifiés, il s'agit de:</P>
+<LI>Efficacité de construction (Shipyard Efficiency):&nbsp;</LI>
+<P><IMG src="images/fig56.png"></P>
+<P>Le paramètre d'efficacité de construction correspond à l'effet de la main d'oeuvre sur la&nbsp;construction. Ce paramètre n'est utilisé que dans le cas d'une optimisation coût de la structure. Il est recommandé de le prendre égal à 1.<I style="mso-bidi-font-style: normal"><SPAN lang=EN-US style="mso-ansi-language: EN-US"><FONT face="Times New Roman"><I><I style="mso-bidi-font-style: normal"><SPAN lang=EN-US style="FONT-SIZE: 12pt; mso-ansi-language: EN-US; mso-bidi-font-size: 10.0pt"><FONT face="Times New Roman"><I style="mso-bidi-font-style: normal"><SPAN lang=EN-US style="mso-ansi-language: EN-US"><FONT face="Times New Roman"><I><I style="mso-bidi-font-style: normal"><SPAN lang=EN-US style="FONT-SIZE: 12pt; mso-ansi-language: EN-US; mso-bidi-font-size: 10.0pt"><SPAN style="FONT: 10pt Verdana; COLOR: #000000"></P>
+<LI><I style="mso-bidi-font-style: normal"><SPAN lang=EN-US style="mso-ansi-language: EN-US"><FONT face="Times New Roman"><I><I style="mso-bidi-font-style: normal"><SPAN lang=EN-US style="FONT-SIZE: 12pt; mso-ansi-language: EN-US; mso-bidi-font-size: 10.0pt"><SPAN style="FONT: 10pt Verdana; COLOR: #000000"></SPAN></SPAN></I></I></FONT></SPAN></I>&nbsp;Coût de la Main d'oeuvre&nbsp;(Working Loads) :</LI>
+<P>Chaque poste de fabrication de la structure demande une certaine quantité d'hommes-heure&nbsp;(poids de main d'oeuvre ou working loads). Voici les postes courants:</P>
+<P>-&nbsp;Applatissage de la tôle et redressage des raidisseurs après soudage ( Plating and Straightening).</P>
+<P>- Soudage des raidisseurs longitudinaux sur la tôle (Welding Longitudinal Stiffeners on the Plating).</P>
+<P>- Soudage des cadres transversaux sur la tôle (Welding Transevrse Frames on the Plating).</P>
+<P>- Assemblage des membrures longitudinales&nbsp;à partir d'une&nbsp;plaque standard et travail additionnel (Assembling longitudinal members from standard plates + additional works ). Cette caractéristique vaut 0 homme-heure par mètre si les profilés utilisés sont standards.</P>
+<P>- Assemblage des membrures transversales&nbsp;à partir d'une plaque standard et travail additionnel (Assembling transversal members from standard plates + additional works ). Cette caractéristique vaut 0 homme-heure par mètre si les profilés utilisés sont standards.</P>
+<P>- Coupure et jonction permettant l'intersection d'une membrure longitudinale et d'une membrure transversale (Cutting a slot for intersect and join a longitudinal and a transversal frame).</P>
+<P>- Fixation de goussets à l'intersection des membrures longitudinale et transversale (Fixing brackets at intersection between a longitudinal and a transversal frame).</P>
+<P>- Fréquence des goussets le long des raidisseurs longitudinaux (Bracket frequency along longitudinal stiffeners).</P>
+<P>- Fréquence des goussets le long des raidisseurs&nbsp;transversaux (Bracket frequency along transversal frames).</P>
+<P>La variation relative (Relative variation) reprend l'effet d'un changement de 1mm de l'épaisseur de la tôle.</P>
+<LI>
+<P>&nbsp;Consommables (Consumables):</P></LI>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig57.png">&nbsp;</P>
+<P>Entrer le Coût&nbsp;de production de la structure par mètre, comprenant l'énergie, le gaz, la dépréciation des équipement provisionnels... (Cost)</P>
+<P>Entrer la variation relative du coût lorsque l'épaisseur de tôle varie de 1 mm (Cost Relative variation)</P>
+<P>Entrer le coefficient de Coût (Cost coefficient for longitudinal members). Celui-ci vaut 1 si les membrures longitudinales sont standards, 0 si les membrures sont fabriquées sur le chantier.</P>
+<P>Entrer le coefficient de Coût (Cost coefficient for transversal members). Celui-ci vaut 1 si les membrures transversales sont standards, 0 si les membrures sont fabriquées sur le chantier.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P></SPAN></SPAN></I></I></FONT></SPAN></I></FONT></SPAN></I></I></FONT></SPAN></I>&nbsp;Cliquer sur OK pour enregistrer les changements.</P>
+
+<p>
+</body>
+</html>

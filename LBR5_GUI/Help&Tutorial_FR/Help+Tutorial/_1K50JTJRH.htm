@@ -1,0 +1,189 @@
+
+<html>
+<head>
+<title>Restrictions géométriques</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Restrictions géométriques</h2>
+<p>
+
+
+    <p>Les restrictions g&eacute;om&eacute;triques peuvent &ecirc;tre d&eacute;termin&eacute;es dans l'onglet "geometrical constraints" du chapitre "optimization" de la barre de Menu. Le tableau suivant appara&icirc;t :
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig63.png"></p>
+
+    <p>&nbsp;</p>
+
+    <ul class="noindent">
+      <li>Panels : choisir le panneau pour lequel les restrictions structurelles sont introduites.</li>
+
+      <li>Restrictions : Le bouton References (puis Expand List si n&eacute;cessaire)&nbsp;permet d'acc&eacute;der &agrave; la liste des restrictions et des sets (ensembles pr&eacute;d&eacute;finis de restrictions). La traduction des abr&eacute;viations peut &ecirc;tre obtenue en&nbsp;observant la figure explicative (Show Figure).&nbsp;Voici les correspondances des restrictions&nbsp;(attention les num&eacute;ros ne sont pas en ordre croissant)&nbsp;:</li>
+    </ul>
+
+    <p><u>Sets</u> :</p>
+
+    <p>1. Set de Hughes (pour les membrures en T). Ce set reprend les restrictions suivantes : Pour les cadres : 109,110,111,112. Pour les raidisseurs : 209,210,211,212. Pour la jonction cadres-raidisseurs : 301,302,303.</p>
+
+    <p>2. Set de Hughes (Etendu). Ce set reprend les restrictions du set pr&eacute;c&eacute;dent ainsi que les restrictions suivantes : 104,105 et 204,205.</p>
+
+    <p>3. Set de Hughes (pour les membrures en L).Ce set reprend les restrictions suivantes : Pour les cadres : 111,112,115,116. Pour les raidisseurs : 211,212,215,216. Pour la jonction cadres-raidisseurs : 301,302,303.</p>
+
+    <p>4. Set de Rahman (pour les barges et la navigation int&eacute;rieure). Ce set reprend les restrictions suivantes : Pour les cadres : 101,102,103. Pour les raidisseurs : 201,202,203.</p>
+
+    <p>5. Set de Rahman (Etendu). Ce set reprend les restrictions du set pr&eacute;c&eacute;dent ainsi que les restrictions suivantes : 104,105 et 204,205.</p>
+
+    <p><u>Semelles des cadres</u> :</p>
+
+    <p>106. L'&eacute;paisseur de la semelle est inf&eacute;rieure ou &eacute;gale &agrave; deux fois l'&eacute;paisseur de l'&acirc;me.</p>
+
+    <p>107. La largeur de la semelle est sup&eacute;rieure ou &eacute;gale &agrave; huit fois l'&eacute;paisseur de la semelle.</p>
+
+    <p>108. Si le profil&eacute; est en L : La largeur de la semelle est inf&eacute;rieure ou &eacute;gale &agrave; 16 fois l'&eacute;paisseur de la semelle. Si le profil&eacute; est en T : La largeur de la semelle est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;32 fois l'&eacute;paisseur de la semelle.</p>
+
+    <p><u>Semelles des&nbsp;raidisseurs</u> :</p>
+
+    <p>206. L'&eacute;paisseur de la semelle est inf&eacute;rieure ou &eacute;gale &agrave; deux fois l'&eacute;paisseur de l'&acirc;me.</p>
+
+    <p>207. La largeur de la semelle est sup&eacute;rieure ou &eacute;gale &agrave; huit fois l'&eacute;paisseur de la semelle.</p>
+
+    <p>208. Si le profil&eacute; est en L : La largeur de la semelle est inf&eacute;rieure ou &eacute;gale &agrave; 16 fois l'&eacute;paisseur de la semelle. Si le profil&eacute; est en T : La largeur de la semelle est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;32 fois l'&eacute;paisseur de la semelle.</p>
+
+    <p><u>Ratio &eacute;paisseur de plaque/&eacute;paisseur de l'&acirc;me des cadres</u>&nbsp;:</p>
+
+    <p>104 : L'&eacute;paisseur de la plaque est inf&eacute;rieure ou &eacute;gale &agrave; deux &eacute;paisseurs d'&acirc;me des cadres.</p>
+
+    <p>112 : L'&eacute;paisseur d'&acirc;me des cadres est inf&eacute;rieure ou &eacute;gale &agrave; deux &eacute;paisseurs de t&ocirc;le.</p>
+
+    <p><u>Hauteur d'&acirc;me des cadres minimale</u> :</p>
+
+    <p>105. 3 &eacute;paisseurs de t&ocirc;les sont inf&eacute;rieures ou &eacute;gales &agrave; la hauteur d'&acirc;me des cadres.</p>
+
+    <p><u>Ratio largeur de semelle/hauteur d'&acirc;me des cadres</u> :</p>
+
+    <p>101. La largeur de la semelle est inf&eacute;rieure ou &eacute;gale &agrave; la hauteur de l'&acirc;me des cadres.</p>
+
+    <p>102. La hauteur d'&acirc;me est inf&eacute;rieure ou &eacute;gale &agrave; 2 largeurs de semelle des cadres.</p>
+
+    <p>109. La hauteur d'&acirc;me&nbsp;est sup&eacute;rieure ou &eacute;gale &agrave; 0,625 largeur de semelle des cadres en profil&eacute; T.</p>
+
+    <p>110. La hauteur d'&acirc;me&nbsp;est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;2,5 largeurs de semelle des cadres en profil&eacute; T.</p>
+
+    <p>115. La hauteur d'&acirc;me&nbsp;est sup&eacute;rieure ou &eacute;gale &agrave;&nbsp;1,25 largeurs de semelle des cadres en profil&eacute; T.</p>
+
+    <p>116. La hauteur d'&acirc;me&nbsp;est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;5 largeurs de semelle des cadres en profil&eacute; T.</p>
+
+    <p><u>Elancement de l'&acirc;me des cadres</u>&nbsp;:</p>
+
+    <p>111.&nbsp;Dans le cas de&nbsp;raidisseurs longitudinaux&nbsp;plus petits que les cadres, la hauteur d'&acirc;me est inf&eacute;rieure ou &eacute;gale &agrave; 120 &eacute;paisseurs d'&acirc;me des cadres.</p>
+
+    <p>103. Dans le cas de navigation int&eacute;rieure, l'&eacute;paisseur de l'&acirc;me&nbsp;est sup&eacute;rieure ou &eacute;gale &agrave; 0,0065+ hauteur d'&acirc;me/170&nbsp;&nbsp;des cadres. (Peu recommand&eacute;).</p>
+
+    <p>113. Dans le cas de&nbsp;raidisseurs longitudinaux&nbsp;plus&nbsp;grands que les cadres, la hauteur d'&acirc;me est inf&eacute;rieure ou &eacute;gale &agrave; 36 &eacute;paisseurs d'&acirc;me des cadres.</p>
+
+    <p>114.&nbsp; Dans le cas de&nbsp;raidisseurs longitudinaux&nbsp;plus&nbsp;grands que les cadres, la hauteur d'&acirc;me est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;40 &eacute;paisseurs d'&acirc;me des cadres.</p>
+
+    <p><u>Ratio &eacute;paisseur de plaque/&eacute;paisseur de l'&acirc;me des&nbsp;raidisseurs</u>&nbsp;:</p>
+
+    <p>204 : L'&eacute;paisseur de la plaque est inf&eacute;rieure ou &eacute;gale &agrave; deux &eacute;paisseurs d'&acirc;me des raidisseurs.</p>
+
+    <p>212 : L'&eacute;paisseur d'&acirc;me des raidisseurs est inf&eacute;rieure ou &eacute;gale &agrave; deux &eacute;paisseurs de t&ocirc;le.</p>
+
+    <p><u>Hauteur d'&acirc;me des</u> <u>raidisseurs</u> <u>minimale</u> :</p>
+
+    <p>205. 3 &eacute;paisseurs de t&ocirc;les sont inf&eacute;rieures ou &eacute;gales &agrave; la hauteur d'&acirc;me des raidisseurs.</p>
+
+    <p><u>Ratio largeur de semelle/hauteur d'&acirc;me des</u> <u>raidisseurs</u> :</p>
+
+    <p>201. La largeur de la semelle est inf&eacute;rieure ou &eacute;gale &agrave; la hauteur de l'&acirc;me des raidisseurs.</p>
+
+    <p>202. La hauteur d'&acirc;me est inf&eacute;rieure ou &eacute;gale &agrave; 2 largeurs de semelle des raidisseurs.</p>
+
+    <p>209. La hauteur d'&acirc;me&nbsp;est sup&eacute;rieure ou &eacute;gale &agrave; 0,625 largeur de semelle des raidisseurs en profil&eacute; T.</p>
+
+    <p>210. La hauteur d'&acirc;me&nbsp;est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;2,5 largeurs de semelle des raidisseurs en profil&eacute; T.</p>
+
+    <p>215. La hauteur d'&acirc;me&nbsp;est sup&eacute;rieure ou &eacute;gale &agrave;&nbsp;1,25 largeurs de semelle des raidisseurs en profil&eacute; T.</p>
+
+    <p>216. La hauteur d'&acirc;me&nbsp;est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;5 largeurs de semelle des raidisseurs en profil&eacute; T.</p>
+
+    <p><u>Elancement de l'&acirc;me des</u> <u>raidisseurs</u>&nbsp;:</p>
+
+    <p>203.&nbsp;Dans le cas de&nbsp;raidisseurs longitudinaux&nbsp;plus petits que les cadres, la hauteur d'&acirc;me est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;40 &eacute;paisseurs d'&acirc;me des raidisseurs.</p>
+
+    <p>211.&nbsp;Dans le cas de&nbsp;raidisseurs longitudinaux&nbsp;plus petits que les cadres, la hauteur d'&acirc;me est inf&eacute;rieure ou &eacute;gale &agrave;&nbsp;36 &eacute;paisseurs d'&acirc;me des raidisseurs.</p>
+
+    <p>213. Dans le cas de&nbsp;raidisseurs longitudinaux&nbsp;plus&nbsp;grands que les cadres, la hauteur d'&acirc;me est inf&eacute;rieure ou &eacute;gale &agrave; 120 &eacute;paisseurs d'&acirc;me des cadres.</p>
+
+    <p>214. Dans le cas de navigation int&eacute;rieure, l'&eacute;paisseur de l'&acirc;me&nbsp;est sup&eacute;rieure ou &eacute;gale &agrave; 0,0065+ hauteur d'&acirc;me/170&nbsp;&nbsp;des raidisseurs.</p>
+
+    <p><u>Interaction cadres/Raidisseurs</u> :</p>
+
+    <p>301. Dans le cas de&nbsp;raidisseurs longitudinaux&nbsp;plus petits que les cadres transversaux, la hauteur d'&acirc;me des raidisseurs est inf&eacute;rieure ou &eacute;gale &agrave; la hauteur d'&acirc;me des cadres.</p>
+
+    <p>304. Dans le cas de&nbsp;raidisseurs longitudinaux&nbsp;plus grands que les cadres transversaux, la hauteur d'&acirc;me des cadres est inf&eacute;rieure ou &eacute;gale &agrave; la hauteur d'&acirc;me des raidisseurs.</p>
+
+    <p>302. L'&eacute;paisseur de l'&acirc;me des raidisseurs longitudinaux est inf&eacute;rieure ou &eacute;gale &agrave; 4 &eacute;paisseurs des cadres transversaux.</p>
+
+    <p>303. L'&eacute;paisseur de l'&acirc;me des cadres transversaux est&nbsp;inf&eacute;rieure ou &eacute;gale &agrave; 4 &eacute;paisseurs des raidisseurs longitudinaux.</p>
+
+    <p>&nbsp;</p>
+
+    <p>&nbsp;Raidisseurs longitudinaux :</p>
+
+    <p>L'onglet des restrictions relatives aux raidisseurs longitudinaux (Stiffeners)&nbsp;donne le tableau suivant :</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig64.png"></p>
+
+    <p>Cocher alors les restrictions souhait&eacute;es. Presser Apply pour les enregistrer.</p>
+
+    <p>&nbsp;Cadres transversaux :</p>
+
+    <p>L'onglet des restrictions relatives aux&nbsp;cadres transversaux (Frames)&nbsp;donne le tableau suivant :</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig65.png"></p>
+
+    <p>Cocher alors les restrictions souhait&eacute;es. Presser Apply pour les enregistrer.</p>
+
+    <p>&nbsp;Interaction raidisseurs/cadres :</p>
+
+    <p>L'onglet des restrictions relatives&nbsp;&agrave; l'interaction entre&nbsp;les raidisseurs longitudinaux et les cadres transversaux&nbsp;(Stifferners-Frames Interaction) donne le tableau suivant :</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig66.png"></p>
+
+    <p>Cocher alors les restrictions souhait&eacute;es. Presser Apply pour les enregistrer.</p>
+
+    <p>&nbsp;Sets :</p>
+
+    <p>L'onglet des&nbsp;sets de restrictions&nbsp;(Sets) donne le tableau suivant :</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/fig67.png"></p>
+
+    <p>Cocher alors le set de&nbsp;restrictions souhait&eacute;. Presser Apply pour l'enregistrer.</p>
+
+    <p>&nbsp;ISEMA et ISEMR : L'&eacute;paisseur de la semelle des cadres et des raidisseurs n'&eacute;tant pas une variable de conception, ces deux variables permettent de la prendre en compte malgr&eacute; tout :</p>
+
+    <p>ISEMA = 0 : L'&eacute;paisseur de la semelle des cadres transversaux est invariable.</p>
+
+    <p>ISEMA = 1 : L'&eacute;paisseur de la semelle des cadres transversaux&nbsp;de profil en L varie pour satisfaire les restrictions g&eacute;om&eacute;triques qui la concerne (106, 107 et 108)&nbsp;.</p>
+
+    <p>ISEMA = 2 :&nbsp; L'&eacute;paisseur de la semelle des cadres transversaux&nbsp;de profil&nbsp;en T varie pour satisfaire les restrictions g&eacute;om&eacute;triques qui la concerne (106, 107 et 108) .</p>
+
+    <p>ISEMR = 0 : L'&eacute;paisseur de la semelle des&nbsp;raidisseurs longitudinaux est invariable.</p>
+
+    <p>ISEMR = 1 : L'&eacute;paisseur de la semelle des raidisseurs longitudinaux&nbsp;de profil en L varie pour satisfaire les restrictions g&eacute;om&eacute;triques qui la concerne (206, 207 et 208)&nbsp;.</p>
+
+    <p>ISEMR = 2 :&nbsp; L'&eacute;paisseur de la semelle des raidisseurs longitudinaux&nbsp;de profil&nbsp;en T varie pour satisfaire les restrictions g&eacute;om&eacute;triques qui la concerne (206, 207 et 208) .</p>
+
+    <p>&nbsp;Presser Apply pour enregistrer toute modification.</p>
+
+    <p>&nbsp;Remarques :</p>
+
+    <p>1&deg; Pour chaque panneau, les onglets noircis&nbsp;montrent qu'ils comprennent des restrictions.&nbsp;</p>
+
+    <p>2&deg; Pour introduire les restrictions, il faut imp&eacute;rativement avoir s&eacute;lectionn&eacute; un panneau pr&eacute;alablement.</p>
+
+
+<p>
+</body>
+</html>

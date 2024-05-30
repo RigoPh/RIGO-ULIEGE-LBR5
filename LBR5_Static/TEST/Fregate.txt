@@ -1,0 +1,2366 @@
+1.1.3
+1								IANA = 1 (LBR-4); IANA = 2 (calcul réglementaire)
+FM4
+0  0  1  1  1  -7  0  26  0					IMPR, IMPR2, INDAIG, INDRAID ,DESSIN ,JLPH ,JLBORD ,NETO ,NDQ
+0  0.000  0.000  0.000  0.000
+1  10								IOPTI (1 oui. 0 non) et ITERAM = nbre d'itération
+0								ICOUT
+1.0000  0.1050							REND, EQP(0.01<k=EQP<0.1)
+0.0080  0.0080  0.0080						Eo, Eox, Eoy  (épaisseur de référence en m)
+0.3570  0.4570  0.4290  0.0000					Prix Matér. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0920  0.0400							MdO Bordé: P10(h-h/m).DP10(variation par mm)
+0.5000  1.3400  0.0200  0.0200					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+0.0000  0.0000  0.0000  0.0000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+0.2500  1.2200  1.0000  1.0000					MdO Joints  : P6(intersect).P7(gousset).Béta-X(long.).Béta-Y(transv)
+2.1430  0.0500  1.0000  0.0000					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+14.4000 							Longueur de la structure (WIDTH)
+0.0000  1.8000  3.6000  5.4000  7.2000				Section de calcul (DIS)
+0.0000  0.0000  0.0000  0.0000  0.0000  0.0000			Cisaillement des semelles (FAM)
+0								IPOIDS ( 1 OUI. 0 NON)
+8  8  1  2  3  4  5  6  7  8
+Hogging seul
+Sagging seul
+Pressions ponts
+Pressions bordé
+Pression capacité 1
+Pression capacité 2
+BV Hogging
+BV Sagging
+PLAQUE     PANNEAU NO 1          ======================================================================================
+-0.150000  0.01475							Hauteur. Epaisseur. (m)
+1.60000  0.07500  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.50000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.00100  0.00100  0.00100  0.00100  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0	 0						Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+9.46080  9.46080							Pressions bordé
+-11.30000  -11.30000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+8.51940  8.51940							BV Hogging
+2.23460  2.23460							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+2  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+3
+1  3  5
+0.01015  0.00100  0.00100  0.00100  1.00000  0.00100  0.00100  0.00100  0.07500
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+1								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+1								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+8								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+8								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+6								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+6								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 2          ======================================================================================
+-1.880265  0.01188							Hauteur. Epaisseur. (m)
+1.60000  0.50800  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.50000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.10900  0.00700  0.02500  0.01100  0.00200					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+349.706056								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+9.46080  9.43670							Pressions bordé
+-11.30000  -10.96400							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+8.51940  8.25100							BV Hogging
+2.23460  2.22320							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+3  15  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+7
+1  3  5  6  7  8  9
+0.00745  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+13								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+13  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 3          ======================================================================================
+-3.015896  0.01065							Hauteur. Epaisseur. (m)
+1.60000  0.51200  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.50000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.10900  0.00600  0.02400  0.01100  0.00200					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+348.000778								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+9.43670  9.39190							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+-10.96400  -10.33700							Pression capacité 2
+8.25100  7.75540							BV Hogging
+2.22320  2.20760							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+4  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+7
+1  3  5  6  7  8  9
+0.00746  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Hogging
+13								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+13  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 4          ======================================================================================
+-0.581568  0.00875							Hauteur. Epaisseur. (m)
+1.60000  0.28000  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.25000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.10900  0.00600  0.02400  0.01100  0.00200					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+341.035415								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+9.39190  9.37840							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+-10.33700  -10.14800							Pression capacité 2
+7.75540  7.60620							BV Hogging
+2.20760  2.20380							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+5  14  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+6
+1  3  5  6  7  8
+0.00755  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.05100
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Hogging
+13								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+13  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 5          ======================================================================================
+-0.762567  0.00875							Hauteur. Epaisseur. (m)
+1.60000  0.49900  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.29000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.09100  0.00700  0.02500  0.00900  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+328.185761								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+9.37840  9.34970							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+7.60620  7.29220							BV Hogging
+6.28280  5.95940							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+6  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+8
+1  2  3  4  5  6  7  8
+0.00755  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 6          ======================================================================================
+-1.331323  0.00725							Hauteur. Epaisseur. (m)
+1.60000  0.49600  0.00000  0.00000  0.00104					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.29000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.09100  0.00700  0.02500  0.00900  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+310.918720								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+9.34970  9.27780							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+7.29220  6.51180							BV Hogging
+5.95940  5.15960							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+7  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00725  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 7          ======================================================================================
+-2.074566  0.00701							Hauteur. Epaisseur. (m)
+1.60000  0.50000  0.00000  0.00000  0.00101					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.29000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.09100  0.00700  0.02500  0.00900  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  1  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+290.749994								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+9.27780  9.13910							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+6.51180  5.04200							BV Hogging
+5.15960  3.25800							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+8  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00701  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 8          ======================================================================================
+-2.746595  0.00501							Hauteur. Epaisseur. (m)
+1.60000  0.48300  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.30000  0.00800  0.15000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.09100  0.00600  0.02300  0.00900  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  1  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+285.240482								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+9.13910  6.47420							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+5.04200  2.16000							BV Hogging
+3.25800  2.16000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+9  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 9          ======================================================================================
+-0.154029  0.00695							Hauteur. Epaisseur. (m)
+1.60000  0.07500  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.30000  0.00800  0.15000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.00100  0.00100  0.00100  0.00100  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+256.865978								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+6.47420  6.32060							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+2.16000  -2.16000							BV Hogging
+2.16000  2.16000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+10  18  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+5
+1  2  3  4  5
+0.00595  0.00100  0.00100  0.00100  1.00000  0.00100  0.00100  0.00100  0.07500
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+1								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+1								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+8								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 10          ======================================================================================
+-1.849800  0.00780							Hauteur. Epaisseur. (m)
+1.60000  0.46240  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.25000  0.00600  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.07300  0.00400  0.02300  0.00700  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+257.010948								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+6.32060  4.47600							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+2.16000  2.16000							BV Hogging
+2.16000  2.16000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+24  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00595  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 11          ======================================================================================
+-2.000000  0.00675							Hauteur. Epaisseur. (m)
+1.60000  0.50000  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.50000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.10900  0.00700  0.02500  0.01100  0.00200					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+0.50  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  1  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+9.90000  9.90000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+3.88500  3.88500							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+23  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+7
+1  3  5  6  7  8  9
+0.00659  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+13								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+13  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 12          ======================================================================================
+-3.500000  0.00675							Hauteur. Epaisseur. (m)
+1.60000  0.50000  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.50000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.10900  0.00700  0.02500  0.01100  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+0.50  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  1  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+9.90000  9.90000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+3.88500  3.88500							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+11  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+7
+1  3  5  6  7  8  9
+0.00659  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Hogging
+13								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+13  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 13          ======================================================================================
+-1.400000  0.00900							Hauteur. Epaisseur. (m)
+1.60000  0.46600  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.50000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.06350  0.00600  0.02400  0.00650  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  2  2  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+11.30000  9.90000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+23  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+7
+1  3  5  6  7  8  9
+0.00900  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 14          ======================================================================================
+-0.248000  0.00900							Hauteur. Epaisseur. (m)
+1.60000  0.12400  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.50000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.00100  0.00100  0.00100  0.00100  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  2  1  1  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+10.14800  9.90000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+12  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+3
+1  3  5
+0.00500  0.00100  0.00100  0.00100  1.00000  0.00100  0.00100  0.00100  0.12400
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+1								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+1								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+8								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Hogging
+6								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+6								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 15          ======================================================================================
+-1.064000  0.00900							Hauteur. Epaisseur. (m)
+1.60000  0.50700  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.50000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.12700  0.00700  0.02500  0.01300  0.00200					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  2  1  1  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+10.96400  9.90000							Pression capacité 1
+-10.96400  -9.90000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+11  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+7
+1  3  5  6  7  8  9
+0.00500  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 2
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Hogging
+13								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+13  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+12								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+8  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 16          ======================================================================================
+-2.000000  0.00500							Hauteur. Epaisseur. (m)
+1.60000  0.50000  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.18000  0.00530  0.09100  0.00800  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05500  0.00400  0.02500  0.00500  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+1  1  1  1  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.80000  0.80000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+3.10000  3.10000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0.27000  0.00660  0.13500  0.01000  0.00100				Raidisseurs longitudinaux (m)
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+11								Nbre de restrictions structurelles
+1  13  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 17          ======================================================================================
+-3.500000  0.00500							Hauteur. Epaisseur. (m)
+1.60000  0.50000  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.18000  0.00530  0.09100  0.00800  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.06900  0.00500  0.03100  0.00600  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+1  1  1  1  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.80000  0.80000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+3.10000  3.10000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+16  25  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0.27000  0.00660  0.13500  0.01000  0.00100				Raidisseurs longitudinaux (m)
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+11								Nbre de restrictions structurelles
+1  13  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 18          ======================================================================================
+-2.942000  0.00500							Hauteur. Epaisseur. (m)
+1.60000  0.50000  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.18000  0.00530  0.09100  0.00800  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.05500  0.00400  0.02500  0.00500  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  1  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.80000  0.80000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+3.10000  3.10000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+17  26  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+11								Nbre de restrictions structurelles
+1  13  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 19          ======================================================================================
+-2.000000  0.00850							Hauteur. Epaisseur. (m)
+1.60000  0.50000  0.00000  0.00000  0.00050					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00590  0.11000  0.00920  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.10900  0.00600  0.02400  0.01100  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+1  1  1  1  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+1.50000  1.50000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0.37000  0.00900  0.19000  0.01460  0.00100				Raidisseurs longitudinaux (m)
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00800  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+11								Nbre de restrictions structurelles
+1  13  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 20          ======================================================================================
+-3.500000  0.00850							Hauteur. Epaisseur. (m)
+1.60000  0.50000  0.00000  0.00000  0.00050					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00590  0.11000  0.00920  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.13600  0.00800  0.03000  0.01400  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+1  1  1  1  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+1.50000  1.50000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+19  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0.37000  0.00900  0.19000  0.01460  0.00100				Raidisseurs longitudinaux (m)
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00800  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+11								Nbre de restrictions structurelles
+1  13  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 21          ======================================================================================
+-2.250000  0.00850							Hauteur. Epaisseur. (m)
+1.60000  0.45000  0.00000  0.00000  0.00050					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00590  0.11000  0.00920  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.10900  0.00600  0.02400  0.01100  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  1  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+1.50000  1.50000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+20  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00800  0.00100  0.00100  0.00100  1.00000  0.05500  0.00400  0.01000  0.45000
+0.03000  1.20000  0.02000  0.40000  2.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+11								Nbre de restrictions structurelles
+1  13  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  177.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  177.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  177.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions bordé
+0								Nbre de restrictions structurelles
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+PLAQUE     PANNEAU NO 22          ======================================================================================
+-0.001000  0.01475							Hauteur. Epaisseur. (m)
+1.60000  0.00100  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.40000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.00100  0.00100  0.00100  0.00100  0.00000					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+1  13  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.00500  0.00100  0.00100  0.00100  1.60000  0.00100  0.00100  0.00100  0.00100
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 23          ======================================================================================
+-0.001000  0.00675							Hauteur. Epaisseur. (m)
+1.60000  0.00100  0.00000  0.00000  0.00125					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.25000  0.00700  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.10900  0.00700  0.02500  0.01100  0.00200					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  1  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.00500  0.00100  0.00100  0.00100  1.60000  0.08000  0.00500  0.01000  0.00100
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 24          ======================================================================================
+-1.228977  0.00780							Hauteur. Epaisseur. (m)
+1.60000  0.40970  0.00000  0.00000  0.00100					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.25000  0.00600  0.14000  0.01000  0.00000					Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre
+0.07300  0.00400  0.02300  0.00700  0.00100					Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur
+EE2								Repartition raidisseurs longitudinaux
+1.00  0  0							Coefficient de participation. Famille. Lot
+206000000000  0.30  355000000  180000000  77000			E. Poisson. Sy. Sadm. Poids Specifique
+0  1  1  2  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+257.010985								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+4.47600  3.24970							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+2.16000  2.16000							BV Hogging
+2.16000  2.16000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+21  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.00573  0.00100  0.00100  0.00100  1.60000  0.05500  0.00400  0.01000  0.40970
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						Liste de pts pour le calcul des sensibilites
+Hogging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Sagging seul
+2								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pressions ponts
+0								Nbre de restrictions structurelles
+Pressions bordé
+11								Nbre de restrictions structurelles
+1  13  355.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  22  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+5  24  284.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+6  24  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  284.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+8  25  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  34  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+10  35  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+11  36  284.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Pression capacité 1
+0								Nbre de restrictions structurelles
+Pression capacité 2
+0								Nbre de restrictions structurelles
+BV Hogging
+18								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+BV Sagging
+19								Nbre de restrictions structurelles
+1  14  0.5  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  11  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  13  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+4  22  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+5  22  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+6  22  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+7  24  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+8  24  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+9  24  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+10  25  266.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+11  25  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+12  25  266.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+13  54  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+14  55  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+15  32  243.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+16  34  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+17  35  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+18  36  266.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+19  37  0.33  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+GEOMETRICAL CONSTRAINTS
+3								M2=Nbre de restrictions geometriques
+101  102  114
+1  0								ISEMA. ISEMR
+EPONTILLE     PANNEAU NO 25          ======================================================================================
+-3.000000  0.00500							Hauteur. Epaisseur. (m)
+CERCLE
+4.80000 3.00000							Ecartement. Longueur effective
+0.10000  0.00000								diamètre extérieur; ép. corrosion
+210000000000  0.00  235000000  175000000  78500			E. Poisson. Sy. Sadm. Poids Specifique
+0  0  0  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+19  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+1
+5
+0.00500  0.10000  0.00000  0.00000  3.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  6.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+EPONTILLE     PANNEAU NO 26          ======================================================================================
+-3.000000  0.00500							Hauteur. Epaisseur. (m)
+CERCLE
+4.80000 3.00000							Ecartement. Longueur effective
+0.10000  0.00000								diamètre extérieur; ép. corrosion
+210000000000  0.00  235000000  175000000  78500			E. Poisson. Sy. Sadm. Poids Specifique
+0  0  0  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.00000  0.00000							Hogging seul
+0.00000  0.00000							Sagging seul
+0.00000  0.00000							Pressions ponts
+0.00000  0.00000							Pressions bordé
+0.00000  0.00000							Pression capacité 1
+0.00000  0.00000							Pression capacité 2
+0.00000  0.00000							BV Hogging
+0.00000  0.00000							BV Sagging
+0.00000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+20  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+1
+5
+0.00500  0.10000  0.00000  0.00000  3.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  6.00000  0.30000  0.02000  0.10000  0.90000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+BOUNDARY CONDITIONS
+4								Nbre de conditions de bords
+16  7								nbre panneau. nbre condition
+19  7								nbre panneau. nbre condition
+22  7								nbre panneau. nbre condition
+23  7								nbre panneau. nbre condition
+GRAVITY CENTER LOCATION - REPERE UTILISATEUR + RESTRICTION SUR LE CENTRE DE GRAVITE
+-0.1500  0.0000						(XK.YK) Coord du centre du repere utilisateur
+3  4.9000  5.1000						IGRAV(NO:0;Min:1;MAX:2;Min et max:3).KGMIN.KGMAX
+INERTIA CONSTRAINT
+1  9.55
+SECTION MODULUS CONSTRAINT
+1  2.55  19
+WEIGHT CONSTRAINT
+0  0
+COST CONSTRAINT
+0  0  1
+MOMENTS
+1								= 0:pas de moment. = 1:avec moment
+1								Coeff. de réduction 1.24 pour Sig. et 1.04 pour W
+2.0452E+08  0.0000E+00  0.0000E+00  0.0000E+00			Hogging seul
+-2.0452E+08  0.0000E+00  0.0000E+00  0.0000E+00			Sagging seul
+9.5274E+06  0.0000E+00  0.0000E+00  0.0000E+00			Pressions ponts
+-3.8824E+07  0.0000E+00  0.0000E+00  0.0000E+00			Pressions bordé
+1.2904E+06  0.0000E+00  0.0000E+00  0.0000E+00			Pression capacité 1
+1.2454E+06  0.0000E+00  0.0000E+00  0.0000E+00			Pression capacité 2
+3.6725E+08  0.0000E+00  0.0000E+00  0.0000E+00			BV Hogging
+-3.9234E+08  0.0000E+00  0.0000E+00  0.0000E+00			BV Sagging
+EQUALITY CONSTRAINTS
+73								Nbre de restrictions d'égalité
+3  2  3  1  1.000
+5  2  5  1  1.000
+3  3  3  1  1.000
+5  3  5  1  1.000
+3  4  3  1  1.000
+5  4  5  1  1.000
+1  5  1  4  1.000
+5  5  5  1  1.000
+5  6  5  1  1.000
+5  7  5  1  1.000
+5  8  5  1  1.000
+1  9  1  10  1.000
+2  9  2  8  1.000
+3  9  3  8  1.000
+4  9  4  8  1.000
+5  9  5  1  1.000
+5  10  5  1  1.000
+3  11  3  1  1.000
+5  11  5  1  1.000
+1  12  1  11  1.000
+3  12  3  1  1.000
+5  12  5  1  1.000
+3  13  3  1  1.000
+5  13  5  1  1.000
+3  14  3  1  1.000
+5  14  5  1  1.000
+3  15  3  1  1.000
+5  15  5  1  1.000
+5  16  5  1  1.000
+9  16  9  11  1.000
+1  17  1  16  1.000
+2  17  2  16  1.000
+3  17  3  16  1.000
+4  17  4  16  1.000
+5  17  5  1  1.000
+6  17  6  16  1.000
+7  17  7  16  1.000
+8  17  8  16  1.000
+9  17  9  12  1.000
+1  18  1  16  1.000
+2  18  2  16  1.000
+3  18  3  16  1.000
+4  18  4  16  1.000
+5  18  5  1  1.000
+6  18  6  16  1.000
+7  18  7  16  1.000
+8  18  8  16  1.000
+5  19  5  1  1.000
+9  19  9  11  1.000
+1  20  1  19  1.000
+2  20  2  19  1.000
+3  20  3  19  1.000
+4  20  4  19  1.000
+5  20  5  1  1.000
+6  20  6  19  1.000
+7  20  7  19  1.000
+8  20  8  19  1.000
+9  20  9  12  1.000
+1  21  1  19  1.000
+2  21  2  19  1.000
+3  21  3  19  1.000
+4  21  4  19  1.000
+5  21  5  1  1.000
+6  21  6  19  1.000
+7  21  7  19  1.000
+8  21  8  19  1.000
+9  21  9  18  1.000
+2  24  2  10  1.000
+3  24  3  10  1.000
+4  24  4  10  1.000
+5  24  5  1  1.000
+5  25  5  1  3.000
+5  26  5  1  3.000
+ULTIMATE STRENGTH - SHIP GIRDER
+0								IRESTR: utilisation comme restriction ; 0 = NON;1 = OUI
+0								IULT =0 No analysis. = 1 for PAIK/Caldwell. =2 for PROCOL(Smith). = 3  for...

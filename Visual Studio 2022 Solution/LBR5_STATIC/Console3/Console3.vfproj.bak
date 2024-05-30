@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{AAEAA653-0B11-4F2C-84EB-E9FB053A028F}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Debug|x64">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Analys.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Angle.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Bateau.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Bending.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Bendyield.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Bo1.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Bo2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Buckdcn.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Carac.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Carac2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Caracd.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Coe.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Combine.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Compbuck.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Comple.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Compu.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Conlin.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Contr.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Coord.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Copy.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Costmain.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Dhyp.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Discu.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Dloc.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Dlocy.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Dlocz.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Dpar.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Dpress.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Ecri.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Ecri2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Ecri3.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Ecri4.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Ent.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Equil.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Flam.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Geom.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Graphic.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Hughes.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Hull.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Imprtau.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Inertia.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Inteq.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Lbr5.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Linea.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Loc.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Locy.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Locz.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Main.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Mdr.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Mdr2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Modif.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Objct1.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Objct2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Objin1.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Objin2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Objpd1.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Objpd2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Opti.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Paik.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Participation.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Plaque.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Polrt.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Press.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Rang.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Rang2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Resul.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Save.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Sbega.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Sens.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Sensibcout.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Sensibcout2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Shear.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Shearbuck.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Shearyield.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Stifbend.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Stifbuck.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\STIFF.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Stifyield.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\System.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Ushull.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Vision.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_Static\SRC\Visionn.for"/></Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>

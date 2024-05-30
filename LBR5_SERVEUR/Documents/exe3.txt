@@ -1,0 +1,1085 @@
+1.2.1
+1								IANA = 1 (LBR-4); IANA = 2 (calcul réglementaire)
+Ferry
+0  -1  1  1  1  5  0  19  0					IMPR, IMPR2, INDAIG, INDRAID ,DESSIN ,JLPH ,JLBORD ,NETO ,NDQ
+0  1.000  0.333  0.333  0.333  0.000000  0.000000  0.000000	IMULTI  RHO  W1  W2  W3  ..  ..  ..
+0  0  0  0  0  							frontière Pareto: active (0 = non, 1 = oui); nombre des pas; coût (0 = non, 1 = oui); poids (0 = non, 1 = oui); inertia (0 = non, 1 = oui)
+1  1  1  1  9500  32000  1  0				LIFE CYCLE COST: Mod.2-3-4-5 (0=non, 1=oui), Lightweight (tons), Deadweight(tons), Scenario (1:dwt cst, 2:displ cst), Initial LBR5 Weight (Newton)
+0  0								IOPTI (1 oui. 0 non) et ITERAM = nbre d'itération
+0								ICOUT
+1								IREDRESS
+1.0000  0.0500							REND, EQP(0.01<k=EQP<0.1)
+1								Reference thickness input (0 = LBR5, 1 = DCNS)
+1								NBR MATERIAUX DEFINIS
+Material1
+210000000000  0.30  235000000.00  175000000  1.00  785000	E. Poisson. Sy. Sadm. Poids Specifique
+0.0080  0.0080  0.0080						Eo, Eox, Eoy  (épaisseur de référence en m)
+0.0080  0.0080  0.0080						Reference thickness for profiles (Bulb, Composite, Rolled)
+0.9500  1.1500  1.0700  0.0000					Prix Matér. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+1.1500  1.0700  1.0700						Prix Matér. : C_PB.C_TC.C_TL(tole.Euro/kg). (Bulb, Composite, Rolled)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0000  0.0000  0.0000						Extra weight on profiles(%)  (Bulb, Composite, Rolled)
+0.0920  0.0400							MdO Bordé: P10(h-h/m).DP10(variation par mm)
+0.5000  1.3400  0.0200  0.0200					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+0.0000  0.0000  0.0000  0.0000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+0.2500  1.2200  1.0000  1.0000					MdO Joints  : P6(intersect).P7(gousset).Béta-X(long.).Béta-Y(transv)
+3.2150  0.0500  1.0000  0.0000					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+29.0000  0.0000						Longueur du tronçon (WIDTH), Longueur reglementaire du navire
+0.0000  2.5000  5.0000  7.5000  10.0000			Section de calcul (DIS)
+0.0000  0.0000  0.0000  0.0000  0.0000  0.0000			Cisaillement des semelles (FAM)
+1								IPOIDS ( 1 OUI. 0 NON)
+2  2  1  2
+Load Case 1
+0								Flag Cas de charge Fatigue     (1:OUI;0:NON)
+Load Case 2
+0								Flag Cas de charge Fatigue     (1:OUI;0:NON)
+0								Draught for load case 1
+0								Draught for load case 2
+0								Depth of the ship
+0								Part of the ship’s life in full load condition
+0								Damage calculation method
+0								Increased design life
+0								Flag Calcul Sensibilité par différences finies
+0								nnsol_fatigue(:) (cas fatigue sélectionnés)
+PLAQUE     PANNEAU NO 1          ======================================================================================
+-2.400000  0.007000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.400000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.090000  0.006000  0.030000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+3.400000  3.400000							Load Case 1
+3.400000  3.400000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+2  15  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+0								Nbre de restrictions structurelles
+Load Case 2
+0								Nbre de restrictions structurelles
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+1  1						number of restrictions; selected restrictions
+0						Sloshing Pressure
+PLAQUE     PANNEAU NO 2          ======================================================================================
+-3.300000  0.007000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.400000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.090000  0.006000  0.030000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+3.400000  3.400000							Load Case 1
+3.400000  3.400000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+3  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 3          ======================================================================================
+-2.545584  0.007000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.400000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.090000  0.006000  0.030000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+225.000000								Angle
+3.400000  1.600000							Load Case 1
+3.400000  1.600000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+4  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 4          ======================================================================================
+-1.600000  0.007000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.400000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.090000  0.006000  0.030000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+1.600000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+5  7  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 5          ======================================================================================
+-5.100000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.500000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+6  16  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 6          ======================================================================================
+-2.400000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.500000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 7          ======================================================================================
+-3.150000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+8  10  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 8          ======================================================================================
+-5.100000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.360000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+9  17  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 9          ======================================================================================
+-2.400000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.360000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 10          ======================================================================================
+-2.650000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+11  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 11          ======================================================================================
+-0.700000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+12  18  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 12          ======================================================================================
+-2.600000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+13  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 13          ======================================================================================
+-4.400000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+14  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 14          ======================================================================================
+-2.400000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+EPONTILLE     PANNEAU NO 15          ======================================================================================
+-3.400000  0.010000							Hauteur. Epaisseur. (m)
+CERCLE
+5.000000 3.400000							Ecartement. Longueur effective
+0.200000  0.000000								diamètre extérieur; ép. corrosion
+1								numero du materiau
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+6  16  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.005000  0.100000  0.000000  0.000000  3.000000  0.000000  0.000000  0.000000  0.000000
+0.030000  1.200000  0.020000  0.400000  5.000000  0.300000  0.020000  0.100000  0.900000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+EPONTILLE     PANNEAU NO 16          ======================================================================================
+-3.150000  0.010000							Hauteur. Epaisseur. (m)
+CERCLE
+2.900000 3.150000							Ecartement. Longueur effective
+0.100000  0.000000								diamètre extérieur; ép. corrosion
+1								numero du materiau
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+9  17  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.005000  0.100000  0.000000  0.000000  2.000000  0.000000  0.000000  0.000000  0.000000
+0.030000  1.200000  0.020000  0.400000  3.500000  0.300000  0.020000  0.100000  0.900000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+EPONTILLE     PANNEAU NO 17          ======================================================================================
+-5.250000  0.010000							Hauteur. Epaisseur. (m)
+CERCLE
+2.900000 5.250000							Ecartement. Longueur effective
+0.100000  0.000000								diamètre extérieur; ép. corrosion
+1								numero du materiau
+0  1  1  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+14  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.005000  0.100000  0.000000  0.000000  2.000000  0.000000  0.000000  0.000000  0.000000
+0.030000  1.200000  0.020000  0.400000  3.500000  0.300000  0.020000  0.100000  0.900000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 18          ======================================================================================
+-4.400000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.360000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+19  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+PLAQUE     PANNEAU NO 19          ======================================================================================
+-2.400000  0.005000							Hauteur. Epaisseur. (m)
+1.200000  0.300000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.200000  0.006000  0.100000  0.010000  0.000000  7  Custom			Cadres Transversaux (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.050000  0.005000  0.020000  0.010000  0.000000  14  Custom			Raidisseurs  Long.  (m). Hauteur âme. Epaisseur âme. Largeur semelle. Epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1.00
+0  0  0  0							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								numero du materiau
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+0.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000  0.000000							Load Case 2
+0.360000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+0  0  0  0					i_fatigue_stiffened_panel
+0								i_fatigue_frame
+0								i_fatigue_girder
+0								number of assessment points
+0								weib_fact
+0  0  0  0  0					stiffener: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0  0					frame: type of profile, end type ,length of bracket(mm) , width of bracket(mm) , thickness of bracket(mm)
+0  0  0  0					kt_hs_1r,kt_hs_2r,kt_hs_3r,kt_hs_4r     hot spot factor (stiffeners)
+0  0  0  0					kt_hs_1a,kt_hs_2a,kt_hs_3a,kt_hs_4a     hot spot factor (frames)
+0								BetaIF - improvement fatigue life factor for grind technique, generaly to be taken equal to 2.2
+0								Kcor - corrosion factor, pour chaque détail
+0								m - slope of s-n curve; commonly m=3
+0								c (mpa^m) - fatigue capacity
+0  0  0  0					teta - mean weld toe angle , in degrees, without being taken less than 30°(30° for butt joint,45° for T joint or cruciform)
+0  0  0  0  					lambda - coefficient depending on the weld configuration
+DESIGN VARIABLES
+7
+1  2  5  6  7  8  9
+0.005000  0.140000  0.003000  0.070000  0.500000  0.035000  0.003000  0.015000  0.300000
+0.010000  1.200000  0.020000  0.400000  2.500000  0.300000  0.020000  0.100000  0.500000
+STRUCTURAL CONSTRAINTS
+1								(0 without structural constraints. 1 with structural constraints)
+3								Nbre de pts pour le calcul des sensibilites
+0.000000  0.500000  1.000000						Liste de pts pour le calcul des sensibilites
+Load Case 1
+3								Nbre de restrictions structurelles
+1  12  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+2  14  235.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  22  235.00E+06  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+Load Case 2
+3								Nbre de restrictions structurelles
+1  12  200.00E+06  1  1						(#no  Constraint Type     CJmax   INV   IPT)
+2  4  000.00E+00  1  2						(#no  Constraint Type     CJmax   INV   IPT)
+3  12  200.00E+06  1  3						(#no  Constraint Type     CJmax   INV   IPT)
+FATIGUE CONSTRAINTS
+0								maximum cumulated damage <= value
+GEOMETRICAL CONSTRAINTS
+4								M2=Nbre de restrictions geometriques
+202  203  301  320
+1  1								ISEMA. ISEMR
+SLOSHING CONSTRAINTS
+0						number of restrictions; selected restrictions
+BOUNDARY CONDITIONS
+5								Nbre de conditions de bords
+1  7								nbre panneau. nbre condition
+6  2								nbre panneau. nbre condition
+9  1								nbre panneau. nbre condition
+14  1								nbre panneau. nbre condition
+19  1								nbre panneau. nbre condition
+GRAVITY CENTER LOCATION - REPERE UTILISATEUR + RESTRICTION SUR LE CENTRE DE GRAVITE
+-5.1000  0.0000						(XK.YK) Coord du centre du repere utilisateur
+0  0.0000  0.0000						IGRAV(NO:0;Min:1;MAX:2;Min et max:3).KGMIN.KGMAX
+INERTIA CONSTRAINT
+0  0
+SECTION MODULUS CONSTRAINT
+0  0  1
+WEIGHT CONSTRAINT
+0  0
+COST CONSTRAINT
+0  0  1
+MOMENTS
+1								= 0:pas de moment. = 1:avec moment
+1								Coeff. de réduction 1.24 pour Sig. et 1.04 pour W
+5.5000E+07  0.0000E+00  0.0000E+00  0.0000E+00			Load Case 1 - Vertical Bending Moment; Vertical Shear Force; Horizontal Bending Moment; Horizontal Shear Force
+-4.5000E+07  0.0000E+00  0.0000E+00  0.0000E+00			Load Case 2 - Vertical Bending Moment; Vertical Shear Force; Horizontal Bending Moment; Horizontal Shear Force
+EQUALITY CONSTRAINTS
+12								Nbre de restrictions d'égalité
+1  1  1  2  1.000
+5  1  5  2  1.000
+9  1  9  2  1.000
+1  9  1  8  1.000
+5  9  5  8  1.000
+9  9  9  8  1.000
+1  13  1  14  1.000
+5  13  5  14  1.000
+9  13  9  14  1.000
+1  18  1  19  1.000
+5  18  5  19  1.000
+9  18  9  19  1.000
+ULTIMATE STRENGTH - SHIP GIRDER
+0								IRESTR: utilisation comme restriction ; 0 = NON;1 = OUI
+0								IULT =0 No analysis. = 1 for PAIK/Caldwell. = 2 for PROCOL(Smith). = 3  for...

@@ -1,0 +1,14 @@
+Ce dossier contient la dernière version de l'interface compatible avec l'exe créé par les sources serveurs.
+- En cas de changement dans les sources et incompatibilité avec la dernière interface -> le mentionner dans ce fichier !!!
+- En cas de nouvelle interface : la replacer
+
+Pour utiliser l'interface avec la dernière version des sources :
+- Compiler les sources EN MODE RELEASE (!)
+- Renommer l'exe LBr5dyn.exe en LBR5.exe
+- Remplacer le fichier LBR5.exe dans le dossier bin de l'interface par le nouvel LBR5.exe
+
+Rem . : la version 147 requiert un nouveau type de licence !!!
+(voir avec Eugen - DN&T)
+
+
+Remplacer le LBR5.exe compilé dans la version 1.49

@@ -1,0 +1,57 @@
+subroutine allocate_param_materiau_vector()
+
+use param_section
+use PARAM_SECTION_VECTOR
+
+implicit double precision (a-h,o-z)
+
+! nbrMat_sup    =maxval(nbrMat_vector)
+ nbrMat_sup    = 10     !Maud temporaire
+
+allocate (e_vector    (nbrMat_sup,nfile))
+allocate (eta_vector  (nbrMat_sup,nfile))
+allocate (sigy_vector (nbrMat_sup,nfile))
+allocate (sigyadm_vector (nbrMat_sup,nfile))
+allocate (coefk_vector(nbrMat_sup,nfile))					
+allocate (spec_vector (nbrMat_sup,nfile))
+allocate (dref_vector    (nbrMat_sup,nfile))
+allocate (drefx_vector   (nbrMat_sup,nfile))
+allocate (drefy_vector   (nbrMat_sup,nfile))
+allocate (dref_b_vector   (nbrMat_sup,nfile))
+allocate (dref_c_vector   (nbrMat_sup,nfile))
+allocate (dref_l_vector   (nbrMat_sup,nfile))
+allocate  (c1_vector     (nbrMat_sup,nfile))
+allocate (dc1_vector     (nbrMat_sup,nfile))
+allocate  (c8_vector     (nbrMat_sup,nfile))
+allocate (dc8_vector     (nbrMat_sup,nfile))
+allocate (c2_vector     (nbrMat_sup,nfile))
+allocate (c3_vector     (nbrMat_sup,nfile))
+allocate (cout_vector   (nbrMat_sup,nfile))
+allocate (c_pb_vector(nbrMat_sup,nfile))
+allocate (c_tc_vector(nbrMat_sup,nfile))
+allocate (c_tl_vector(nbrMat_sup,nfile))
+allocate (dw2_vector    (nbrMat_sup,nfile))
+allocate (dw3_vector    (nbrMat_sup,nfile))
+allocate (dw_b_vector    (nbrMat_sup,nfile))
+allocate (dw_c_vector    (nbrMat_sup,nfile))
+allocate (dw_l_vector    (nbrMat_sup,nfile))
+allocate (labour_cost_vector (nbrMat_sup,nfile))
+allocate (p4_vector    (nbrMat_sup,nfile))
+allocate (dp4_vector   (nbrMat_sup,nfile))
+allocate (p5_vector    (nbrMat_sup,nfile))
+allocate (dp5_vector   (nbrMat_sup,nfile))
+allocate (p6_vector    (nbrMat_sup,nfile))
+allocate (p7_vector    (nbrMat_sup,nfile))
+allocate (p9x_vector    (nbrMat_sup,nfile))
+allocate (dp9x_vector   (nbrMat_sup,nfile))
+allocate (p9y_vector    (nbrMat_sup,nfile))
+allocate (dp9y_vector   (nbrMat_sup,nfile))
+allocate (p10_vector    (nbrMat_sup,nfile))
+allocate (dp10_vector   (nbrMat_sup,nfile))
+allocate (ber_vector    (nbrMat_sup,nfile))
+allocate (bet_vector    (nbrMat_sup,nfile))
+allocate (ialr_vector   (nbrMat_sup,nfile))
+allocate (ialt_vector   (nbrMat_sup,nfile))
+
+return
+end

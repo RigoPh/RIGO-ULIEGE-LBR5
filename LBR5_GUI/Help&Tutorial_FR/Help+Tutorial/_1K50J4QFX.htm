@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<title>Conditions de bord</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+</head>
+<body>
+<h2>Conditions de bord</h2>
+<p>
+
+Les conditions de bord ne peuvent être appliquées qu'aux extrémités libres des panneaux qui ne sont pas suivies d'un autre panneau.
+<P>Les conditions de bord aux extrémités des panneaux sont déterminées en cliquant sur "panels" dans la barre de Menu et en choisissant "Boundary conditions". <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <IMG src="images/fig52.png"></P>
+<P><SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: FR; mso-fareast-language: FR; mso-bidi-language: AR-SA">Pour introduire une condition de bord dans un nœud où on n’a pas des panneaux à extrémité libre, un panneau fictif (largeur &lt;= 2mm) doit être introduit. De cette façon on obtient un panneau avec une extrémité libre dans ce nœud. La commande "Add Symmetry Axis #1 BC" dans le menu "Panels" permet d’introduire automatiquement une condition de symétrie. Si dans le nœud concerné existe déjà une extrémité libre, il est conseillé d’introduire la condition de bord avec l’option "Boundary Conditions".</SPAN></P>
+<P>&nbsp;</P>
+<P>Double cliquer dans la cellule de la&nbsp;colonne "Boundary Conditions" correspondante au panneau et une liste de conditions s'affiche. <BR></P>
+<P>&nbsp;Free Edge : Extrémité libre (My, Ny, Nxy, Ry =0)</P>
+<P>Simply supported 2&nbsp;: Appui&nbsp;à rouleau&nbsp;(déplacement selon&nbsp;Z = 0 et My, Ny, Nxy&nbsp;= 0)</P>
+<P>Simply supported 3 : Appui&nbsp;simple (dépl selon z et y = 0 et My, Nxy&nbsp;= 0)</P>
+<P>Simply supported 4 : Appui&nbsp;simple (dépl selon z et x = 0 et My, Ny&nbsp;= 0)</P>
+<P>Simply supported 5 : Appui&nbsp;simple (dépl selon x,y et z = 0 et My = 0)</P>
+<P>Clamped : Encastré (déplc selon x, y, z = 0 et rotation = 0)</P>
+<P>Symmetry axis 1 : Axe de symétrie (dépl selon y et rotation =0 et Nxy, Ry = 0)</P>
+<P>Simply supported 6 :Appui à rouleau (dépl selon y = 0 et My, Nxy, Ry = 0 )</P>
+<P>Simply supported 7 : Appui à rouleau (dépl selon x =&nbsp;0 et My, Ny, Ry = 0 )</P>
+<P>Simply supported 8 : Appui simple (dépl selon x et y = 0 et My, Ry = 0)</P>
+<P>Symmetry axis 2 : Axe de symétrie (dépl selon z et rotation = 0 et Nxy, Ny = 0)</P>
+<P>Double symmetry : Double symétrie (dépl selon y et z et rotation = 0 et Nxy = 0 )</P>
+<P>Rotation = dW/dy avec w= déplacement selon z.</P>
+<P>Cliquer sur OK pour enregistrer les modifications.</P>
+
+<p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+/subsystem:console
+/entry:maincrtstartup
+/ignore:505
+/debugtype:cv
+/debug:minimal
+/pdb:none
+sharedvar.obj
+dfor.lib
+libc.lib
+dfconsol.lib
+dfport.lib
+kernel32.lib
+/out:sharedvar.exe

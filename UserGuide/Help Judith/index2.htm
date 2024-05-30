@@ -1,0 +1,155 @@
+<html>
+<head>
+<base target="wwhelp_right">
+<title>LBR5_GUI_HELP</title>
+<LINK rel="stylesheet" type="text/css" href="templates/wwhelp.css">
+<script>
+var AllowSearch = false;
+
+function AlwaysExpand(lcID) {
+   var loNode = document.getElementById(lcID);
+   if (loNode==null)
+    return;
+    
+   loNode.style.display="";
+   
+   loNode = document.getElementById("IMG" + lcID);
+   if (loNode != null)
+      loNode.src = "bmp/minus.gif";
+}
+function Expand(lcID) {
+   var loNode = document.getElementById(lcID);
+   if (loNode != null) {
+      if (loNode.style.display=="none")
+         loNode.style.display="";
+      else
+         loNode.style.display="none";
+   }
+
+   loNode = document.getElementById("IMG" + lcID);
+   if (loNode != null) {
+      if (loNode.src.indexOf("plus.gif") > -1)
+         loNode.src = "bmp/minus.gif";
+      else
+          loNode.src = "bmp/plus.gif";
+      }
+}
+function ExpandParents(lcId) 
+{
+   var loNode = document.getElementById(lcId);
+   if (loNode == null)
+      return;
+   
+   AlwaysExpand(lcId);
+
+   var loOriginal = loNode
+
+   while( loNode!=null) 
+   {
+      loNode = loNode.parentNode;
+
+      if (loNode == null)
+         break;
+      
+      lcId = loNode.id;
+      
+      if (lcId == null || lcId == "")
+         break;
+
+      if ( lcId.substr(0,1) == "_") 
+         ExpandParents(lcId);
+   }
+   
+   loOriginal.scrollIntoView(true);
+   window.scroll(-200,0);
+}
+function PageLoad() {
+   Expand('INDEXPAGE');
+   
+   // *** Expand all parent topics if an ID was passed
+   var lcQuery = window.location.search;
+   var lnMatch = lcQuery.search("id=");
+   if (lnMatch > -1) 
+   {
+   lcPage = lcQuery.substr(lnMatch + 3);
+   ExpandParents(lcPage);
+   }
+}
+</script>
+<style>
+.plussign 
+{
+cursor:hand;
+marginBottom:3px;
+}
+</style>
+</head>
+<body topmargin="0" leftmargin="0" style="background:white" onload="PageLoad();">
+<table class="tocbody" width="800">
+<tr><td class="banner" HEIGHT="25" VALIGN="CENTER">&nbsp;<b style="font-size:10pt">LBR5_GUI_HELP</b>
+<script>
+if (AllowSearch && window.location.href.toLowerCase().substr(0,5) == "http:")
+{
+document.write("<div style='font-size:8pt;margin-top:2pt;margin-bottom:2pt'>&nbsp;<a href='search.aspx?title=LBR5%5FGUI%5FHELP' target='wwhelp_left'>Search</a> | <a href='keywords.htm' target='wwhelp_left'>Keywords</a></div></td></tr>");
+}
+</script>
+</table>
+<table width="800" class="tocbody">
+<tr><td><span class="tocbody"><img src="bmp/plus.gif" ID="IMG_1NT0XR77W" class="plussign" onclick="Expand('_1NT0XR77W');"> <img src="bmp/header.gif"> <a href="_1NT0XR77W.htm" onclick="AlwaysExpand('_1NT0XR77W');">Tutorial</a> <br>
+<span id="_1NT0XR77W" style="display:none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NV0SQJ17.htm" id="_1NV0SQJ17">Description du problème</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/plus.gif" ID="IMG_1NW0MMOVO" class="plussign" onclick="Expand('_1NW0MMOVO');"> <img src="bmp/topic.gif"> <a href="_1NW0MMOVO.htm" onclick="AlwaysExpand('_1NW0MMOVO');">Généralités</a> <br>
+<span id="_1NW0MMOVO" style="display:none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0MT9S1.htm" id="_1NW0MT9S1">Définition du titre du projet</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0NY0JH.htm" id="_1NW0NY0JH">Introduction de la longueur de la structure</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0NYZ2D.htm" id="_1NW0NYZ2D">Activation de l'analyse structurelle</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0NZZTX.htm" id="_1NW0NZZTX">Prise en compte du poids propre</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0O0IAI.htm" id="_1NW0O0IAI">Introduction du nombre de termes de Fourier</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0O0TKN.htm" id="_1NW0O0TKN">Choix des résultats disponibles</a> <br>
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/plus.gif" ID="IMG_1NW0VMER1" class="plussign" onclick="Expand('_1NW0VMER1');"> <img src="bmp/topic.gif"> <a href="_1NW0VMER1.htm" onclick="AlwaysExpand('_1NW0VMER1');">Géométrie</a> <br>
+<span id="_1NW0VMER1" style="display:none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0VQZ8W.htm" id="_1NW0VQZ8W">Définition des noeuds</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0VRFSR.htm" id="_1NW0VRFSR">Ajout des éléments plaques</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0VRXC7.htm" id="_1NW0VRXC7">Ajout des éléments épontilles</a> <br>
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/plus.gif" ID="IMG_1NW0VYAT9" class="plussign" onclick="Expand('_1NW0VYAT9');"> <img src="bmp/topic.gif"> <a href="_1NW0VYAT9.htm" onclick="AlwaysExpand('_1NW0VYAT9');">Echantillonnage</a> <br>
+<span id="_1NW0VYAT9" style="display:none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0W0J75.htm" id="_1NW0W0J75">Caractérisation des éléments plaques</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0W13N7.htm" id="_1NW0W13N7">Caractérisation des éléments épontilles</a> <br>
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/plus.gif" ID="IMG_1NW0WQ8N4" class="plussign" onclick="Expand('_1NW0WQ8N4');"> <img src="bmp/topic.gif"> <a href="_1NW0WQ8N4.htm" onclick="AlwaysExpand('_1NW0WQ8N4');">Conditions limites</a> <br>
+<span id="_1NW0WQ8N4" style="display:none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0WRBS2.htm" id="_1NW0WRBS2">Prise en compte de la symétrie</a> <br>
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/plus.gif" ID="IMG_1NW0WRM22" class="plussign" onclick="Expand('_1NW0WRM22');"> <img src="bmp/topic.gif"> <a href="_1NW0WRM22.htm" onclick="AlwaysExpand('_1NW0WRM22');">Charges</a> <br>
+<span id="_1NW0WRM22" style="display:none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0WS4JG.htm" id="_1NW0WS4JG">Définition des cas de charge</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0WSLCH.htm" id="_1NW0WSLCH">Introduction des charges</a> <br>
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/plus.gif" ID="IMG_1NW0WT4M9" class="plussign" onclick="Expand('_1NW0WT4M9');"> <img src="bmp/topic.gif"> <a href="_1NW0WT4M9.htm" onclick="AlwaysExpand('_1NW0WT4M9');">Résolution</a> <br>
+<span id="_1NW0WT4M9" style="display:none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0WTMIT.htm" id="_1NW0WTMIT">Vérification du modèle</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0WU7FA.htm" id="_1NW0WU7FA">Résolution</a> <br>
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/plus.gif" ID="IMG_1NW0WUVO7" class="plussign" onclick="Expand('_1NW0WUVO7');"> <img src="bmp/topic.gif"> <a href="_1NW0WUVO7.htm" onclick="AlwaysExpand('_1NW0WUVO7');">Visualisation des résultats</a> <br>
+<span id="_1NW0WUVO7" style="display:none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0WV7S3.htm" id="_1NW0WV7S3">Lecture des listings</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="bmp/topic.gif"> <a href="_1NW0WVIEB.htm" id="_1NW0WVIEB">Lecture des graphiques</a> <br>
+</span>
+</span>
+</span></td></tr></table>
+
+<script>
+// *** Expand all parent topics if an ID was passed
+var lcQuery = window.location.search;
+var lnMatch = lcQuery.search("id=");
+if (lnMatch > -1) 
+{
+   lcPage = lcQuery.substr(lnMatch + 3);
+   ExpandParents(lcPage);
+}
+</script>
+
+</body>
+</html>

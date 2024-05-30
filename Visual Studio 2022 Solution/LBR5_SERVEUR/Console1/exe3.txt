@@ -1,0 +1,134 @@
+1.1.6
+1								IANA = 1 (LBR-4); IANA = 2 (calcul r�glementaire)
+New Project
+0  -2  1  1  1  5  0  3  0					IMPR, IMPR2, INDAIG, INDRAID ,DESSIN ,JLPH ,JLBORD ,NETO ,NDQ
+0  1.000  0.333  0.333  0.333  0.000000  0.000000  0.000000
+0  0  0  0  0  							fronti�re Pareto: active (0 = non, 1 = oui); nombre des pas; co�t (0 = non, 1 = oui); poids (0 = non, 1 = oui); inertia (0 = non, 1 = oui)
+1  1  1  1  9500  32000  1					LIFE CYCLE COST: Mod.2-3-4-5 (0=non, 1=oui), Lightweight (tons), Deadweight(tons), Scenario (1:dwt cst, 2:displ cst)
+1  2								IOPTI (1 oui. 0 non) et ITERAM = nbre d'it�ration
+-2								ICOUT
+0								IREDRESS
+1  0.05								Rendement du chantier (influence le Cout), EQP(0.01<k=EQP<0.1)
+1								Reference thickness input (0 = LBR5, 1 = DCNS)
+2								NBR MATERIAUX DEFINIS
+MATERIAU 1
+210000000000  0.30  235000000.00  175000000  1.00  78500  	E. Poisson. Sy. Sadm.  k Poids Specifique
+1.0000  1.0000							REND, EQP(0.01<k=EQP<0.1)
+0.0080  0.0080  0.0080						Eo, Eox, Eoy  (�paisseur de r�f�rence en m)
+0.0080  0.0080  0.0080						Reference thickness for profiles (Bulb, Composite, Rolled)
+0.9500  1.1500  1.0700  0.0000					Prix Mat�r. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+1.1500  1.0700  1.0700						Prix Mat�r. : C_PB.C_TC.C_TL(tole.Euro/kg). (Bulb, Composite, Rolled)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0000  0.0000  0.0000						Extra weight on profiles(%)  (Bulb, Composite, Rolled)
+0.0920  0.0400							MdO Bord�: P10(h-h/m).DP10(variation par mm)
+0.5000  1.3400  0.0200  0.0200					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+0.0000  0.0000  0.0000  0.0000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+0.2500  1.2200  1.0000  1.0000					MdO Joints  : P6(intersect).P7(gousset).B�ta-X(long.).B�ta-Y(transv)
+3.2150  0.0500  1  	1					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+MATERIAU 2
+210000000000  0.30  235000000.00  175000000  1.00  78500  	E. Poisson. Sy. Sadm.  k  Poids Specifique
+1.0000  1.0000							REND, EQP(0.01<k=EQP<0.1)
+0.0080  0.0080  0.0080						Eo, Eox, Eoy  (�paisseur de r�f�rence en m)
+0.0080  0.0080  0.0080						Reference thickness for profiles (Bulb, Composite, Rolled)
+0.9500  1.1500  1.0700  0.0000					Prix Mat�r. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+1.1500  1.0700  1.0700						Prix Mat�r. : C_PB.C_TC.C_TL(tole.Euro/kg). (Bulb, Composite, Rolled)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0000  0.0000  0.0000						Extra weight on profiles(%)  (Bulb, Composite, Rolled)
+0.0920  0.0400							MdO Bord�: P10(h-h/m).DP10(variation par mm)
+0.5000  1.3400  0.0200  0.0200					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+0.0000  0.0000  0.0000  0.0000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+0.2500  1.2200  1.0000  1.0000					MdO Joints  : P6(intersect).P7(gousset).B�ta-X(long.).B�ta-Y(transv)
+3.2150  0.0500  1  	1					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+20.0000  0.0000							Longueur du tron�on (WIDTH), Longueur reglementaire du navire
+0.0000  2.5000  5.0000  7.5000  10.0000				Section de calcul (DIS)
+0.0000  0.0000  0.0000  0.0000  0.0000  0.0000			Cisaillement des semelles (FAM)
+1								IPOIDS ( 1 OUI. 0 NON)
+1  1  1
+Load Case 1
+PLAQUE     PANNEAU NO 1          ======================================================================================
+-10.000000  0.010100							Hauteur. Epaisseur. (m)
+2.000000  2.000000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; �p. corrosion t�le
+0.001000  0.001000  0.001000  0.001000  0.000000   7  Custom			Cadres Transversaux (m). Hauteur �me. Epaisseur �me. Largeur semelle. Epaisseur semelle; �p. corrosion cadre; type de profil�; nom profil�
+0.001000  0.001000  0.001000  0.001000  0.000000   14  Custom			Raidisseurs  Long.  (m). Hauteur �me. Epaisseur �me. Largeur semelle. Epaisseur semelle; �p. corrosion raidisseur; type de profil�; nom profil�
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+1								MATERIAU choisi
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+180.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+2  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+9
+1  2  3  4  5  6  7  8  9
+0.005000  0.001000  0.001000  0.001000  2.000000  0.001000  0.001000  0.001000  0.500000
+0.030000  1.200000  0.020000  0.400000  3.500000  0.300000  0.020000  0.100000  2.000000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+PLAQUE     PANNEAU NO 2          ======================================================================================
+-20.000000  0.005000							Hauteur. Epaisseur. (m)
+2.000000  4.000000  0.000000  0.000000  0.000000					Entr. cadre. et raid. idem raid. compl.; �p. corrosion t�le
+0.001000  0.001000  0.001000  0.001000  0.000000    7  Custom			Cadres Transversaux (m). Hauteur �me. Epaisseur �me. Largeur semelle. Epaisseur semelle; �p. corrosion cadre; type de profil�; nom profil�
+0.001000  0.001000  0.001000  0.001000  0.000000    14  Custom			Raidisseurs  Long.  (m). Hauteur �me. Epaisseur �me. Largeur semelle. Epaisseur semelle; �p. corrosion raidisseur; type de profil�; nom profil�
+EE2								Repartition raidisseurs longitudinaux
+1.00 0  0  0							Coefficient de participation. Code de position. Famille. Lot
+2								MATERIAU choisi
+0  2  2  0  2  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+270.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.005000  0.001000  0.001000  0.001000  2.000000  0.001000  0.001000  0.001000  0.500000
+0.030000  1.200000  0.020000  0.400000  3.500000  0.300000  0.020000  0.100000  4.000000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+EPONTILLE     PANNEAU NO 3          ======================================================================================
+-20.000000  0.005000							Hauteur. Epaisseur. (m)
+CARRE
+2.000000 20.000000							Ecartement. Longueur effective
+0.100000  0.000000								Largeur ext�rieure; �p. corrosion
+1								MATERIAU choisi
+0  2  2  0  1  0  1						MT. KSR. KSA. KST. KSE. IPA. IVARIA
+90.000000								Angle
+0.000000  0.000000							Load Case 1
+0.000000								Pression locale
+0								Charge variable selon X: 0 = non. 1 = oui
+1  0  0  0  0  0  0  0  0  0					Liste des 10 panneaux qui suivent
+DESIGN VARIABLES
+0
+0.005000  0.100000  0.005000  0.050000  2.000000  0.000000  0.000000  0.000000  0.000000
+0.030000  1.200000  0.020000  0.400000  3.500000  0.300000  0.020000  0.100000  0.900000
+STRUCTURAL CONSTRAINTS
+0								(0 without structural constraints. 1 with structural constraints)
+GEOMETRICAL CONSTRAINTS
+0								M2=Nbre de restrictions geometriques
+BOUNDARY CONDITIONS
+2								Nbre de conditions de bords
+2  1								nbre panneau. nbre condition
+3  1								nbre panneau. nbre condition
+GRAVITY CENTER LOCATION - REPERE UTILISATEUR + RESTRICTION SUR LE CENTRE DE GRAVITE
+0.0000  0.0000						(XK.YK) Coord du centre du repere utilisateur
+0  0.0000  0.0000						IGRAV(NO:0;Min:1;MAX:2;Min et max:3).KGMIN.KGMAX
+INERTIA CONSTRAINT
+0  0
+SECTION MODULUS CONSTRAINT
+0  0  1
+WEIGHT CONSTRAINT
+0  0
+COST CONSTRAINT
+0  0  0
+MOMENTS
+0								= 0:pas de moment. = 1:avec moment
+EQUALITY CONSTRAINTS
+0								Nbre de restrictions d'�galit�
+ULTIMATE STRENGTH - SHIP GIRDER
+0								IRESTR: utilisation comme restriction ; 0 = NON;1 = OUI
+0								IULT =0 No analysis. = 1 for PAIK/Caldwell. = 2 for PROCOL(Smith). = 3  for...

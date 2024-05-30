@@ -1,0 +1,494 @@
+ ITERATION 0
+ ITERATION 0
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION            2
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION            3
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION            4
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION            5
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION            6
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION            7
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION            8
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION            9
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION           10
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+ ITERATION           11
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<<<<<<<<<<<<<<<<<<<<<<<
+  
+  ON TIENT COMPTE DU POIDS PROPRE DES PANNEAUX (IPOIDS =1)
+ Le cout est calculé par un modèle simplifié 
+ 
+ ATTENTION : ERROR dans le Panneau           18
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        4.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        4.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           19
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        2.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        2.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+ 
+ ATTENTION : ERROR dans le Panneau           20
+ ****************************************
+ Le paramètre MODE =EE1 est incompatible avec
+     l'entredistance entre les raidisseurs=        3.000000000000000
+     et la largeur du panneau.
+ L'écartement entre les raidisseurs est 
+ probablement supérieur à la largeur(L) du panneau.
+     ENTR=        3.000000000000000 et MODE =EE1
+ Cela peut induire un EPSR erroné (<0 ou infini)!!!
+ Il faut corriger cette situation!!
+
+ PAS DE RESTRICTION SUR LA POSITION DU CENTRE DE GRAVITE
+ *******************************************************
+

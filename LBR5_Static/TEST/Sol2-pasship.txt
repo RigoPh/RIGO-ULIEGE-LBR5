@@ -1,0 +1,22 @@
+1 **********************************************************************
+  *    Norwegian Cruise Line                                           *
+  *    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    *
+  *                                                                    *
+  **********************************************************************
+
+
+
+
+                              ITERATION nø 8
+                              ====================
+
+ Le cout est calculé par un modèle détaillé COST CAT
+
+ La fonction objectif est le COUT
+ --------------------------------
+
+ LE POIDS TOTAL DE LA STRUCTURE EST =  0.8292584E+07 N.
+Ce poids reprend la structure principale, secondaire,les traverses et la corrosion.
+Avant itération d'optimisation.
+ (!!1/2 structure si symétrique et structure déjaugéesi IPA= 1)
+

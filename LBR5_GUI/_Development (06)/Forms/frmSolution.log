@@ -1,0 +1,3 @@
+Line 76: Class MSForms.CommandButton of control cmdApply was not a loaded control class.
+Line 128: Class MSForms.CommandButton of control cmdOK was not a loaded control class.
+Line 143: Class MSForms.CommandButton of control cmdCancel was not a loaded control class.

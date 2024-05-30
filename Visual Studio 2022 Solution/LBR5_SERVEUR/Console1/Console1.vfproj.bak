@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{56544B50-FC46-47A2-8139-3FBF660FA8E4}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Debug|x64">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\..\LBR5_SERVEUR\SRC\allocate_panel_data.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_param_materiau.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_param_materiau_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_param_multi.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_param_opti_global.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_param_read_write_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_param_restri_global_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_param_section.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_param_section_header.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\allocate_section.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\analys.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\anglesr.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\ansys.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\assemb.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\bateau.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\beam_theory.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\bending.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\bendyield.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\bo1.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\bo2.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\bord.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\borne.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Buckdcn07.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Buckdcn08.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Carac.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Carac2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Caracd.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\check_multi.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\close.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\close_XML.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Coe.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Combine.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\comp_obj.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\comp_obj_global.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\comp_reduced_var.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\comp_reduced_var_global.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\comp_restri_local.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Compbuck.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\comple.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Compu.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\compute_panel_weight.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\compute_save_panel_data.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\compute_stiffness_coeff.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Conlin.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Contr.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Coord.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\coord_transform.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\cost.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Costmain.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\cout.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\dargsr.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\daxpy.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\dcns_geom_n50_51.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\dcns_geom_n52_53.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dcopy.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\ddot.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_panel_data.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_param_materiau.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_param_materiau_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_param_multi.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_param_opti_global.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_param_read_write_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_param_restri_global_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_param_section.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_param_section_header.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_section.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deallocate_section_header.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\deriv.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgebak.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgebal.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgeev.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgehd2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgehrd.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgemm.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgemv.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dger.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgetf2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgetrf.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dgetri.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dhseqr.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\dhydro.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\dhyps.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Discu.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlabad.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlacpy.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dladiv.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaexc.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlahqr.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlahr2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaln2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlamch.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlange.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlanv2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlapy2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaqr0.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaqr1.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaqr2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaqr3.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaqr4.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaqr5.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlarf.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlarfb.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlarfg.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlarft.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlarfx.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlartg.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlascl.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaset.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlassq.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlaswp.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dlasy2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Dloc.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Dlocy.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Dlocz.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\dmomsr.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dnrm2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dorg2r.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dorghr.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dorgqr.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Dpar.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Dpress.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\drot.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dscal.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dswap.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dtrevc.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dtrexc.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dtrmm.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dtrmv.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dtrsm.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dtrti2.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\dtrtri.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\ecri.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\ecri2.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\ecri3.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\ecri4.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\ecrivar.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\edge_moments.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Effort_Tranchant.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\equal_restrictions.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Equil.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\FAT_CHECK_input.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\FAT_Output.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\fatigue_damage.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\fatigue_element.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\flamb.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Geom.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\get_main_parameter.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\get_optim_data.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\get_panel_data_global.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\get_param_materiau.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\get_section_header.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\get_section_header__genmod.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\get_section_header_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\hughes.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Hull.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\hydro.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\hyp1.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\hyp2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\idamax.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\ieeeck.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\ilaenv.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Imprtau.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Inertia.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\init_lbr5.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\init_objective.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\init_param_multi.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\init_XML.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\initialize_loop.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\inteq.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\iparmq.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\lbr4.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\lbr5.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\lcc.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\linde.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Linea.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Loc.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Locy.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Locz.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\loop.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\lsame.f"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\manq.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Mdr.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Mdr2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Modif.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\mom.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Objct1.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Objin1.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\objlcc.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Objpd1.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\open_local.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\open_scratch_files.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\open_section_file.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\open_section_output_files.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\opti_global_multisection.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\opti_local.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\opti_local_to_global.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Paik.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\param_section.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\param_section_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\param_XML.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\participation.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\pconti.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\pedge.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\pimpr.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\pinf1.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\pinf2.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\pinf3.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\pinteg.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Plaque.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\plimit.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\poids.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Polrt.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Press.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\print_panel_data.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\print_restrictions.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Ansys\ptsinpoly.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\put_optim_data.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\put_panel_data_global.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\put_param_materiau.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\put_section_header_vector.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Rang.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Rang2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_comput_points.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_ega_multisection.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_element_sizes.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_fatigue_restrictions.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_geom_restrictions.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_panel_data.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_panel_restrictions.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_panel_XML.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_ship_input_file.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_slosh_restrictions.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_struct_restrictions.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\read_write_panel.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\recip.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\recompute_objective_multisection.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\resolu.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Resul.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\resul2.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\rewind_all.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\save_panel_data_for_loads.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\save_restrictions.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\sbega.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\security.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\select.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\semel.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\sens.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\sensibcout.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Shear.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Shearbuck.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Shearyield.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\sloshing.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\sorti.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\sorting_dp.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Spepite.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\stifbend.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Stifbuck.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Stifbuck_dcns.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\stiff.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Stifyield.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\system.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\tools.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\TRIMARAN.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\ultimate_resistance.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\update.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\ushull.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\vcos.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\vecto.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\vibration.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\vibration_mod_input_file.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\vibration_module_plus_v6.for"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\vsin.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\write_lotStat.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\write_panel_data.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\write_panel_XML.f90"/>
+		<File RelativePath="F:\AnciensProjetsSurServeurCVS\LBR5\LBR5_SERVEUR\SRC\Vibration\xerbla.f"/></Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>

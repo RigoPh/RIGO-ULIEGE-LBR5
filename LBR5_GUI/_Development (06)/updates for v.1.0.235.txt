@@ -1,0 +1,3 @@
+1.	problème separateur decimal dans les restrictions d'équalité (quand le separateur du systeme est la virgule, 
+	les ratios non-entieres qui intervienent dans les relations d'égalité sont des virgules, alors que LBR5 acccepte
+	seulement des points.

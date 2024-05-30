@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<wwhelptopics>
+	<topic text="Tutorial" filename="_1NT0XR77W" image="images/HEADER.gif" keywords="Tutorial;">
+		<topic text="Description du problème" filename="_1NV0SQJ17" image="images/TOPIC.gif" keywords="Description du problème;">
+		</topic>
+		<topic text="Généralités" filename="_1NW0MMOVO" image="images/TOPIC.gif" keywords="Généralités;">
+			<topic text="Définition du titre du projet" filename="_1NW0MT9S1" image="images/TOPIC.gif" keywords="Définition du titre du projet;">
+			</topic>
+			<topic text="Introduction de la longueur de la structure" filename="_1NW0NY0JH" image="images/TOPIC.gif" keywords="Introduction de la longueur de la structure;">
+			</topic>
+			<topic text="Activation de l'analyse structurelle" filename="_1NW0NYZ2D" image="images/TOPIC.gif" keywords="Activation de l'analyse structurelle;">
+			</topic>
+			<topic text="Prise en compte du poids propre" filename="_1NW0NZZTX" image="images/TOPIC.gif" keywords="Prise en compte du poids propre;">
+			</topic>
+			<topic text="Introduction du nombre de termes de Fourier" filename="_1NW0O0IAI" image="images/TOPIC.gif" keywords="Introduction du nombre de termes de Fourier;">
+			</topic>
+			<topic text="Choix des résultats disponibles" filename="_1NW0O0TKN" image="images/TOPIC.gif" keywords="Choix des résultats disponibles;">
+			</topic>
+		</topic>
+		<topic text="Géométrie" filename="_1NW0VMER1" image="images/TOPIC.gif" keywords="Géométrie;">
+			<topic text="Définition des noeuds" filename="_1NW0VQZ8W" image="images/TOPIC.gif" keywords="Définition des noeuds;">
+			</topic>
+			<topic text="Ajout des éléments plaques" filename="_1NW0VRFSR" image="images/TOPIC.gif" keywords="Ajout des éléments plaques;">
+			</topic>
+			<topic text="Ajout des éléments épontilles" filename="_1NW0VRXC7" image="images/TOPIC.gif" keywords="Ajout des éléments épontilles;">
+			</topic>
+		</topic>
+		<topic text="Echantillonnage" filename="_1NW0VYAT9" image="images/TOPIC.gif" keywords="Echantillonnage;">
+			<topic text="Caractérisation des éléments plaques" filename="_1NW0W0J75" image="images/TOPIC.gif" keywords="Caractérisation des éléments plaques;">
+			</topic>
+			<topic text="Caractérisation des éléments épontilles" filename="_1NW0W13N7" image="images/TOPIC.gif" keywords="Caractérisation des éléments épontilles;">
+			</topic>
+		</topic>
+		<topic text="Conditions limites" filename="_1NW0WQ8N4" image="images/TOPIC.gif" keywords="Conditions limites;">
+			<topic text="Prise en compte de la symétrie" filename="_1NW0WRBS2" image="images/TOPIC.gif" keywords="Prise en compte de la symétrie;">
+			</topic>
+		</topic>
+		<topic text="Charges" filename="_1NW0WRM22" image="images/TOPIC.gif" keywords="Charges;">
+			<topic text="Définition des cas de charge" filename="_1NW0WS4JG" image="images/TOPIC.gif" keywords="Définition des cas de charge;">
+			</topic>
+			<topic text="Introduction des charges" filename="_1NW0WSLCH" image="images/TOPIC.gif" keywords="Introduction des charges;">
+			</topic>
+		</topic>
+		<topic text="Résolution" filename="_1NW0WT4M9" image="images/TOPIC.gif" keywords="Résolution;">
+			<topic text="Vérification du modèle" filename="_1NW0WTMIT" image="images/TOPIC.gif" keywords="Vérification du modèle;">
+			</topic>
+			<topic text="Résolution" filename="_1NW0WU7FA" image="images/TOPIC.gif" keywords="Résolution;">
+			</topic>
+		</topic>
+		<topic text="Visualisation des résultats" filename="_1NW0WUVO7" image="images/TOPIC.gif" keywords="Visualisation des résultats;">
+			<topic text="Lecture des listings" filename="_1NW0WV7S3" image="images/TOPIC.gif" keywords="Lecture des listings;">
+			</topic>
+			<topic text="Lecture des graphiques" filename="_1NW0WVIEB" image="images/TOPIC.gif" keywords="Lecture des graphiques;">
+			</topic>
+		</topic>
+	</topic>
+</wwhelptopics>

@@ -1,0 +1,1414 @@
+1.1.8
+1								iana = 1 (lbr-4); iana = 2 (calcul réglementaire)
+corsaire test pour épontille où tout plaques modified
+0  1  0  0  1  -1  0  28  0					impr, impr2, indaig, indraid ,dessin ,jlph ,jlbord ,neto ,ndq
+0  0.000  0.000  0.000  0.000  0.000000  0.000000  0.000000
+0  0  0  0  0  							frontière Pareto: active (0 = non, 1 = oui); nombre des pas; coût (0 = non, 1 = oui); poids (0 = non, 1 = oui); inertia (0 = non, 1 = oui)
+1  1  1  1  9500  32000  1					LIFE CYCLE COST: Mod.2-3-4-5 (0=non, 1=oui), Lightweight (tons), Deadweight(tons), Scenario (1:dwt cst, 2:displ cst)
+0  2								IOPTI (1 oui. 0 non) et ITERAM = nbre d'itération
+1								icout
+0								IREDRESS
+1.00 0.05							Rendement du chantier (influence le Cout), EQP(0.01<k=EQP<0.1)
+1								Reference thickness input (0 = LBR5, 1 = DCNS)
+3								NBR MATERIAUX DEFINIS
+MATERIAU 1
+70000000000   0.33  100000000.00  80000000   1.00  27200    E. Poisson. Sy. Sadm.  k Poids Specifique
+0.0100  0.0100  0.0100						Eo, Eox, Eoy  (épaisseur de référence en m)
+0.0100  0.0100  0.0100						Reference thickness for profiles (Bulb, Composite, Rolled)
+0.6000  0.6000  0.6000  0.1000					Prix Matér. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+0.6000  0.6000  0.6000 						Prix Matér. : C_PB.C_TC.C_TL(tole.Euro/kg). (Bulb, Composite, Rolled)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0000  0.0000  0.0000						Extra weight on profiles(%)  (Bulb, Composite, Rolled)
+0.2500  0.1000							MdO Bordé: P10(h-h/m).DP10(variation par mm)
+0.8000  0.8000  0.1000  0.1000					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+1.5000  1.5000  0.1000  0.1000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+1.0000  1.0000  0.5000  0.5000					MdO Joints  : P6(intersect).P7(gousset).Béta-X(long.).Béta-Y(transv)
+2.2000  0.1000  0.0000  0.0000					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+MATERIAU 2
+210000000000  0.00  240000000.00  180000000  1.00  78500  	E. Poisson. Sy. Sadm.  k  Poids Specifique
+0.0100  0.0100  0.0100						Eo, Eox, Eoy  (épaisseur de référence en m)
+0.0100  0.0100  0.0100						Reference thickness for profiles (Bulb, Composite, Rolled)
+0.6000  0.6000  0.6000  0.1000					Prix Matér. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+0.6000  0.6000  0.6000 						Prix Matér. : C_PB.C_TC.C_TL(tole.Euro/kg). (Bulb, Composite, Rolled)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0000  0.0000  0.0000						Extra weight on profiles(%)  (Bulb, Composite, Rolled)
+0.2500  0.1000							MdO Bordé: P10(h-h/m).DP10(variation par mm)
+0.8000  0.8000  0.1000  0.1000					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+1.5000  1.5000  0.1000  0.1000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+1.0000  1.0000  0.5000  0.5000					MdO Joints  : P6(intersect).P7(gousset).Béta-X(long.).Béta-Y(transv)
+2.2000  0.1000  0.0000  0.0000					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+MATERIAU 3
+210000000000  0.30  235000000.00  192000000  1.00  78500  	E. Poisson. Sy. Sadm.  k  Poids Specifique
+0.0100  0.0100  0.0100						Eo, Eox, Eoy  (épaisseur de référence en m)
+0.0100  0.0100  0.0100						Reference thickness for profiles (Bulb, Composite, Rolled)
+0.6000  0.6000  0.6000  0.1000					Prix Matér. : C1.C2.C3(tole.Euro/kg). DC1(tole.variation par mm)
+0.6000  0.6000  0.6000 						Prix Matér. : C_PB.C_TC.C_TL(tole.Euro/kg). (Bulb, Composite, Rolled)
+0.0000  0.0000							Extra weight: DW2(long.variation sur C2).DW3(trans.variation sur C3)
+0.0000  0.0000  0.0000						Extra weight on profiles(%)  (Bulb, Composite, Rolled)
+0.2500  0.1000							MdO Bordé: P10(h-h/m).DP10(variation par mm)
+0.8000  0.8000  0.1000  0.1000					MdO Assembl.: P4(Long.h-h/m).P5(trans.h-h/m).DP4(long).DP5(trans)
+1.5000  1.5000  0.1000  0.1000					MdO Membr.  : P9x(long.h-h/m).P9y(trans.h-h/m).DP9x(long).DP9y(trans)
+1.0000  1.0000  0.5000  0.5000					MdO Joints  : P6(intersect).P7(gousset).Béta-X(long.).Béta-Y(transv)
+2.2000  0.1000  0.0000  0.0000					Consommables: C8(Euro/m).DC8(variation par mm).Alpha-X(long.).Alpha-Y(transv)
+29.0000  100.0000						Longueur du tronçon (WIDTH), Longueur reglementaire du navire
+0.0000  3.6250  7.2500  10.8750  14.5000			Section de calcul (DIS)
+0.0000  0.0000  0.0000  0.0000  0.0000  0.0000			cisaillement des semelles (FAM)
+1								IPOIDS ( 1 OUI. 0 NON)
+2  1  1 
+cas de charge n°:  1   description
+1                                                               Flag Cas de charge Selectionné (1:OUI;0:NON)
+0                                                               Flag Cas de charge Fatigue     (1:OUI;0:NON)
+cas de charge n°:  2   description
+0                                                               Flag Cas de charge Selectionné (1:OUI;0:NON)
+0                                                               Flag Cas de charge Fatigue     (1:OUI;0:NON)
+PLAQUE     PANNEAU NO 1          ======================================================================================
+-2.400000  0.00700						hauteur. epaisseur. (m)
+1.53150  0.17100  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00400  0.20000  0.00600  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion cadre; type de profilé; nom profilé
+0.05000  0.00360  0.03690  0.00400  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+2  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.35000  0.35000						cas de charge n°:  1   description
+0.35000  0.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+2  26  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+0.12500  0.00250  0.04000  0.00700  0.00000			raidisseurs longitudinaux (m)
+0.27000  0.00700  0.16000  0.01600  2.40000			raidisseurs longitudinaux (m)
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00300  0.12000  0.00400  0.05000  0.50000  0.03000  0.00300  0.02500  0.12000
+0.00700  0.20000  0.01000  0.20000  2.00000  0.05000  0.00800  0.05000  0.30000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+10								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4   000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+9  1   100.00e-04  1  2						(#no  constraint type     cjmax   inv   ipt)
+10  1  700.00e-05  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+10								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212  215  216
+2  1								isema. isemr
+plaque     panneau no 2          ======================================================================================
+-4.100000  0.00700						hauteur. epaisseur. (m)
+1.53150  0.17080  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00400  0.20000  0.00700  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.05000  0.00360  0.03690  0.00400  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+2  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.35000  0.35000						cas de charge n°:  1   description
+0.35000  0.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+3  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+0.12500  0.00500  0.08000  0.00700  2.85000			raidisseurs longitudinaux (m)
+0.12500  0.00500  0.08000  0.00700  3.70000			raidisseurs longitudinaux (m)
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00300  0.12000  0.00400  0.05000  0.50000  0.03000  0.00300  0.02500  0.12000
+0.00700  0.20000  0.01000  0.20000  2.00000  0.05000  0.00800  0.05000  0.30000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000					liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+10								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212  215  216
+2  1								isema. isemr
+plaque     panneau no 3          ======================================================================================
+-2.617250  0.00600						hauteur. epaisseur. (m)
+1.53150  0.19160  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.30990  0.00400  0.17750  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.08000  0.00300  0.04460  0.00400  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de part
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)icipation. code de position. famille. lot
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+96.581945							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+4  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00300  0.12000  0.00400  0.05000  0.50000  0.03000  0.00300  0.02500  0.12000
+0.00700  0.35000  0.01000  0.20000  2.00000  0.08000  0.00800  0.08000  0.30000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000					liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+10								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212  215  216
+2  1								isema. isemr
+plaque     panneau no 4          ======================================================================================
+-0.700000  0.00710						hauteur. epaisseur. (m)
+1.53150  0.50000  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.35000  0.00430  0.17320  0.01000  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.08000  0.00390  0.05600  0.01000  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.35000  0.35000						cas de charge n°:  1   description
+0.35000  0.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+5  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.12000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.12000
+0.01200  0.35000  0.01000  0.20000  2.00000  0.08000  0.00800  0.08000  0.50000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000					liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 5          ======================================================================================
+-2.650000  0.00580						hauteur. epaisseur. (m)
+1.53150  0.44130  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.32000  0.00400  0.20000  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.08000  0.00350  0.05510  0.01000  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+6  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00300  0.12000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.12000
+0.01200  0.35000  0.01000  0.20000  2.00000  0.08000  0.00800  0.08000  0.50000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 6          ======================================================================================
+-3.150000  0.00450						hauteur. epaisseur. (m)
+1.53150  0.50000  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.12000  0.00400  0.05720  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.03390  0.00320  0.01140  0.01000  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+7  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00300  0.12000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.12000
+0.01200  0.35000  0.01000  0.20000  2.00000  0.08000  0.00800  0.08000  0.50000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 7          ======================================================================================
+-1.600000  0.00480						hauteur. epaisseur. (m)
+1.53150  0.50000  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.18920  0.00400  0.07590  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.03940  0.00330  0.00900  0.02730  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+8  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00300  0.12000  0.00400  0.05000  0.50000  0.03000  0.00300  0.00900  0.12000
+0.01200  0.35000  0.01000  0.20000  2.00000  0.10000  0.00800  0.08000  0.50000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 8          ======================================================================================
+-1.803054  0.00650						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.25960  0.00400  0.11400  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.10190  0.00390  0.02490  0.01240  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  1  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+43.889676							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+9  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.25000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000					liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 9          ======================================================================================
+-1.504700  0.00650						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.30130  0.00410  0.16200  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.11680  0.00410  0.03310  0.01240  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+21.439385							angle
+0.00000  0.55000						cas de charge n°:  1   description
+0.00000  0.55000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+10  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.25000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000					liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 10          ======================================================================================
+-2.563000  0.00810						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.32000  0.00490  0.20000  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.12000  0.00450  0.03810  0.01240  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+20.557994							angle
+0.55000  1.45000						cas de charge n°:  1   description
+0.55000  1.45000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+11  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.25000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000					liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 11          ======================================================================================
+-2.530000  0.00920						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.31990  0.00750  0.20000  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.12000  0.00490  0.04240  0.01240  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+18.433008							angle
+1.45000  2.35000						cas de charge n°:  1   description
+1.45000  2.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+24  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00500  0.25000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000					liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 12          ======================================================================================
+-2.400000  0.00710						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.23360  0.00400  0.09610  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.12000  0.00390  0.05180  0.01000  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+2  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.35000  0.35000						cas de charge n°:  1   description
+0.35000  0.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+13  27  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+0.20000  0.00250  0.04000  0.00800  0.00000			raidisseurs longitudinaux (m)
+0.35000  0.00800  0.16000  0.01600  2.40000			raidisseurs longitudinaux (m)
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 13          ======================================================================================
+-4.400000  0.00710						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.23360  0.00400  0.09610  0.01000  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.12000  0.00390  0.05180  0.01000  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+1  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.35000  0.35000						cas de charge n°:  1   description
+0.35000  0.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+4  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+0.20000  0.00500  0.08000  0.00800  2.40000			raidisseurs longitudinaux (m)
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 14          ======================================================================================
+-2.400000  0.00430						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.18180  0.00400  0.07630  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.05870  0.00320  0.00980  0.02730  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+2  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.35000  0.35000						cas de charge n°:  1   description
+0.35000  0.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+15  28  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+0.20000  0.00300  0.05000  0.01000  0.00000			raidisseurs longitudinaux (m)
+0.20000  0.00600  0.10000  0.01000  2.40000			raidisseurs longitudinaux (m)
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.00700  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 15          ======================================================================================
+-5.100000  0.00430						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.18180  0.00400  0.09610  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.05870  0.00320  0.00980  0.02730  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+1  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.35000  0.35000						cas de charge n°:  1   description
+0.35000  0.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+6  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+0.20000  0.00600  0.10000  0.01000  2.40000			raidisseurs longitudinaux (m)
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.00700  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 16          ======================================================================================
+-2.400000  0.00470						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.21830  0.00400  0.08800  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.03870  0.00370  0.01000  0.01240  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+2  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.50000  0.50000						cas de charge n°:  1   description
+0.50000  0.50000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+17  23  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+0.20000  0.00300  0.05000  0.01000  0.00000			raidisseurs longitudinaux (m)
+0.20000  0.00600  0.10000  0.01000  2.40000			raidisseurs longitudinaux (m)
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 17          ======================================================================================
+-2.400000  0.00470						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.21830  0.00400  0.08800  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.03870  0.00370  0.01000  0.01240  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.50000  0.50000						cas de charge n°:  1   description
+0.50000  0.50000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+18  22  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 18          ======================================================================================
+-2.700000  0.00470						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.21830  0.00400  0.08800  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.03870  0.00370  0.01000  0.01240  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.50000  0.50000						cas de charge n°:  1   description
+0.50000  0.50000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+7  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 19          ======================================================================================
+-2.400000  0.00490						hauteur. epaisseur. (m)
+1.53150  0.34200  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.29900  0.00400  0.15850  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.06860  0.00330  0.01090  0.02730  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+180.000000							angle
+0.35000  0.35000						cas de charge n°:  1   description
+0.35000  0.35000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+21  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.00700  0.24000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.60000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 20          ======================================================================================
+-2.399986  0.00420						hauteur. epaisseur. (m)
+1.53150  0.25210  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.15000  0.00400  0.06400  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.04910  0.00220  0.01650  0.00500  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000549							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+24  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00200  0.15000  0.00400  0.05000  0.50000  0.02000  0.00200  0.00700  0.12000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.50000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 21          ======================================================================================
+-1.600011  0.00760						hauteur. epaisseur. (m)
+1.53150  0.45700  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.15580  0.00440  0.06550  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.11800  0.00400  0.01710  0.02730  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.007842							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+11  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00400  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.00700  0.12000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.50000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 22          ======================================================================================
+-3.400000  0.00660						hauteur. epaisseur. (m)
+1.53150  0.50000  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.24390  0.00410  0.10250  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.06270  0.00370  0.02110  0.01000  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+10  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+9
+1  2  3  4  5  6  7  8  9
+0.00300  0.15000  0.00400  0.05000  0.50000  0.03000  0.00300  0.01000  0.12000
+0.01200  0.55000  0.01000  0.20000  2.00000  0.12000  0.00800  0.08000  0.50000
+structural constraints
+1								(0 without structural constraints. 1 with structural constraints)
+3								nbre de pts pour le calcul des sensibilites
+0.00000  0.50000  1.00000						liste de pts pour le calcul des sensibilites
+cas de charge n°:  1   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+cas de charge n°:  2   description
+8								nbre de restrictions structurelles
+1  22  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+2  24  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+3  25  800.00e+05  1  2						(#no  constraint type     cjmax   inv   ipt)
+4  22  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+5  24  800.00e+05  1  3						(#no  constraint type     cjmax   inv   ipt)
+6  11  800.00e+05  1  1						(#no  constraint type     cjmax   inv   ipt)
+7  4  000.00e+00  1  2						(#no  constraint type     cjmax   inv   ipt)
+8  15  555.60e-03  1  1						(#no  constraint type     cjmax   inv   ipt)
+geometrical constraints
+8								m2=nbre de restrictions geometriques
+104  109  110  111  112  204  211  212
+2  0								isema. isemr
+plaque     panneau no 23          ======================================================================================
+-2.700000  0.00010						hauteur. epaisseur. (m)
+1.20000  1.20000  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.18600  0.01000  0.00100  0.00100  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.00100  0.00100  0.00100  0.00100  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+2								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+21  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+0
+0.00010  0.18600  0.00500  0.00100  1.20000  0.00100  0.00100  0.00100  0.50000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  1.20000
+structural constraints
+0								(0 without structural constraints. 1 with structural constraints)
+geometrical constraints
+0								m2=nbre de restrictions geometriques
+plaque     panneau no 24          ======================================================================================
+-0.001000  0.00700						hauteur. epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.40000  0.00600  0.08000  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.08760  0.00600  0.02000  0.01240  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+0.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+0  0  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+0
+0.00500  0.35000  0.00500  0.05000  1.20000  0.08000  0.00500  0.01000  0.30000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+structural constraints
+0								(0 without structural constraints. 1 with structural constraints)
+geometrical constraints
+0								m2=nbre de restrictions geometriques
+plaque     panneau no 25          ======================================================================================
+-0.001000  0.00500						hauteur. epaisseur. (m)
+1.20000  0.30000  0.00000  0.00000  0.00000  			entr. cadre. et raid. idem raid. compl.; ép. corrosion tôle
+0.20000  0.00600  0.08000  0.00800  0.00000  7  Custom		cadres transversaux (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ; ép. corrosion cadre; type de profilé; nom profilé
+0.05770  0.00500  0.00930  0.02730  0.00000  14  Custom		raidisseurs  long.  (m). hauteur âme. epaisseur âme. largeur semelle. epaisseur semelle; ép. corrosion raidisseur; type de profilé; nom profilé
+ee2								repartition raidisseurs longitudinaux
+1.00 0  0  0							coefficient de participation. code de position. famille. lot
+1.00                                                            rendement
+0  0.00	 2  2							Vibration : N°Element; Long.Element; CL avant;CL arriere (2=simply supported;6=clampsed)
+1								MATERIAU choisi
+0  1  1  1  2  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+0.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+19  20  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+0
+0.00500  0.20000  0.00500  0.05000  1.20000  0.05770  0.00500  0.00930  0.30000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+structural constraints
+0								(0 without structural constraints. 1 with structural constraints)
+geometrical constraints
+0								m2=nbre de restrictions geometriques
+epontille     panneau no 26          ======================================================================================
+-2.600000  0.00500						hauteur. epaisseur. (m)
+cercle
+2.00000 2.60000							ecartement. longueur effective
+0.10000  0.00000						diamètre extérieur; ép. corrosion
+3								MATERIAU choisi
+0  1  2  1  1  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+13  27  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+0
+0.00500  0.10000  0.00000  0.00000  2.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+structural constraints
+0								(0 without structural constraints. 1 with structural constraints)
+geometrical constraints
+0								m2=nbre de restrictions geometriques
+epontille     panneau no 27          ======================================================================================
+-2.650000  0.00500						hauteur. epaisseur. (m)
+cercle
+2.00000 2.60000							ecartement. longueur effective
+0.10000  0.00000								diamètre extérieur; ép. corrosion
+3								MATERIAU choisi
+0  1  2  0  1  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+15  28  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+0
+0.00500  0.10000  0.00000  0.00000  2.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+structural constraints
+0								(0 without structural constraints. 1 with structural constraints)
+geometrical constraints
+0								m2=nbre de restrictions geometriques
+epontille     panneau no 28          ======================================================================================
+-3.150000  0.00500						hauteur. epaisseur. (m)
+cercle
+2.00000 2.60000							ecartement. longueur effective
+0.10000  0.00000						diamètre extérieur; ép. corrosion
+3								MATERIAU choisi
+0  1  2  0  1  0  1						mt. ksr. ksa. kst. kse. ipa. ivaria
+90.000000							angle
+0.00000  0.00000						cas de charge n°:  1   description
+0.00000  0.00000						cas de charge n°:  2   description
+0.00000								pression locale
+0								charge variable selon x: 0 = non. 1 = oui
+17  23  0  0  0  0  0  0  0  0					liste des 10 panneaux qui suivent
+design variables
+0
+0.00500  0.10000  0.00000  0.00000  2.00000  0.00000  0.00000  0.00000  0.00000
+0.03000  1.20000  0.02000  0.40000  3.50000  0.30000  0.02000  0.10000  0.90000
+structural constraints
+0								(0 without structural constraints. 1 with structural constraints)
+geometrical constraints
+0								m2=nbre de restrictions geometriques
+boundary conditions
+6								nbre de conditions de bords
+1  7								nbre panneau. nbre condition
+12  7								nbre panneau. nbre condition
+14  7								nbre panneau. nbre condition
+16  7								nbre panneau. nbre condition
+24  7								nbre panneau. nbre condition
+25  7								nbre panneau. nbre condition
+gravity center location - repere utilisateur + restriction sur le centre de gravite
+0.0000  0.0000						(xk.yk) coord du centre du repere utilisateur
+1  -8.4000  1.5000						igrav(no:0;min:1;max:2;min et max:3).kgmin.kgmax
+inertia constraint
+1  14
+section modulus constraint
+1  1  1
+weight constraint
+1  600000
+cost constraint
+0  0  1
+moments
+1								= 0:pas de moment. = 1:avec moment
+1								coeff. de réduction 1.24 pour sig. et 1.04 pour w
+5.2880e+07  0.0000e+00  0.0000e+00  0.0000e+00			cas de charge n°:  1   description
+-4.3610e+07  0.0000e+00  0.0000e+00  0.0000e+00			cas de charge n°:  2   description
+equality constraints
+70								nbre de restrictions d'égalité
+1  2  1  1  1.000
+2  2  2  1  1.000
+3  2  3  1  1.000
+4  2  4  1  1.000
+5  2  5  1  1.000
+6  2  6  1  1.000
+7  2  7  1  1.000
+8  2  8  1  1.000
+9  2  9  1  1.000
+5  3  5  1  1.000
+1  4  1  12  1.000
+5  4  5  1  1.000
+5  5  5  1  1.000
+5  6  5  1  1.000
+5  7  5  1  1.000
+5  8  5  1  1.000
+9  8  9  1  2.000
+5  9  5  1  1.000
+9  9  9  1  2.000
+5  10  5  1  1.000
+9  10  9  1  2.000
+5  11  5  1  1.000
+9  11  9  1  2.000
+5  12  5  1  1.000
+9  12  9  1  2.000
+1  13  1  12  1.000
+2  13  2  12  1.000
+3  13  3  12  1.000
+4  13  4  12  1.000
+5  13  5  1  1.000
+6  13  6  12  1.000
+7  13  7  12  1.000
+8  13  8  12  1.000
+9  13  9  1  2.000
+5  14  5  1  1.000
+9  14  9  1  2.000
+1  15  1  14  1.000
+2  15  2  14  1.000
+3  15  3  14  1.000
+4  15  4  12  1.000
+5  15  5  1  1.000
+6  15  6  14  1.000
+7  15  7  14  1.000
+8  15  8  14  1.000
+9  15  9  1  2.000
+5  16  5  1  1.000
+9  16  9  1  2.000
+1  17  1  16  1.000
+2  17  2  16  1.000
+3  17  3  16  1.000
+4  17  4  16  1.000
+5  17  5  1  1.000
+6  17  6  16  1.000
+7  17  7  16  1.000
+8  17  8  16  1.000
+9  17  9  1  2.000
+1  18  1  16  1.000
+2  18  2  16  1.000
+3  18  3  16  1.000
+4  18  4  16  1.000
+5  18  5  1  1.000
+6  18  6  16  1.000
+7  18  7  16  1.000
+8  18  8  16  1.000
+9  18  9  1  2.000
+5  19  5  1  1.000
+9  19  9  1  2.000
+5  20  5  1  1.000
+5  21  5  1  1.000
+5  22  5  1  1.000
+ultimate strength - ship girder
+0								irestr: utilisation comme restriction ; 0 = non;1 = oui
+0								iult =0 no analysis. = 1 for paik/caldwell. = 2 for procol(smith). = 3  for...
